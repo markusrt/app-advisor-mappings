@@ -1,5 +1,5 @@
 {
-  "slug" : "jjwt",
+  "slug" : "jjwt-jackson",
   "coordinates" : [ "io.jsonwebtoken:jjwt-api", "io.jsonwebtoken:jjwt-jackson" ],
   "repositoryUrl" : "",
   "rewrite" : {
