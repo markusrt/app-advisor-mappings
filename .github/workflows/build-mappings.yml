@@ -10,7 +10,7 @@ concurrency:
 
 jobs:
   build-mappings:
-    if: contains(github.event.issue.labels.*.name, 'build-mappings')
+    if: startsWith(github.event.issue.title, 'Build mappings:')
     runs-on: ubuntu-latest
     permissions:
       contents: write
