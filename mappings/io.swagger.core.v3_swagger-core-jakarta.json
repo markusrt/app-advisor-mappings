@@ -1,25 +1,18 @@
 {
-  "slug" : "swagger",
-  "coordinates" : [ "io.swagger.core.v3:swagger-annotations-jakarta", "io.swagger.core.v3:swagger-core-jakarta", "io.swagger.core.v3:swagger-models-jakarta" ],
-  "repositoryUrl" : "",
-  "rewrite" : {
-    "2.1.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.2.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "2.2.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : null,
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
+  "slug": "swagger",
+  "coordinates": [
+    "io.swagger.core.v3:swagger-annotations-jakarta",
+    "io.swagger.core.v3:swagger-core-jakarta",
+    "io.swagger.core.v3:swagger-models-jakarta"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "2.2.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
       }
     }
   }

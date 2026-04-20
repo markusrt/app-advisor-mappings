@@ -143,13 +143,42 @@ jobs:
             # Derive filename from the fully qualified coordinate (replace : with _)
             COORD_FILENAME="${coord//:/_}"
 
-            # Move any newly generated mapping files to the mappings/ directory
+            # Find any newly generated mapping file
             # The CLI may output to the current directory or .advisor/
-            find . -maxdepth 3 -name '*.json' \
+            NEW_FILE=$(find . -maxdepth 3 -name '*.json' \
               -not -path './mappings/*' \
               -not -path './.git/*' \
               -newer "$TIMESTAMP_REF" \
-              -exec mv {} "mappings/${COORD_FILENAME}.json" \; 2>/dev/null || true
+              -print -quit 2>/dev/null || true)
+
+            if [[ -n "$NEW_FILE" ]]; then
+              # Extract the slug from the generated JSON
+              SLUG=$(jq -r '.slug // empty' "$NEW_FILE" 2>/dev/null || true)
+
+              # Check if the slug already exists in another mapping file
+              if [[ -n "$SLUG" ]]; then
+                EXISTING=$(find mappings -name '*.json' \
+                  -exec jq -r --arg s "$SLUG" 'select(.slug == $s) | .slug' {} \; \
+                  2>/dev/null | head -1 || true)
+
+                if [[ -n "$EXISTING" ]]; then
+                  # Slug conflict: derive a unique slug from the artifact name
+                  ARTIFACT=$(echo "$coord" | cut -d: -f2)
+                  echo "⚠️ Slug '$SLUG' already exists, using '$ARTIFACT' instead"
+                  jq --arg s "$ARTIFACT" '.slug = $s' "$NEW_FILE" > "${NEW_FILE}.tmp" \
+                    && mv "${NEW_FILE}.tmp" "$NEW_FILE"
+                fi
+              fi
+
+              mv "$NEW_FILE" "mappings/${COORD_FILENAME}.json"
+
+              # Clean up any other newly generated files from this iteration
+              find . -maxdepth 3 -name '*.json' \
+                -not -path './mappings/*' \
+                -not -path './.git/*' \
+                -newer "$TIMESTAMP_REF" \
+                -exec rm -f {} \; 2>/dev/null || true
+            fi
 
             # Update the timestamp reference for the next iteration
             touch "$TIMESTAMP_REF"
@@ -181,6 +210,84 @@ jobs:
           # Check if any mappings were generated
           MAPPING_COUNT=$(find mappings -name '*.json' | wc -l)
           echo "mapping_count=$MAPPING_COUNT" >> "$GITHUB_OUTPUT"
+
+      - name: Trim versions to latest per major
+        if: steps.generate.outputs.mapping_count != '0'
+        run: |
+          set -euo pipefail
+
+          # Create jq filter to keep only the latest minor version per major version.
+          # Exception: if only 0.x versions exist, keep the last 5.
+          cat > /tmp/trim_versions.jq << 'JQEOF'
+          def parse_version:
+            split(".") | {major: (.[0] | tonumber), minor: (.[1] | tonumber), key: (join("."))};
+          def sort_versions:
+            sort_by([.major, .minor]);
+          .rewrite as $rewrite |
+          ($rewrite | keys | map(parse_version) | sort_versions) as $all_versions |
+          (
+            if ($all_versions | all(.major == 0)) then
+              $all_versions | .[-5:]
+            else
+              $all_versions | group_by(.major) | map(last)
+            end
+          ) as $keep_versions |
+          ($keep_versions | length) as $count |
+          (reduce range($count) as $i (
+            {};
+            ($keep_versions[$i]) as $ver |
+            (if $i < ($count - 1) then
+              {version: $keep_versions[$i + 1].key, project: (if $rewrite[$ver.key].nextRewrite then $rewrite[$ver.key].nextRewrite.project else null end)}
+            else
+              $rewrite[$ver.key].nextRewrite
+            end) as $next |
+            . + {
+              ($ver.key): ($rewrite[$ver.key] | .nextRewrite = $next)
+            }
+          )) as $new_rewrite |
+          .rewrite = $new_rewrite
+          JQEOF
+
+          echo "Trimming versions in mapping files..."
+          for f in mappings/*.json; do
+            BEFORE=$(jq '.rewrite | keys | length' "$f")
+            jq --indent 2 -f /tmp/trim_versions.jq "$f" > "${f}.tmp" && mv "${f}.tmp" "$f"
+            AFTER=$(jq '.rewrite | keys | length' "$f")
+            if [[ "$BEFORE" != "$AFTER" ]]; then
+              echo "  $f: $BEFORE → $AFTER versions"
+            fi
+          done
+          echo "✅ Version trimming complete"
+
+      - name: Validate no duplicate slugs
+        if: steps.generate.outputs.mapping_count != '0'
+        run: |
+          set -euo pipefail
+
+          echo "Checking for duplicate slugs in mappings/..."
+
+          # Collect all non-empty slugs
+          DUPES=$(find mappings -name '*.json' -exec jq -r '.slug // empty' {} \; \
+            | grep -v '^$' \
+            | sort \
+            | uniq -d)
+
+          if [[ -n "$DUPES" ]]; then
+            echo "::error::Duplicate slugs found in mappings/:"
+            echo "$DUPES"
+            echo ""
+            echo "Files with duplicate slugs:"
+            for slug in $DUPES; do
+              for f in mappings/*.json; do
+                if jq -e --arg s "$slug" '.slug == $s' "$f" > /dev/null 2>&1; then
+                  echo "  $f"
+                fi
+              done
+            done
+            exit 1
+          fi
+
+          echo "✅ No duplicate slugs found"
 
       - name: Commit and push mapping files
         if: steps.generate.outputs.mapping_count != '0'

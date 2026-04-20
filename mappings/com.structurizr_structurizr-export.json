@@ -1,25 +1,16 @@
 {
-  "slug" : "structurizr-client",
-  "coordinates" : [ "com.structurizr:structurizr-client" ],
-  "repositoryUrl" : "",
-  "rewrite" : {
-    "1.11.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "1.12.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "1.12.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : null,
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
+  "slug": "structurizr-client",
+  "coordinates": [
+    "com.structurizr:structurizr-client"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.12.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
       }
     }
   }
