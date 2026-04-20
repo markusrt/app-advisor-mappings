@@ -1,5 +1,5 @@
 {
-  "slug" : "logbook",
+  "slug" : "logbook-spring-boot-autoconfigure",
   "coordinates" : [ "org.zalando:logbook-api", "org.zalando:logbook-common", "org.zalando:logbook-core", "org.zalando:logbook-httpclient", "org.zalando:logbook-json", "org.zalando:logbook-servlet", "org.zalando:logbook-spring-boot-autoconfigure" ],
   "repositoryUrl" : "",
   "rewrite" : {
