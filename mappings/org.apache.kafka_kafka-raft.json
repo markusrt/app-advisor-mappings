@@ -1,5 +1,5 @@
 {
-  "slug" : "kafka",
+  "slug" : "kafka-raft",
   "coordinates" : [ "org.apache.kafka:kafka-clients", "org.apache.kafka:kafka-raft" ],
   "repositoryUrl" : "",
   "rewrite" : {

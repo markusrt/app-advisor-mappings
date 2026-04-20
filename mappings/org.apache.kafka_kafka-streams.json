@@ -1,5 +1,5 @@
 {
-  "slug" : "",
+  "slug" : "kafka-streams",
   "coordinates" : [ "org.apache.kafka:connect-api", "org.apache.kafka:connect-json", "org.apache.kafka:kafka-clients", "org.apache.kafka:kafka-streams" ],
   "repositoryUrl" : "",
   "rewrite" : {

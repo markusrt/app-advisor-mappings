@@ -1,5 +1,5 @@
 {
-  "slug" : "kafka",
+  "slug" : "kafka-group-coordinator",
   "coordinates" : [ "org.apache.kafka:kafka-clients", "org.apache.kafka:kafka-group-coordinator", "org.apache.kafka:kafka-server-common" ],
   "repositoryUrl" : "",
   "rewrite" : {

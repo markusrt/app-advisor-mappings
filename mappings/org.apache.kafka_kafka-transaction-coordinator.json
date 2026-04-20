@@ -1,5 +1,5 @@
 {
-  "slug" : "kafka",
+  "slug" : "kafka-transaction-coordinator",
   "coordinates" : [ "org.apache.kafka:kafka-clients", "org.apache.kafka:kafka-transaction-coordinator" ],
   "repositoryUrl" : "",
   "rewrite" : {

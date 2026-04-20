@@ -1,5 +1,5 @@
 {
-  "slug" : "kafka",
+  "slug" : "kafka-server",
   "coordinates" : [ "org.apache.kafka:kafka-clients", "org.apache.kafka:kafka-server", "org.apache.kafka:kafka-server-common" ],
   "repositoryUrl" : "",
   "rewrite" : {
