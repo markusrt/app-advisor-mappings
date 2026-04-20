@@ -140,16 +140,40 @@ jobs:
               echo "- ${coord}" >> "$FAILURES_FILE"
             fi
 
-            # Derive filename from the fully qualified coordinate (replace : with _)
-            COORD_FILENAME="${coord//:/_}"
-
-            # Move any newly generated mapping files to the mappings/ directory
+            # Find any newly generated mapping file
             # The CLI may output to the current directory or .advisor/
-            find . -maxdepth 3 -name '*.json' \
+            NEW_FILE=$(find . -maxdepth 3 -name '*.json' \
               -not -path './mappings/*' \
               -not -path './.git/*' \
               -newer "$TIMESTAMP_REF" \
-              -exec mv {} "mappings/${COORD_FILENAME}.json" \; 2>/dev/null || true
+              -print -quit 2>/dev/null || true)
+
+            if [[ -n "$NEW_FILE" ]]; then
+              # Extract the slug from the generated JSON to use as the filename
+              SLUG=$(jq -r '.slug // empty' "$NEW_FILE" 2>/dev/null || true)
+
+              if [[ -n "$SLUG" ]]; then
+                TARGET="mappings/${SLUG}.json"
+              else
+                # Fall back to coordinate-based naming if slug is empty
+                COORD_FILENAME="${coord//:/_}"
+                TARGET="mappings/${COORD_FILENAME}.json"
+              fi
+
+              if [[ -f "$TARGET" ]]; then
+                echo "ℹ️ Mapping already exists: $TARGET — skipping"
+                rm -f "$NEW_FILE"
+              else
+                mv "$NEW_FILE" "$TARGET"
+              fi
+
+              # Clean up any other newly generated files from this iteration
+              find . -maxdepth 3 -name '*.json' \
+                -not -path './mappings/*' \
+                -not -path './.git/*' \
+                -newer "$TIMESTAMP_REF" \
+                -exec rm -f {} \; 2>/dev/null || true
+            fi
 
             # Update the timestamp reference for the next iteration
             touch "$TIMESTAMP_REF"
@@ -181,6 +205,29 @@ jobs:
           # Check if any mappings were generated
           MAPPING_COUNT=$(find mappings -name '*.json' | wc -l)
           echo "mapping_count=$MAPPING_COUNT" >> "$GITHUB_OUTPUT"
+
+      - name: Validate no duplicate slugs
+        if: steps.generate.outputs.mapping_count != '0'
+        run: |
+          set -euo pipefail
+
+          echo "Checking for duplicate slugs in mappings/..."
+          DUPES=$(jq -r '.slug // empty' mappings/*.json \
+            | sort \
+            | uniq -d)
+
+          if [[ -n "$DUPES" ]]; then
+            echo "::error::Duplicate slugs found in mappings/:"
+            echo "$DUPES"
+            echo ""
+            echo "Files with duplicate slugs:"
+            for slug in $DUPES; do
+              grep -rl "\"slug\" *: *\"${slug}\"" mappings/ || true
+            done
+            exit 1
+          fi
+
+          echo "✅ No duplicate slugs found"
 
       - name: Commit and push mapping files
         if: steps.generate.outputs.mapping_count != '0'
