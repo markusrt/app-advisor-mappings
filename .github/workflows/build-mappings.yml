@@ -8,6 +8,9 @@ concurrency:
   group: build-mappings
   cancel-in-progress: false
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build-mappings:
     if: contains(github.event.issue.labels.*.name, 'build-mappings')
@@ -129,7 +132,7 @@ jobs:
             echo "Generating mapping for $coord"
             echo "============================================"
 
-            if advisor mapping create -c="$coord"; then
+            if advisor mapping create -c="$coord" < /dev/null; then
               echo "✅ Successfully generated mapping for $coord"
               echo "- ${coord}" >> "$SUCCESSES_FILE"
             else
@@ -137,13 +140,16 @@ jobs:
               echo "- ${coord}" >> "$FAILURES_FILE"
             fi
 
+            # Derive filename from the fully qualified coordinate (replace : with _)
+            COORD_FILENAME="${coord//:/_}"
+
             # Move any newly generated mapping files to the mappings/ directory
             # The CLI may output to the current directory or .advisor/
             find . -maxdepth 3 -name '*.json' \
               -not -path './mappings/*' \
               -not -path './.git/*' \
               -newer "$TIMESTAMP_REF" \
-              -exec mv {} mappings/ \; 2>/dev/null || true
+              -exec mv {} "mappings/${COORD_FILENAME}.json" \; 2>/dev/null || true
 
             # Update the timestamp reference for the next iteration
             touch "$TIMESTAMP_REF"
