@@ -1,0 +1,19 @@
+{
+  "slug": "swagger-core",
+  "coordinates": [
+    "io.swagger.core.v3:swagger-annotations",
+    "io.swagger.core.v3:swagger-core",
+    "io.swagger.core.v3:swagger-models"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "2.2.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

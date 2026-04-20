@@ -1,0 +1,17 @@
+{
+  "slug": "swagger-models",
+  "coordinates": [
+    "io.swagger.core.v3:swagger-models"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "2.2.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

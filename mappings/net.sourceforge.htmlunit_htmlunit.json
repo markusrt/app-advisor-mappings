@@ -1,0 +1,17 @@
+{
+  "slug": "htmlunit-cssparser",
+  "coordinates": [
+    "net.sourceforge.htmlunit:htmlunit-cssparser"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.14.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}
