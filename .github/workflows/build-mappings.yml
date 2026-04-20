@@ -211,6 +211,54 @@ jobs:
           MAPPING_COUNT=$(find mappings -name '*.json' | wc -l)
           echo "mapping_count=$MAPPING_COUNT" >> "$GITHUB_OUTPUT"
 
+      - name: Trim versions to latest per major
+        if: steps.generate.outputs.mapping_count != '0'
+        run: |
+          set -euo pipefail
+
+          # Create jq filter to keep only the latest minor version per major version.
+          # Exception: if only 0.x versions exist, keep the last 5.
+          cat > /tmp/trim_versions.jq << 'JQEOF'
+          def parse_version:
+            split(".") | {major: (.[0] | tonumber), minor: (.[1] | tonumber), key: (join("."))};
+          def sort_versions:
+            sort_by([.major, .minor]);
+          .rewrite as $rewrite |
+          ($rewrite | keys | map(parse_version) | sort_versions) as $all_versions |
+          (
+            if ($all_versions | all(.major == 0)) then
+              $all_versions | .[-5:]
+            else
+              $all_versions | group_by(.major) | map(last)
+            end
+          ) as $keep_versions |
+          ($keep_versions | length) as $count |
+          (reduce range($count) as $i (
+            {};
+            ($keep_versions[$i]) as $ver |
+            (if $i < ($count - 1) then
+              {version: $keep_versions[$i + 1].key, project: (if $rewrite[$ver.key].nextRewrite then $rewrite[$ver.key].nextRewrite.project else null end)}
+            else
+              $rewrite[$ver.key].nextRewrite
+            end) as $next |
+            . + {
+              ($ver.key): ($rewrite[$ver.key] | .nextRewrite = $next)
+            }
+          )) as $new_rewrite |
+          .rewrite = $new_rewrite
+          JQEOF
+
+          echo "Trimming versions in mapping files..."
+          for f in mappings/*.json; do
+            BEFORE=$(jq '.rewrite | keys | length' "$f")
+            jq --indent 2 -f /tmp/trim_versions.jq "$f" > "${f}.tmp" && mv "${f}.tmp" "$f"
+            AFTER=$(jq '.rewrite | keys | length' "$f")
+            if [[ "$BEFORE" != "$AFTER" ]]; then
+              echo "  $f: $BEFORE → $AFTER versions"
+            fi
+          done
+          echo "✅ Version trimming complete"
+
       - name: Validate no duplicate slugs
         if: steps.generate.outputs.mapping_count != '0'
         run: |
