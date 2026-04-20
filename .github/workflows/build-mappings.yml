@@ -131,15 +131,15 @@ jobs:
 
             if advisor mapping create -c="$coord"; then
               echo "✅ Successfully generated mapping for $coord"
-              echo "- \`${coord}\`" >> "$SUCCESSES_FILE"
+              echo "- ${coord}" >> "$SUCCESSES_FILE"
             else
               echo "⚠️ Failed to generate mapping for $coord"
-              echo "- \`${coord}\`" >> "$FAILURES_FILE"
+              echo "- ${coord}" >> "$FAILURES_FILE"
             fi
 
             # Move any newly generated mapping files to the mappings/ directory
             # The CLI may output to the current directory or .advisor/
-            find . -maxdepth 2 -name '*.json' \
+            find . -maxdepth 3 -name '*.json' \
               -not -path './mappings/*' \
               -not -path './.git/*' \
               -newer "$TIMESTAMP_REF" \
@@ -195,11 +195,15 @@ jobs:
       - name: Comment results on issue
         if: always() && steps.parse.outputs.found == 'true'
         uses: actions/github-script@v7
+        env:
+          SUCCESSES: ${{ steps.generate.outputs.successes }}
+          FAILURES: ${{ steps.generate.outputs.failures }}
+          MAPPING_COUNT: ${{ steps.generate.outputs.mapping_count }}
         with:
           script: |
-            const successes = `${{ steps.generate.outputs.successes }}`.trim();
-            const failures = `${{ steps.generate.outputs.failures }}`.trim();
-            const mappingCount = '${{ steps.generate.outputs.mapping_count }}';
+            const successes = (process.env.SUCCESSES || '').trim();
+            const failures = (process.env.FAILURES || '').trim();
+            const mappingCount = process.env.MAPPING_COUNT || '0';
 
             let body = `## Mapping Generation Results\n\n`;
 
