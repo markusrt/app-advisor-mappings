@@ -140,6 +140,9 @@ jobs:
               echo "- ${coord}" >> "$FAILURES_FILE"
             fi
 
+            # Derive filename from the fully qualified coordinate (replace : with _)
+            COORD_FILENAME="${coord//:/_}"
+
             # Find any newly generated mapping file
             # The CLI may output to the current directory or .advisor/
             NEW_FILE=$(find . -maxdepth 3 -name '*.json' \
@@ -149,23 +152,25 @@ jobs:
               -print -quit 2>/dev/null || true)
 
             if [[ -n "$NEW_FILE" ]]; then
-              # Extract the slug from the generated JSON to use as the filename
+              # Extract the slug from the generated JSON
               SLUG=$(jq -r '.slug // empty' "$NEW_FILE" 2>/dev/null || true)
 
+              # Check if the slug already exists in another mapping file
               if [[ -n "$SLUG" ]]; then
-                TARGET="mappings/${SLUG}.json"
-              else
-                # Fall back to coordinate-based naming if slug is empty
-                COORD_FILENAME="${coord//:/_}"
-                TARGET="mappings/${COORD_FILENAME}.json"
+                EXISTING=$(jq -r --arg s "$SLUG" \
+                  'select(.slug == $s) | .slug' \
+                  mappings/*.json 2>/dev/null | head -1 || true)
+
+                if [[ -n "$EXISTING" ]]; then
+                  # Slug conflict: derive a unique slug from the artifact name
+                  ARTIFACT=$(echo "$coord" | cut -d: -f2)
+                  echo "⚠️ Slug '$SLUG' already exists, using '$ARTIFACT' instead"
+                  jq --arg s "$ARTIFACT" '.slug = $s' "$NEW_FILE" > "${NEW_FILE}.tmp" \
+                    && mv "${NEW_FILE}.tmp" "$NEW_FILE"
+                fi
               fi
 
-              if [[ -f "$TARGET" ]]; then
-                echo "ℹ️ Mapping already exists: $TARGET — skipping"
-                rm -f "$NEW_FILE"
-              else
-                mv "$NEW_FILE" "$TARGET"
-              fi
+              mv "$NEW_FILE" "mappings/${COORD_FILENAME}.json"
 
               # Clean up any other newly generated files from this iteration
               find . -maxdepth 3 -name '*.json' \
@@ -212,7 +217,10 @@ jobs:
           set -euo pipefail
 
           echo "Checking for duplicate slugs in mappings/..."
-          DUPES=$(jq -r '.slug // empty' mappings/*.json \
+
+          # Collect all non-empty slugs
+          DUPES=$(find mappings -name '*.json' -exec jq -r '.slug // empty' {} \; \
+            | grep -v '^$' \
             | sort \
             | uniq -d)
 
@@ -222,7 +230,11 @@ jobs:
             echo ""
             echo "Files with duplicate slugs:"
             for slug in $DUPES; do
-              grep -rl "\"slug\" *: *\"${slug}\"" mappings/ || true
+              for f in mappings/*.json; do
+                if jq -e --arg s "$slug" '.slug == $s' "$f" > /dev/null 2>&1; then
+                  echo "  $f"
+                fi
+              done
             done
             exit 1
           fi

@@ -1,5 +1,5 @@
 {
-  "slug" : "logbook",
+  "slug" : "logbook-core",
   "coordinates" : [ "org.zalando:logbook-api", "org.zalando:logbook-core" ],
   "repositoryUrl" : "",
   "rewrite" : {

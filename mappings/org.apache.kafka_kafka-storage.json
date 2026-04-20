@@ -1,63 +1,8 @@
 {
-  "slug" : "kafka_2.13",
-  "coordinates" : [ "org.apache.kafka:kafka-clients", "org.apache.kafka:kafka_2.13" ],
+  "slug" : "kafka-storage",
+  "coordinates" : [ "org.apache.kafka:kafka-clients", "org.apache.kafka:kafka-server-common", "org.apache.kafka:kafka-storage", "org.apache.kafka:kafka-storage-api" ],
   "repositoryUrl" : "",
   "rewrite" : {
-    "2.4.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.5.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "2.5.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.6.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "2.6.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.7.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "2.7.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "2.8.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
-    "2.8.x" : {
-      "recipes" : [ ],
-      "nextRewrite" : {
-        "version" : "3.0.x",
-        "project" : null
-      },
-      "requirements" : {
-        "supportedGenerations" : { },
-        "excludedArtifacts" : [ ]
-      }
-    },
     "3.0.x" : {
       "recipes" : [ ],
       "nextRewrite" : {
