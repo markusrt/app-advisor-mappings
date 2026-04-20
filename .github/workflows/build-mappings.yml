@@ -157,9 +157,9 @@ jobs:
 
               # Check if the slug already exists in another mapping file
               if [[ -n "$SLUG" ]]; then
-                EXISTING=$(jq -r --arg s "$SLUG" \
-                  'select(.slug == $s) | .slug' \
-                  mappings/*.json 2>/dev/null | head -1 || true)
+                EXISTING=$(find mappings -name '*.json' \
+                  -exec jq -r --arg s "$SLUG" 'select(.slug == $s) | .slug' {} \; \
+                  2>/dev/null | head -1 || true)
 
                 if [[ -n "$EXISTING" ]]; then
                   # Slug conflict: derive a unique slug from the artifact name
