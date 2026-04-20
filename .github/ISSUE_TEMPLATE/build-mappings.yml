@@ -1,0 +1,35 @@
+name: Build Advisor Mappings
+description: Submit advisor upgrade-plan output to generate mapping files
+title: "Build mappings: "
+labels: ["build-mappings"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Build Advisor Mapping Files
+
+        Submit the output of `advisor upgrade-plan get` to automatically generate
+        mapping files for dependencies that need custom upgrade configurations.
+
+        You can either:
+        - **Paste** the output directly into the textarea below, or
+        - **Attach** a `.txt` file by dragging and dropping it into the textarea
+  - type: textarea
+    id: upgrade-plan-output
+    attributes:
+      label: Upgrade Plan Output
+      description: >
+        Paste the output of `advisor upgrade-plan get` here, or attach a `.txt`
+        file containing the output by dragging and dropping it into this field.
+      placeholder: |
+        Please request your administrator to configure the projects of the following dependencies:
+
+        	- org.example:example-lib
+
+        		uses:
+        			- jackson-annotations
+
+        		blocking upgrades for:
+        			- spring-boot
+    validations:
+      required: true
