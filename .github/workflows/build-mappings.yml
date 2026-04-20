@@ -32,12 +32,14 @@ jobs:
           PLAN_TEXT="$WORK_DIR/plan.txt"
 
           # Check if the issue body contains a file attachment link
-          FILE_URL=$(echo "$ISSUE_BODY" | grep -oP 'https://github\.com/[^)"\s]+' | head -1 || true)
+          FILE_URL=$(echo "$ISSUE_BODY" \
+            | grep -oP 'https://github\.com/[^)"\s]+' \
+            | head -1 || true)
 
           if [[ -n "$FILE_URL" ]]; then
             echo "Downloading attached file from: $FILE_URL"
             curl -fsSL \
-              -H "Authorization: token $GH_TOKEN" \
+              -H "Authorization: Bearer $GH_TOKEN" \
               -H "Accept: application/octet-stream" \
               -o "$PLAN_TEXT" \
               "$FILE_URL"
@@ -46,12 +48,12 @@ jobs:
             echo "$ISSUE_BODY" > "$PLAN_TEXT"
           fi
 
-          # Extract Maven coordinates (group:artifact) from top-level dependency lines.
-          # These are lines like "	- org.example:artifact-name" that appear under
-          # "Please request your administrator to configure the projects of the
-          # following dependencies:"
+          # Extract Maven coordinates (group:artifact) from dependency
+          # lines like "	- org.example:artifact-name"
           COORDS_FILE="$WORK_DIR/coordinates.txt"
-          grep -oP '^\s*-\s+\K[\w][\w.\-]*:[\w][\w.\-]*' "$PLAN_TEXT" \
+          grep -oP \
+            '^\s*-\s+\K[A-Za-z0-9][A-Za-z0-9._-]*:[A-Za-z0-9][A-Za-z0-9._-]*' \
+            "$PLAN_TEXT" \
             | sort -u \
             > "$COORDS_FILE" || true
 
@@ -97,7 +99,7 @@ jobs:
             -o advisor-cli.tar \
             "https://packages.broadcom.com/artifactory/spring-enterprise/com/vmware/tanzu/spring/application-advisor-cli-linux/${ADVISOR_VERSION}/application-advisor-cli-linux-${ADVISOR_VERSION}.tar"
 
-          tar -xf advisor-cli.tar --strip-components=1 --exclude=./META-INF
+          tar -xf advisor-cli.tar --strip-components=1 --exclude=META-INF
           chmod +x advisor
           sudo mv advisor /usr/local/bin/
           rm -f advisor-cli.tar
@@ -114,44 +116,61 @@ jobs:
 
           mkdir -p mappings
 
-          SUCCESSES=""
-          FAILURES=""
+          # Create a timestamp file to identify newly generated files
+          TIMESTAMP_REF=$(mktemp)
+
+          SUCCESSES_FILE=$(mktemp)
+          FAILURES_FILE=$(mktemp)
 
           while IFS= read -r coord; do
             [[ -z "$coord" ]] && continue
-
-            GROUP_ID="${coord%%:*}"
-            ARTIFACT_ID="${coord##*:}"
 
             echo "============================================"
             echo "Generating mapping for $coord"
             echo "============================================"
 
-            if advisor mapping create -g "$GROUP_ID" -a "$ARTIFACT_ID"; then
+            if advisor mapping create -c="$coord"; then
               echo "✅ Successfully generated mapping for $coord"
-              SUCCESSES="${SUCCESSES}\n- \`${coord}\`"
+              echo "- \`${coord}\`" >> "$SUCCESSES_FILE"
             else
               echo "⚠️ Failed to generate mapping for $coord"
-              FAILURES="${FAILURES}\n- \`${coord}\`"
+              echo "- \`${coord}\`" >> "$FAILURES_FILE"
             fi
 
-            # Move any generated mapping files to the mappings/ directory
+            # Move any newly generated mapping files to the mappings/ directory
             # The CLI may output to the current directory or .advisor/
             find . -maxdepth 2 -name '*.json' \
               -not -path './mappings/*' \
               -not -path './.git/*' \
-              -newer mappings/.gitkeep \
+              -newer "$TIMESTAMP_REF" \
               -exec mv {} mappings/ \; 2>/dev/null || true
+
+            # Update the timestamp reference for the next iteration
+            touch "$TIMESTAMP_REF"
 
           done < "$COORDS_FILE"
 
-          echo "successes<<EOF" >> "$GITHUB_OUTPUT"
-          echo -e "$SUCCESSES" >> "$GITHUB_OUTPUT"
-          echo "EOF" >> "$GITHUB_OUTPUT"
+          rm -f "$TIMESTAMP_REF"
 
-          echo "failures<<EOF" >> "$GITHUB_OUTPUT"
-          echo -e "$FAILURES" >> "$GITHUB_OUTPUT"
-          echo "EOF" >> "$GITHUB_OUTPUT"
+          {
+            echo "successes<<EOF"
+            cat "$SUCCESSES_FILE"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+          {
+            echo "failures<<EOF"
+            cat "$FAILURES_FILE"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+          HAS_FAILURES="false"
+          if [[ -s "$FAILURES_FILE" ]]; then
+            HAS_FAILURES="true"
+          fi
+          echo "has_failures=$HAS_FAILURES" >> "$GITHUB_OUTPUT"
+
+          rm -f "$SUCCESSES_FILE" "$FAILURES_FILE"
 
           # Check if any mappings were generated
           MAPPING_COUNT=$(find mappings -name '*.json' | wc -l)
@@ -206,7 +225,7 @@ jobs:
             });
 
       - name: Close issue on success
-        if: steps.generate.outputs.mapping_count != '0' && steps.generate.outputs.failures == ''
+        if: steps.generate.outputs.mapping_count != '0' && steps.generate.outputs.has_failures == 'false'
         uses: actions/github-script@v7
         with:
           script: |
