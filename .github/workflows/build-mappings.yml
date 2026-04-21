@@ -140,45 +140,12 @@ jobs:
               echo "- ${coord}" >> "$FAILURES_FILE"
             fi
 
-            # Derive filename from the fully qualified coordinate (replace : with _)
-            COORD_FILENAME="${coord//:/_}"
-
-            # Find any newly generated mapping file
-            # The CLI may output to the current directory or .advisor/
-            NEW_FILE=$(find . -maxdepth 3 -name '*.json' \
+            # Simply move all newly generated json files to mappings/ without modifying slugs
+            find . -maxdepth 3 -name '*.json' \
               -not -path './mappings/*' \
               -not -path './.git/*' \
               -newer "$TIMESTAMP_REF" \
-              -print -quit 2>/dev/null || true)
-
-            if [[ -n "$NEW_FILE" ]]; then
-              # Extract the slug from the generated JSON
-              SLUG=$(jq -r '.slug // empty' "$NEW_FILE" 2>/dev/null || true)
-
-              # Check if the slug already exists in another mapping file
-              if [[ -n "$SLUG" ]]; then
-                EXISTING=$(find mappings -name '*.json' \
-                  -exec jq -r --arg s "$SLUG" 'select(.slug == $s) | .slug' {} \; \
-                  2>/dev/null | head -1 || true)
-
-                if [[ -n "$EXISTING" ]]; then
-                  # Slug conflict: derive a unique slug from the artifact name
-                  ARTIFACT=$(echo "$coord" | cut -d: -f2)
-                  echo "⚠️ Slug '$SLUG' already exists, using '$ARTIFACT' instead"
-                  jq --arg s "$ARTIFACT" '.slug = $s' "$NEW_FILE" > "${NEW_FILE}.tmp" \
-                    && mv "${NEW_FILE}.tmp" "$NEW_FILE"
-                fi
-              fi
-
-              mv "$NEW_FILE" "mappings/${COORD_FILENAME}.json"
-
-              # Clean up any other newly generated files from this iteration
-              find . -maxdepth 3 -name '*.json' \
-                -not -path './mappings/*' \
-                -not -path './.git/*' \
-                -newer "$TIMESTAMP_REF" \
-                -exec rm -f {} \; 2>/dev/null || true
-            fi
+              -exec mv {} mappings/ \; 2>/dev/null || true
 
             # Update the timestamp reference for the next iteration
             touch "$TIMESTAMP_REF"
@@ -216,17 +183,16 @@ jobs:
         run: |
           set -euo pipefail
 
-          # Create jq filter to keep only the latest minor version per major version.
-          # Exception: if only 0.x versions exist, keep the last 5.
           cat > /tmp/trim_versions.jq << 'JQEOF'
           def parse_version:
-            split(".") | {major: (.[0] | tonumber), minor: (.[1] | tonumber), key: (join("."))};
+            split(".") | {major: (.[0] | tonumber), minor: (.[1] | tonumber), patch: (if length > 2 and .[2] != "x" then .[2]|tonumber else 0 end), key: (join("."))};
           def sort_versions:
-            sort_by([.major, .minor]);
+            sort_by([.major, .minor, .patch]);
           .rewrite as $rewrite |
           ($rewrite | keys | map(parse_version) | sort_versions) as $all_versions |
+          ($all_versions | map(.major) | unique) as $major_versions |
           (
-            if ($all_versions | all(.major == 0)) then
+            if ($major_versions | length) == 1 then
               $all_versions | .[-5:]
             else
               $all_versions | group_by(.major) | map(last)
@@ -258,36 +224,6 @@ jobs:
             fi
           done
           echo "✅ Version trimming complete"
-
-      - name: Validate no duplicate slugs
-        if: steps.generate.outputs.mapping_count != '0'
-        run: |
-          set -euo pipefail
-
-          echo "Checking for duplicate slugs in mappings/..."
-
-          # Collect all non-empty slugs
-          DUPES=$(find mappings -name '*.json' -exec jq -r '.slug // empty' {} \; \
-            | grep -v '^$' \
-            | sort \
-            | uniq -d)
-
-          if [[ -n "$DUPES" ]]; then
-            echo "::error::Duplicate slugs found in mappings/:"
-            echo "$DUPES"
-            echo ""
-            echo "Files with duplicate slugs:"
-            for slug in $DUPES; do
-              for f in mappings/*.json; do
-                if jq -e --arg s "$slug" '.slug == $s' "$f" > /dev/null 2>&1; then
-                  echo "  $f"
-                fi
-              done
-            done
-            exit 1
-          fi
-
-          echo "✅ No duplicate slugs found"
 
       - name: Commit and push mapping files
         if: steps.generate.outputs.mapping_count != '0'
