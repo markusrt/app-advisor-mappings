@@ -161,6 +161,14 @@ jobs:
               -newer "$TIMESTAMP_REF" \
               -exec cp {} "$COORD_OUTPUT_DIR/" \; 2>/dev/null || true
 
+            # Record coordinate → filename mapping for MAPPINGS.md (skip duplicates)
+            while IFS= read -r new_file; do
+              basename_file=$(basename "$new_file")
+              if ! grep -qF "	${basename_file}" mappings/.coordinates.tsv 2>/dev/null; then
+                printf '%s\t%s\n' "${coord}" "${basename_file}" >> mappings/.coordinates.tsv
+              fi
+            done < <(find mappings -maxdepth 1 -name '*.json' -newer "$TIMESTAMP_REF")
+
             # Update the timestamp reference for the next iteration
             touch "$TIMESTAMP_REF"
 
@@ -247,6 +255,35 @@ jobs:
           done
           echo "✅ Version trimming complete"
 
+      - name: Update MAPPINGS.md
+        if: steps.generate.outputs.mapping_count != '0'
+        run: |
+          set -euo pipefail
+
+          COORDS_TSV="mappings/.coordinates.tsv"
+
+          {
+            echo "# Advisor Mappings"
+            echo ""
+            echo "This file is automatically maintained by the build workflow."
+            echo "It lists all advisor mapping files along with links to the corresponding Maven Central artifacts."
+            echo ""
+            echo "| Group ID | Artifact ID | Maven Central | Mapping File |"
+            echo "|----------|-------------|---------------|--------------|"
+
+            if [[ -s "$COORDS_TSV" ]]; then
+              sort -u "$COORDS_TSV" | while IFS=$'\t' read -r coord filename; do
+                [[ -z "$coord" ]] && continue
+                group_id="${coord%%:*}"
+                artifact_id="${coord##*:}"
+                maven_url="https://central.sonatype.com/artifact/${group_id}/${artifact_id}"
+                echo "| \`${group_id}\` | \`${artifact_id}\` | [Maven Central](${maven_url}) | [${filename}](mappings/${filename}) |"
+              done
+            fi
+          } > MAPPINGS.md
+
+          echo "✅ MAPPINGS.md updated"
+
       - name: Commit and push mapping files
         if: steps.generate.outputs.mapping_count != '0'
         run: |
@@ -255,7 +292,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add mappings/
+          git add mappings/ MAPPINGS.md
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
