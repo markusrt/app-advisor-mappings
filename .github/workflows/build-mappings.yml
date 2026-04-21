@@ -125,6 +125,9 @@ jobs:
           SUCCESSES_FILE=$(mktemp)
           FAILURES_FILE=$(mktemp)
 
+          RAW_OUTPUT_DIR=$(mktemp -d)
+          echo "raw_output_dir=$RAW_OUTPUT_DIR" >> "$GITHUB_OUTPUT"
+
           while IFS= read -r coord; do
             [[ -z "$coord" ]] && continue
 
@@ -132,7 +135,13 @@ jobs:
             echo "Generating mapping for $coord"
             echo "============================================"
 
-            if advisor mapping create -c="$coord" < /dev/null; then
+            COORD_SLUG="${coord//:/_}"
+            COORD_OUTPUT_DIR="$RAW_OUTPUT_DIR/$COORD_SLUG"
+            mkdir -p "$COORD_OUTPUT_DIR"
+
+            RAW_OUTPUT_FILE="$COORD_OUTPUT_DIR/${COORD_SLUG}.log"
+            advisor mapping create -c="$coord" < /dev/null 2>&1 | tee "$RAW_OUTPUT_FILE"
+            if [[ ${PIPESTATUS[0]} -eq 0 ]]; then
               echo "✅ Successfully generated mapping for $coord"
               echo "- ${coord}" >> "$SUCCESSES_FILE"
             else
@@ -140,10 +149,18 @@ jobs:
               echo "- ${coord}" >> "$FAILURES_FILE"
             fi
 
+            # Copy newly generated json files to per-coordinate subdir before moving to mappings/
+            find . -maxdepth 3 -name '*.json' \
+              -not -path './mappings/*' \
+              -not -path './.git/*' \
+              -newer "$TIMESTAMP_REF" \
+              -exec cp {} "$COORD_OUTPUT_DIR/" \; 2>/dev/null || true
+
             # Simply move all newly generated json files to mappings/ without modifying slugs
             find . -maxdepth 3 -name '*.json' \
               -not -path './mappings/*' \
               -not -path './.git/*' \
+              -not -path "$RAW_OUTPUT_DIR/*" \
               -newer "$TIMESTAMP_REF" \
               -exec mv {} mappings/ \; 2>/dev/null || true
 
@@ -177,6 +194,14 @@ jobs:
           # Check if any mappings were generated
           MAPPING_COUNT=$(find mappings -name '*.json' | wc -l)
           echo "mapping_count=$MAPPING_COUNT" >> "$GITHUB_OUTPUT"
+
+      - name: Upload raw advisor output as artifact
+        if: steps.generate.outputs.raw_output_dir != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: advisor-mapping-create-raw-output
+          path: ${{ steps.generate.outputs.raw_output_dir }}
+          if-no-files-found: warn
 
       - name: Trim versions to latest per major
         if: steps.generate.outputs.mapping_count != '0'
