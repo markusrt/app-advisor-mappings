@@ -73,6 +73,12 @@ jobs:
           echo "found=true" >> "$GITHUB_OUTPUT"
           echo "coordinates_file=$COORDS_FILE" >> "$GITHUB_OUTPUT"
 
+          if echo "$ISSUE_BODY" | grep -qiP '\-\s+\[x\]\s+Reduce version numbers'; then
+            echo "trim_versions=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "trim_versions=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Comment on issue if no coordinates found
         if: steps.parse.outputs.found == 'false'
         uses: actions/github-script@v7
@@ -114,6 +120,7 @@ jobs:
         id: generate
         env:
           COORDS_FILE: ${{ steps.parse.outputs.coordinates_file }}
+          SPRING_ADVISOR_MAPPING_CUSTOM_0_FILEPATH: mappings/
         run: |
           set -euo pipefail
 
@@ -149,20 +156,10 @@ jobs:
               echo "- ${coord}" >> "$FAILURES_FILE"
             fi
 
-            # Copy newly generated json files to per-coordinate subdir before moving to mappings/
-            find . -maxdepth 3 -name '*.json' \
-              -not -path './mappings/*' \
-              -not -path './.git/*' \
+            # Copy newly generated json files (written directly to mappings/) to per-coordinate subdir for artifact
+            find mappings -maxdepth 1 -name '*.json' \
               -newer "$TIMESTAMP_REF" \
               -exec cp {} "$COORD_OUTPUT_DIR/" \; 2>/dev/null || true
-
-            # Simply move all newly generated json files to mappings/ without modifying slugs
-            find . -maxdepth 3 -name '*.json' \
-              -not -path './mappings/*' \
-              -not -path './.git/*' \
-              -not -path "$RAW_OUTPUT_DIR/*" \
-              -newer "$TIMESTAMP_REF" \
-              -exec mv {} mappings/ \; 2>/dev/null || true
 
             # Update the timestamp reference for the next iteration
             touch "$TIMESTAMP_REF"
@@ -204,7 +201,7 @@ jobs:
           if-no-files-found: warn
 
       - name: Trim versions to latest per major
-        if: steps.generate.outputs.mapping_count != '0'
+        if: steps.generate.outputs.mapping_count != '0' && steps.parse.outputs.trim_versions == 'true'
         run: |
           set -euo pipefail
 
