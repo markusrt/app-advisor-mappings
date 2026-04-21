@@ -135,7 +135,11 @@ jobs:
             echo "Generating mapping for $coord"
             echo "============================================"
 
-            RAW_OUTPUT_FILE="$RAW_OUTPUT_DIR/${coord//:/_}.log"
+            COORD_SLUG="${coord//:/_}"
+            COORD_OUTPUT_DIR="$RAW_OUTPUT_DIR/$COORD_SLUG"
+            mkdir -p "$COORD_OUTPUT_DIR"
+
+            RAW_OUTPUT_FILE="$COORD_OUTPUT_DIR/${COORD_SLUG}.log"
             advisor mapping create -c="$coord" < /dev/null 2>&1 | tee "$RAW_OUTPUT_FILE"
             if [[ ${PIPESTATUS[0]} -eq 0 ]]; then
               echo "✅ Successfully generated mapping for $coord"
@@ -145,12 +149,12 @@ jobs:
               echo "- ${coord}" >> "$FAILURES_FILE"
             fi
 
-            # Copy newly generated json files to raw output dir before moving to mappings/
+            # Copy newly generated json files to per-coordinate subdir before moving to mappings/
             find . -maxdepth 3 -name '*.json' \
               -not -path './mappings/*' \
               -not -path './.git/*' \
               -newer "$TIMESTAMP_REF" \
-              -exec cp {} "$RAW_OUTPUT_DIR/" \; 2>/dev/null || true
+              -exec cp {} "$COORD_OUTPUT_DIR/" \; 2>/dev/null || true
 
             # Simply move all newly generated json files to mappings/ without modifying slugs
             find . -maxdepth 3 -name '*.json' \
