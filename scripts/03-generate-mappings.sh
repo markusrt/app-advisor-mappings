@@ -70,12 +70,9 @@ while IFS= read -r coord; do
       suffix=$(openssl rand -hex 3)
       new_name="${slug}-${suffix}.json"
 
-      # Write renamed JSON (with updated slug field) flat into mappings/
+      # Write renamed JSON (with updated slug field) into the per-coord subfolder
       "$JQ_BIN" --indent 2 --arg new_slug "${slug}-${suffix}" \
-        '.slug = $new_slug' "$advisor_json" > "mappings/${new_name}"
-
-      # Copy into the per-coord subfolder (for grouped artifact access)
-      cp "mappings/${new_name}" "$COORD_OUTPUT_DIR/"
+        '.slug = $new_slug' "$advisor_json" > "$COORD_OUTPUT_DIR/${new_name}"
     done
 
     # Record coordinate → folder in .coordinates.tsv (skip if coord already present)
@@ -113,8 +110,8 @@ echo "has_failures=$HAS_FAILURES" >> "$GITHUB_OUTPUT"
 
 rm -f "$SUCCESSES_FILE" "$FAILURES_FILE"
 
-# Count only the flat JSON files at the root of mappings/ (not in subdirs)
-MAPPING_COUNT=$(find mappings -maxdepth 1 -name '*.json' | wc -l)
+# Count JSON files in per-coord subdirs of mappings/ (not at root)
+MAPPING_COUNT=$(find mappings -mindepth 2 -maxdepth 2 -name '*.json' | wc -l)
 echo "mapping_count=$MAPPING_COUNT" >> "$GITHUB_OUTPUT"
 
 echo ""
