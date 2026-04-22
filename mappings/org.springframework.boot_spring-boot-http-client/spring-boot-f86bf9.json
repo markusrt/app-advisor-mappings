@@ -1,0 +1,34 @@
+{
+  "slug": "spring-boot-f86bf9",
+  "coordinates": [
+    "org.springframework.boot:spring-boot",
+    "org.springframework.boot:spring-boot-http-client",
+    "org.springframework.boot:spring-boot-http-converter"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "4.0.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.1.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "spring-framework": "7.0.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.1.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "spring-framework": "7.0.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

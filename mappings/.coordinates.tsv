@@ -1,0 +1,5 @@
+net.sourceforge.htmlunit:htmlunit	net.sourceforge.htmlunit_htmlunit
+org.spockframework:spock-core	org.spockframework_spock-core
+org.spockframework:spock-spring	org.spockframework_spock-spring
+org.springframework.boot:spring-boot-http-client	org.springframework.boot_spring-boot-http-client
+org.springframework.boot:spring-boot-netty	org.springframework.boot_spring-boot-netty

@@ -1,0 +1,7 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for org.spockframework:spock-spring [00m 00s]	🏃 [ 1 / 1 ] for org.spockframework:spock-spring [00m 01s] ok
+
+		👍 Found 0 minor versions.
+
+
+💔 No mappings created. Please, check if your project or coordinate is correct and it is available in your Maven repositories.

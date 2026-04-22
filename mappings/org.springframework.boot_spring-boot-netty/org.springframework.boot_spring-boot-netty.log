@@ -1,0 +1,9 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for org.springframework.boot:spring-boot-netty [00m 00s]	🏃 [ 1 / 1 ] for org.springframework.boot:spring-boot-netty [00m 01s] ok
+
+		👍 Found 2 minor versions.
+
+		🏃 [ 1 / 2 ] Generating dependency tree for version 4.0.5 [00m 00s]		🏃 [ 1 / 2 ] Generating dependency tree for version 4.0.5 [00m 01s]		🏃 [ 1 / 2 ] Generating dependency tree for version 4.0.5 [00m 02s] ok
+		🏃 [ 2 / 2 ] Generating dependency tree for version 4.1.0-M4 [00m 00s]		🏃 [ 2 / 2 ] Generating dependency tree for version 4.1.0-M4 [00m 01s] ok
+
+🚀Created 1 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings
