@@ -1,0 +1,16 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for commons-validator:commons-validator [00m 00s]	🏃 [ 1 / 1 ] for commons-validator:commons-validator [00m 01s] ok
+
+		👍 Found 9 minor versions.
+
+		🏃 [ 1 / 9 ] Generating dependency tree for version 1.0.2 [00m 00s]		🏃 [ 1 / 9 ] Generating dependency tree for version 1.0.2 [00m 01s] ok
+		🏃 [ 2 / 9 ] Generating dependency tree for version 1.1.4 [00m 00s]		🏃 [ 2 / 9 ] Generating dependency tree for version 1.1.4 [00m 01s] ok
+		🏃 [ 3 / 9 ] Generating dependency tree for version 1.10.1 [00m 00s]		🏃 [ 3 / 9 ] Generating dependency tree for version 1.10.1 [00m 01s] ok
+		🏃 [ 4 / 9 ] Generating dependency tree for version 1.2.0 [00m 00s]		🏃 [ 4 / 9 ] Generating dependency tree for version 1.2.0 [00m 01s] ok
+		🏃 [ 5 / 9 ] Generating dependency tree for version 1.3.1 [00m 00s]		🏃 [ 5 / 9 ] Generating dependency tree for version 1.3.1 [00m 01s] ok
+		🏃 [ 6 / 9 ] Generating dependency tree for version 1.4.1 [00m 00s]		🏃 [ 6 / 9 ] Generating dependency tree for version 1.4.1 [00m 01s] ok
+		🏃 [ 7 / 9 ] Generating dependency tree for version 1.5.1 [00m 00s]		🏃 [ 7 / 9 ] Generating dependency tree for version 1.5.1 [00m 01s] ok
+		🏃 [ 8 / 9 ] Generating dependency tree for version 1.8.0 [00m 00s]		🏃 [ 8 / 9 ] Generating dependency tree for version 1.8.0 [00m 01s] ok
+		🏃 [ 9 / 9 ] Generating dependency tree for version 1.9.0 [00m 00s]		🏃 [ 9 / 9 ] Generating dependency tree for version 1.9.0 [00m 01s] ok
+
+🚀Created 1 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings

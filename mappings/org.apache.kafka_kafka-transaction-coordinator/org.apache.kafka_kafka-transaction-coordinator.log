@@ -1,0 +1,12 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for org.apache.kafka:kafka-transaction-coordinator [00m 00s]	🏃 [ 1 / 1 ] for org.apache.kafka:kafka-transaction-coordinator [00m 01s] ok
+
+		👍 Found 5 minor versions.
+
+		🏃 [ 1 / 5 ] Generating dependency tree for version 3.8.1 [00m 00s]		🏃 [ 1 / 5 ] Generating dependency tree for version 3.8.1 [00m 01s] ok
+		🏃 [ 2 / 5 ] Generating dependency tree for version 3.9.2 [00m 00s]		🏃 [ 2 / 5 ] Generating dependency tree for version 3.9.2 [00m 01s] ok
+		🏃 [ 3 / 5 ] Generating dependency tree for version 4.0.2 [00m 00s]		🏃 [ 3 / 5 ] Generating dependency tree for version 4.0.2 [00m 01s] ok
+		🏃 [ 4 / 5 ] Generating dependency tree for version 4.1.2 [00m 00s]		🏃 [ 4 / 5 ] Generating dependency tree for version 4.1.2 [00m 01s] ok
+		🏃 [ 5 / 5 ] Generating dependency tree for version 4.2.0 [00m 00s]		🏃 [ 5 / 5 ] Generating dependency tree for version 4.2.0 [00m 01s] ok
+
+🚀Created 1 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings

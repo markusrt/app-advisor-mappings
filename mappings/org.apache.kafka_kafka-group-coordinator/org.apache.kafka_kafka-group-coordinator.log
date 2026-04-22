@@ -1,0 +1,16 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for org.apache.kafka:kafka-group-coordinator [00m 00s]	🏃 [ 1 / 1 ] for org.apache.kafka:kafka-group-coordinator [00m 01s] ok
+
+		👍 Found 9 minor versions.
+
+		🏃 [ 1 / 9 ] Generating dependency tree for version 3.4.1 [00m 00s]		🏃 [ 1 / 9 ] Generating dependency tree for version 3.4.1 [00m 01s] ok
+		🏃 [ 2 / 9 ] Generating dependency tree for version 3.5.2 [00m 00s]		🏃 [ 2 / 9 ] Generating dependency tree for version 3.5.2 [00m 01s]		🏃 [ 2 / 9 ] Generating dependency tree for version 3.5.2 [00m 02s] ok
+		🏃 [ 3 / 9 ] Generating dependency tree for version 3.6.2 [00m 00s]		🏃 [ 3 / 9 ] Generating dependency tree for version 3.6.2 [00m 01s] ok
+		🏃 [ 4 / 9 ] Generating dependency tree for version 3.7.2 [00m 00s]		🏃 [ 4 / 9 ] Generating dependency tree for version 3.7.2 [00m 01s] ok
+		🏃 [ 5 / 9 ] Generating dependency tree for version 3.8.1 [00m 00s]		🏃 [ 5 / 9 ] Generating dependency tree for version 3.8.1 [00m 01s] ok
+		🏃 [ 6 / 9 ] Generating dependency tree for version 3.9.2 [00m 00s]		🏃 [ 6 / 9 ] Generating dependency tree for version 3.9.2 [00m 01s] ok
+		🏃 [ 7 / 9 ] Generating dependency tree for version 4.0.2 [00m 00s]		🏃 [ 7 / 9 ] Generating dependency tree for version 4.0.2 [00m 01s]		🏃 [ 7 / 9 ] Generating dependency tree for version 4.0.2 [00m 02s]		🏃 [ 7 / 9 ] Generating dependency tree for version 4.0.2 [00m 03s] ok
+		🏃 [ 8 / 9 ] Generating dependency tree for version 4.1.2 [00m 00s]		🏃 [ 8 / 9 ] Generating dependency tree for version 4.1.2 [00m 01s]		🏃 [ 8 / 9 ] Generating dependency tree for version 4.1.2 [00m 02s] ok
+		🏃 [ 9 / 9 ] Generating dependency tree for version 4.2.0 [00m 00s]		🏃 [ 9 / 9 ] Generating dependency tree for version 4.2.0 [00m 01s] ok
+
+🚀Created 1 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings

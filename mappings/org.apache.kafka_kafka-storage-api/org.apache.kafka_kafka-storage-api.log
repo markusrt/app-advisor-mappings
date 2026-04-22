@@ -1,0 +1,20 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for org.apache.kafka:kafka-storage-api [00m 00s]	🏃 [ 1 / 1 ] for org.apache.kafka:kafka-storage-api [00m 01s] ok
+
+		👍 Found 13 minor versions.
+
+		🏃 [ 1 / 13 ] Generating dependency tree for version 3.0.2 [00m 00s]		🏃 [ 1 / 13 ] Generating dependency tree for version 3.0.2 [00m 01s] ok
+		🏃 [ 2 / 13 ] Generating dependency tree for version 3.1.2 [00m 00s]		🏃 [ 2 / 13 ] Generating dependency tree for version 3.1.2 [00m 01s] ok
+		🏃 [ 3 / 13 ] Generating dependency tree for version 3.2.3 [00m 00s]		🏃 [ 3 / 13 ] Generating dependency tree for version 3.2.3 [00m 01s] ok
+		🏃 [ 4 / 13 ] Generating dependency tree for version 3.3.2 [00m 00s]		🏃 [ 4 / 13 ] Generating dependency tree for version 3.3.2 [00m 01s] ok
+		🏃 [ 5 / 13 ] Generating dependency tree for version 3.4.1 [00m 00s]		🏃 [ 5 / 13 ] Generating dependency tree for version 3.4.1 [00m 01s] ok
+		🏃 [ 6 / 13 ] Generating dependency tree for version 3.5.2 [00m 00s]		🏃 [ 6 / 13 ] Generating dependency tree for version 3.5.2 [00m 01s] ok
+		🏃 [ 7 / 13 ] Generating dependency tree for version 3.6.2 [00m 00s]		🏃 [ 7 / 13 ] Generating dependency tree for version 3.6.2 [00m 01s] ok
+		🏃 [ 8 / 13 ] Generating dependency tree for version 3.7.2 [00m 00s]		🏃 [ 8 / 13 ] Generating dependency tree for version 3.7.2 [00m 01s] ok
+		🏃 [ 9 / 13 ] Generating dependency tree for version 3.8.1 [00m 00s]		🏃 [ 9 / 13 ] Generating dependency tree for version 3.8.1 [00m 01s] ok
+		🏃 [ 10 / 13 ] Generating dependency tree for version 3.9.2 [00m 00s]		🏃 [ 10 / 13 ] Generating dependency tree for version 3.9.2 [00m 01s] ok
+		🏃 [ 11 / 13 ] Generating dependency tree for version 4.0.2 [00m 00s]		🏃 [ 11 / 13 ] Generating dependency tree for version 4.0.2 [00m 01s] ok
+		🏃 [ 12 / 13 ] Generating dependency tree for version 4.1.2 [00m 00s]		🏃 [ 12 / 13 ] Generating dependency tree for version 4.1.2 [00m 01s] ok
+		🏃 [ 13 / 13 ] Generating dependency tree for version 4.2.0 [00m 00s]		🏃 [ 13 / 13 ] Generating dependency tree for version 4.2.0 [00m 01s] ok
+
+🚀Created 1 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings

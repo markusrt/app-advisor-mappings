@@ -5,3 +5,17 @@ org.springframework.boot:spring-boot-http-client	org.springframework.boot_spring
 org.springframework.boot:spring-boot-netty	org.springframework.boot_spring-boot-netty
 io.swagger.core.v3:swagger-core-jakarta	io.swagger.core.v3_swagger-core-jakarta
 io.swagger.core.v3:swagger-models-jakarta	io.swagger.core.v3_swagger-models-jakarta
+com.googlecode.json-simple:json-simple	com.googlecode.json-simple_json-simple
+commons-beanutils:commons-beanutils	commons-beanutils_commons-beanutils
+commons-validator:commons-validator	commons-validator_commons-validator
+org.apache.kafka:kafka-group-coordinator	org.apache.kafka_kafka-group-coordinator
+org.apache.kafka:kafka-metadata	org.apache.kafka_kafka-metadata
+org.apache.kafka:kafka-raft	org.apache.kafka_kafka-raft
+org.apache.kafka:kafka-server	org.apache.kafka_kafka-server
+org.apache.kafka:kafka-server-common	org.apache.kafka_kafka-server-common
+org.apache.kafka:kafka-storage	org.apache.kafka_kafka-storage
+org.apache.kafka:kafka-storage-api	org.apache.kafka_kafka-storage-api
+org.apache.kafka:kafka-streams	org.apache.kafka_kafka-streams
+org.apache.kafka:kafka-streams-test-utils	org.apache.kafka_kafka-streams-test-utils
+org.apache.kafka:kafka-transaction-coordinator	org.apache.kafka_kafka-transaction-coordinator
+org.apache.kafka:kafka_2.13	org.apache.kafka_kafka_2.13
