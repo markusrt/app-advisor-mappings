@@ -49,7 +49,7 @@ def sort_versions:
 JQEOF
 
 echo "Trimming versions in mapping files..."
-for f in mappings/*.json; do
+for f in mappings/*/*.json; do
   BEFORE=$("$JQ_BIN" '.rewrite | keys | length' "$f")
   "$JQ_BIN" --indent 2 -f /tmp/trim_versions.jq "$f" > "${f}.tmp" && mv "${f}.tmp" "$f"
   AFTER=$("$JQ_BIN" '.rewrite | keys | length' "$f")
