@@ -3,3 +3,5 @@ org.spockframework:spock-core	org.spockframework_spock-core
 org.spockframework:spock-spring	org.spockframework_spock-spring
 org.springframework.boot:spring-boot-http-client	org.springframework.boot_spring-boot-http-client
 org.springframework.boot:spring-boot-netty	org.springframework.boot_spring-boot-netty
+io.swagger.core.v3:swagger-core-jakarta	io.swagger.core.v3_swagger-core-jakarta
+io.swagger.core.v3:swagger-models-jakarta	io.swagger.core.v3_swagger-models-jakarta
