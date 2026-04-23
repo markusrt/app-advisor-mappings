@@ -5,9 +5,16 @@ It lists all advisor mapping files along with links to the corresponding Maven C
 
 | Group ID | Artifact ID | Maven Central | Mapping File |
 |----------|-------------|---------------|--------------|
+| `com.github.docker-java` | `docker-java-api` | [Maven Central](https://central.sonatype.com/artifact/com.github.docker-java/docker-java-api) | [com.github.docker-java_docker-java-api](mappings/com.github.docker-java_docker-java-api) |
 | `com.googlecode.json-simple` | `json-simple` | [Maven Central](https://central.sonatype.com/artifact/com.googlecode.json-simple/json-simple) | [com.googlecode.json-simple_json-simple](mappings/com.googlecode.json-simple_json-simple) |
 | `commons-beanutils` | `commons-beanutils` | [Maven Central](https://central.sonatype.com/artifact/commons-beanutils/commons-beanutils) | [commons-beanutils_commons-beanutils](mappings/commons-beanutils_commons-beanutils) |
 | `commons-validator` | `commons-validator` | [Maven Central](https://central.sonatype.com/artifact/commons-validator/commons-validator) | [commons-validator_commons-validator](mappings/commons-validator_commons-validator) |
+| `io.mongock` | `mongock-runner-core` | [Maven Central](https://central.sonatype.com/artifact/io.mongock/mongock-runner-core) | [io.mongock_mongock-runner-core](mappings/io.mongock_mongock-runner-core) |
+| `io.mongock` | `mongock-springboot-junit5` | [Maven Central](https://central.sonatype.com/artifact/io.mongock/mongock-springboot-junit5) | [io.mongock_mongock-springboot-junit5](mappings/io.mongock_mongock-springboot-junit5) |
+| `io.mongock` | `mongock-springboot-test` | [Maven Central](https://central.sonatype.com/artifact/io.mongock/mongock-springboot-test) | [io.mongock_mongock-springboot-test](mappings/io.mongock_mongock-springboot-test) |
+| `io.mongock` | `mongock-springboot-v3` | [Maven Central](https://central.sonatype.com/artifact/io.mongock/mongock-springboot-v3) | [io.mongock_mongock-springboot-v3](mappings/io.mongock_mongock-springboot-v3) |
+| `io.mongock` | `mongock-test-core` | [Maven Central](https://central.sonatype.com/artifact/io.mongock/mongock-test-core) | [io.mongock_mongock-test-core](mappings/io.mongock_mongock-test-core) |
+| `io.mongock` | `mongodb-springdata-v4-driver` | [Maven Central](https://central.sonatype.com/artifact/io.mongock/mongodb-springdata-v4-driver) | [io.mongock_mongodb-springdata-v4-driver](mappings/io.mongock_mongodb-springdata-v4-driver) |
 | `io.swagger.core.v3` | `swagger-core-jakarta` | [Maven Central](https://central.sonatype.com/artifact/io.swagger.core.v3/swagger-core-jakarta) | [io.swagger.core.v3_swagger-core-jakarta](mappings/io.swagger.core.v3_swagger-core-jakarta) |
 | `io.swagger.core.v3` | `swagger-models-jakarta` | [Maven Central](https://central.sonatype.com/artifact/io.swagger.core.v3/swagger-models-jakarta) | [io.swagger.core.v3_swagger-models-jakarta](mappings/io.swagger.core.v3_swagger-models-jakarta) |
 | `net.sourceforge.htmlunit` | `htmlunit` | [Maven Central](https://central.sonatype.com/artifact/net.sourceforge.htmlunit/htmlunit) | [net.sourceforge.htmlunit_htmlunit](mappings/net.sourceforge.htmlunit_htmlunit) |
@@ -24,7 +31,11 @@ It lists all advisor mapping files along with links to the corresponding Maven C
 | `org.apache.kafka` | `kafka-tools-api` | [Maven Central](https://central.sonatype.com/artifact/org.apache.kafka/kafka-tools-api) | [org.apache.kafka_kafka-tools-api](mappings/org.apache.kafka_kafka-tools-api) |
 | `org.apache.kafka` | `kafka-transaction-coordinator` | [Maven Central](https://central.sonatype.com/artifact/org.apache.kafka/kafka-transaction-coordinator) | [org.apache.kafka_kafka-transaction-coordinator](mappings/org.apache.kafka_kafka-transaction-coordinator) |
 | `org.apache.kafka` | `kafka_2.13` | [Maven Central](https://central.sonatype.com/artifact/org.apache.kafka/kafka_2.13) | [org.apache.kafka_kafka_2.13](mappings/org.apache.kafka_kafka_2.13) |
+| `org.apache.maven` | `maven-artifact` | [Maven Central](https://central.sonatype.com/artifact/org.apache.maven/maven-artifact) | [org.apache.maven_maven-artifact](mappings/org.apache.maven_maven-artifact) |
 | `org.spockframework` | `spock-core` | [Maven Central](https://central.sonatype.com/artifact/org.spockframework/spock-core) | [org.spockframework_spock-core](mappings/org.spockframework_spock-core) |
 | `org.spockframework` | `spock-spring` | [Maven Central](https://central.sonatype.com/artifact/org.spockframework/spock-spring) | [org.spockframework_spock-spring](mappings/org.spockframework_spock-spring) |
 | `org.springframework.boot` | `spring-boot-http-client` | [Maven Central](https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-http-client) | [org.springframework.boot_spring-boot-http-client](mappings/org.springframework.boot_spring-boot-http-client) |
 | `org.springframework.boot` | `spring-boot-netty` | [Maven Central](https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-netty) | [org.springframework.boot_spring-boot-netty](mappings/org.springframework.boot_spring-boot-netty) |
+| `org.testcontainers` | `junit-jupiter` | [Maven Central](https://central.sonatype.com/artifact/org.testcontainers/junit-jupiter) | [org.testcontainers_junit-jupiter](mappings/org.testcontainers_junit-jupiter) |
+| `org.testcontainers` | `mongodb` | [Maven Central](https://central.sonatype.com/artifact/org.testcontainers/mongodb) | [org.testcontainers_mongodb](mappings/org.testcontainers_mongodb) |
+| `org.testcontainers` | `testcontainers` | [Maven Central](https://central.sonatype.com/artifact/org.testcontainers/testcontainers) | [org.testcontainers_testcontainers](mappings/org.testcontainers_testcontainers) |

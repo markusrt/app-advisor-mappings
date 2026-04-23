@@ -1,0 +1,13 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for com.github.docker-java:docker-java-api [00m 00s]	🏃 [ 1 / 1 ] for com.github.docker-java:docker-java-api [00m 01s] ok
+
+		👍 Found 6 minor versions.
+
+		🏃 [ 1 / 6 ] Generating dependency tree for version 3.2.14 [00m 00s]		🏃 [ 1 / 6 ] Generating dependency tree for version 3.2.14 [00m 01s] ok
+		🏃 [ 2 / 6 ] Generating dependency tree for version 3.3.6 [00m 00s]		🏃 [ 2 / 6 ] Generating dependency tree for version 3.3.6 [00m 01s] ok
+		🏃 [ 3 / 6 ] Generating dependency tree for version 3.4.2 [00m 00s]		🏃 [ 3 / 6 ] Generating dependency tree for version 3.4.2 [00m 01s] ok
+		🏃 [ 4 / 6 ] Generating dependency tree for version 3.5.3 [00m 00s]		🏃 [ 4 / 6 ] Generating dependency tree for version 3.5.3 [00m 01s] ok
+		🏃 [ 5 / 6 ] Generating dependency tree for version 3.6.0 [00m 00s]		🏃 [ 5 / 6 ] Generating dependency tree for version 3.6.0 [00m 01s] ok
+		🏃 [ 6 / 6 ] Generating dependency tree for version 3.7.1 [00m 00s]		🏃 [ 6 / 6 ] Generating dependency tree for version 3.7.1 [00m 01s] ok
+
+🚀Created 1 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings

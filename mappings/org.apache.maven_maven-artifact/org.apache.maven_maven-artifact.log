@@ -1,0 +1,19 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for org.apache.maven:maven-artifact [00m 00s]	🏃 [ 1 / 1 ] for org.apache.maven:maven-artifact [00m 01s] ok
+
+		👍 Found 12 minor versions.
+
+		🏃 [ 1 / 12 ] Generating dependency tree for version 2.0.11 [00m 00s]		🏃 [ 1 / 12 ] Generating dependency tree for version 2.0.11 [00m 01s] ok
+		🏃 [ 2 / 12 ] Generating dependency tree for version 2.1.0 [00m 00s]		🏃 [ 2 / 12 ] Generating dependency tree for version 2.1.0 [00m 01s] ok
+		🏃 [ 3 / 12 ] Generating dependency tree for version 2.2.1 [00m 00s]		🏃 [ 3 / 12 ] Generating dependency tree for version 2.2.1 [00m 01s] ok
+		🏃 [ 4 / 12 ] Generating dependency tree for version 3.0.5 [00m 00s]		🏃 [ 4 / 12 ] Generating dependency tree for version 3.0.5 [00m 01s] ok
+		🏃 [ 5 / 12 ] Generating dependency tree for version 3.1.1 [00m 00s]		🏃 [ 5 / 12 ] Generating dependency tree for version 3.1.1 [00m 01s] ok
+		🏃 [ 6 / 12 ] Generating dependency tree for version 3.2.5 [00m 00s]		🏃 [ 6 / 12 ] Generating dependency tree for version 3.2.5 [00m 01s] ok
+		🏃 [ 7 / 12 ] Generating dependency tree for version 3.3.9 [00m 00s]		🏃 [ 7 / 12 ] Generating dependency tree for version 3.3.9 [00m 01s] ok
+		🏃 [ 8 / 12 ] Generating dependency tree for version 3.5.4 [00m 00s]		🏃 [ 8 / 12 ] Generating dependency tree for version 3.5.4 [00m 01s] ok
+		🏃 [ 9 / 12 ] Generating dependency tree for version 3.6.3 [00m 00s]		🏃 [ 9 / 12 ] Generating dependency tree for version 3.6.3 [00m 01s] ok
+		🏃 [ 10 / 12 ] Generating dependency tree for version 3.8.9 [00m 00s]		🏃 [ 10 / 12 ] Generating dependency tree for version 3.8.9 [00m 01s] ok
+		🏃 [ 11 / 12 ] Generating dependency tree for version 3.9.15 [00m 00s]		🏃 [ 11 / 12 ] Generating dependency tree for version 3.9.15 [00m 01s] ok
+		🏃 [ 12 / 12 ] Generating dependency tree for version 4.0.0-rc-5 [00m 00s]		🏃 [ 12 / 12 ] Generating dependency tree for version 4.0.0-rc-5 [00m 01s] ok
+
+🚀Created 1 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings

@@ -1,0 +1,12 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for io.mongock:mongock-test-core [00m 00s]	🏃 [ 1 / 1 ] for io.mongock:mongock-test-core [00m 01s] ok
+
+		👍 Found 5 minor versions.
+
+		🏃 [ 1 / 5 ] Generating dependency tree for version 5.1.6 [00m 00s]		🏃 [ 1 / 5 ] Generating dependency tree for version 5.1.6 [00m 01s] ok
+		🏃 [ 2 / 5 ] Generating dependency tree for version 5.2.4 [00m 00s]		🏃 [ 2 / 5 ] Generating dependency tree for version 5.2.4 [00m 01s] ok
+		🏃 [ 3 / 5 ] Generating dependency tree for version 5.3.6 [00m 00s]		🏃 [ 3 / 5 ] Generating dependency tree for version 5.3.6 [00m 01s] ok
+		🏃 [ 4 / 5 ] Generating dependency tree for version 5.4.4 [00m 00s]		🏃 [ 4 / 5 ] Generating dependency tree for version 5.4.4 [00m 01s] ok
+		🏃 [ 5 / 5 ] Generating dependency tree for version 5.5.1 [00m 00s]		🏃 [ 5 / 5 ] Generating dependency tree for version 5.5.1 [00m 01s] ok
+
+🚀Created 1 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings

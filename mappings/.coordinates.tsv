@@ -21,3 +21,14 @@ org.apache.kafka:kafka-transaction-coordinator	org.apache.kafka_kafka-transactio
 org.apache.kafka:kafka_2.13	org.apache.kafka_kafka_2.13
 org.apache.kafka:kafka-group-coordinator-api	org.apache.kafka_kafka-group-coordinator-api
 org.apache.kafka:kafka-tools-api	org.apache.kafka_kafka-tools-api
+com.github.docker-java:docker-java-api	com.github.docker-java_docker-java-api
+io.mongock:mongock-runner-core	io.mongock_mongock-runner-core
+io.mongock:mongock-springboot-junit5	io.mongock_mongock-springboot-junit5
+io.mongock:mongock-springboot-test	io.mongock_mongock-springboot-test
+io.mongock:mongock-springboot-v3	io.mongock_mongock-springboot-v3
+io.mongock:mongock-test-core	io.mongock_mongock-test-core
+io.mongock:mongodb-springdata-v4-driver	io.mongock_mongodb-springdata-v4-driver
+org.apache.maven:maven-artifact	org.apache.maven_maven-artifact
+org.testcontainers:junit-jupiter	org.testcontainers_junit-jupiter
+org.testcontainers:mongodb	org.testcontainers_mongodb
+org.testcontainers:testcontainers	org.testcontainers_testcontainers

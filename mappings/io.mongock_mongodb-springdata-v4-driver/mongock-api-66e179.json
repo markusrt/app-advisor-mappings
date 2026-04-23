@@ -1,0 +1,58 @@
+{
+  "slug": "mongock-api-66e179",
+  "coordinates": [
+    "io.mongock:mongock-api"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "5.2.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "5.3.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "spring-boot": "4.0.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "5.3.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "5.4.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "spring-boot": "4.0.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "5.4.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "5.5.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "spring-boot": "4.0.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "5.5.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "spring-boot": "4.0.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

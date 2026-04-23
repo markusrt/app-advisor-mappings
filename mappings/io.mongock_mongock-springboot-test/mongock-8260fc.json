@@ -1,0 +1,67 @@
+{
+  "slug": "mongock-8260fc",
+  "coordinates": [
+    "io.mongock:mongock-api",
+    "io.mongock:mongock-driver-api",
+    "io.mongock:mongock-driver-core",
+    "io.mongock:mongock-runner-core",
+    "io.mongock:mongock-springboot-test",
+    "io.mongock:mongock-test-core",
+    "io.mongock:mongock-utils"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "5.1.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "5.2.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "5.2.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "5.3.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "5.3.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "5.4.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "5.4.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "5.5.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "5.5.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

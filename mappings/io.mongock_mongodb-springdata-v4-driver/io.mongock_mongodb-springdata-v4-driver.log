@@ -1,0 +1,11 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for io.mongock:mongodb-springdata-v4-driver [00m 00s]	🏃 [ 1 / 1 ] for io.mongock:mongodb-springdata-v4-driver [00m 01s] ok
+
+		👍 Found 4 minor versions.
+
+		🏃 [ 1 / 4 ] Generating dependency tree for version 5.2.4 [00m 00s]		🏃 [ 1 / 4 ] Generating dependency tree for version 5.2.4 [00m 01s]		🏃 [ 1 / 4 ] Generating dependency tree for version 5.2.4 [00m 02s]		🏃 [ 1 / 4 ] Generating dependency tree for version 5.2.4 [00m 03s] ok
+		🏃 [ 2 / 4 ] Generating dependency tree for version 5.3.6 [00m 00s]		🏃 [ 2 / 4 ] Generating dependency tree for version 5.3.6 [00m 01s]		🏃 [ 2 / 4 ] Generating dependency tree for version 5.3.6 [00m 02s] ok
+		🏃 [ 3 / 4 ] Generating dependency tree for version 5.4.4 [00m 00s]		🏃 [ 3 / 4 ] Generating dependency tree for version 5.4.4 [00m 01s]		🏃 [ 3 / 4 ] Generating dependency tree for version 5.4.4 [00m 02s] ok
+		🏃 [ 4 / 4 ] Generating dependency tree for version 5.5.1 [00m 00s]		🏃 [ 4 / 4 ] Generating dependency tree for version 5.5.1 [00m 01s] ok
+
+🚀Created 6 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings

@@ -1,0 +1,19 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for org.testcontainers:junit-jupiter [00m 00s]	🏃 [ 1 / 1 ] for org.testcontainers:junit-jupiter [00m 01s] ok
+
+		👍 Found 12 minor versions.
+
+		🏃 [ 1 / 12 ] Generating dependency tree for version 1.10.7 [00m 00s]		🏃 [ 1 / 12 ] Generating dependency tree for version 1.10.7 [00m 01s]		🏃 [ 1 / 12 ] Generating dependency tree for version 1.10.7 [00m 02s]		🏃 [ 1 / 12 ] Generating dependency tree for version 1.10.7 [00m 03s]		🏃 [ 1 / 12 ] Generating dependency tree for version 1.10.7 [00m 04s] ok
+		🏃 [ 2 / 12 ] Generating dependency tree for version 1.11.4 [00m 00s]		🏃 [ 2 / 12 ] Generating dependency tree for version 1.11.4 [00m 01s]		🏃 [ 2 / 12 ] Generating dependency tree for version 1.11.4 [00m 02s] ok
+		🏃 [ 3 / 12 ] Generating dependency tree for version 1.12.5 [00m 00s]		🏃 [ 3 / 12 ] Generating dependency tree for version 1.12.5 [00m 01s]		🏃 [ 3 / 12 ] Generating dependency tree for version 1.12.5 [00m 02s] ok
+		🏃 [ 4 / 12 ] Generating dependency tree for version 1.13.0 [00m 00s]		🏃 [ 4 / 12 ] Generating dependency tree for version 1.13.0 [00m 01s]		🏃 [ 4 / 12 ] Generating dependency tree for version 1.13.0 [00m 02s] ok
+		🏃 [ 5 / 12 ] Generating dependency tree for version 1.14.3 [00m 00s]		🏃 [ 5 / 12 ] Generating dependency tree for version 1.14.3 [00m 01s] ok
+		🏃 [ 6 / 12 ] Generating dependency tree for version 1.15.3 [00m 00s]		🏃 [ 6 / 12 ] Generating dependency tree for version 1.15.3 [00m 01s]		🏃 [ 6 / 12 ] Generating dependency tree for version 1.15.3 [00m 02s] ok
+		🏃 [ 7 / 12 ] Generating dependency tree for version 1.16.3 [00m 00s]		🏃 [ 7 / 12 ] Generating dependency tree for version 1.16.3 [00m 01s]		🏃 [ 7 / 12 ] Generating dependency tree for version 1.16.3 [00m 02s] ok
+		🏃 [ 8 / 12 ] Generating dependency tree for version 1.17.6 [00m 00s]		🏃 [ 8 / 12 ] Generating dependency tree for version 1.17.6 [00m 01s]		🏃 [ 8 / 12 ] Generating dependency tree for version 1.17.6 [00m 02s] ok
+		🏃 [ 9 / 12 ] Generating dependency tree for version 1.18.3 [00m 00s]		🏃 [ 9 / 12 ] Generating dependency tree for version 1.18.3 [00m 01s]		🏃 [ 9 / 12 ] Generating dependency tree for version 1.18.3 [00m 02s] ok
+		🏃 [ 10 / 12 ] Generating dependency tree for version 1.19.8 [00m 00s]		🏃 [ 10 / 12 ] Generating dependency tree for version 1.19.8 [00m 01s]		🏃 [ 10 / 12 ] Generating dependency tree for version 1.19.8 [00m 02s] ok
+		🏃 [ 11 / 12 ] Generating dependency tree for version 1.20.6 [00m 00s]		🏃 [ 11 / 12 ] Generating dependency tree for version 1.20.6 [00m 01s]		🏃 [ 11 / 12 ] Generating dependency tree for version 1.20.6 [00m 02s] ok
+		🏃 [ 12 / 12 ] Generating dependency tree for version 1.21.4 [00m 00s]		🏃 [ 12 / 12 ] Generating dependency tree for version 1.21.4 [00m 01s] ok
+
+🚀Created 2 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings
