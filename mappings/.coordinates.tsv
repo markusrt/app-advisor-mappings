@@ -19,3 +19,5 @@ org.apache.kafka:kafka-streams	org.apache.kafka_kafka-streams
 org.apache.kafka:kafka-streams-test-utils	org.apache.kafka_kafka-streams-test-utils
 org.apache.kafka:kafka-transaction-coordinator	org.apache.kafka_kafka-transaction-coordinator
 org.apache.kafka:kafka_2.13	org.apache.kafka_kafka_2.13
+org.apache.kafka:kafka-group-coordinator-api	org.apache.kafka_kafka-group-coordinator-api
+org.apache.kafka:kafka-tools-api	org.apache.kafka_kafka-tools-api
