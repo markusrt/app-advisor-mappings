@@ -62,11 +62,17 @@ while IFS= read -r coord; do
     echo "- ${coord}" >> "$SUCCESSES_FILE"
 
     # Process each JSON written by advisor into .advisor/mappings/
+    # Use dotglob so files like ".json" (no base name) are included
+    shopt -s dotglob
     for advisor_json in .advisor/mappings/*.json; do
       [[ -f "$advisor_json" ]] || continue
 
       # Read slug from JSON and generate a unique suffix
       slug=$("$JQ_BIN" -r '.slug' "$advisor_json")
+      # Fall back to the artifact ID portion of the coordinate if slug is empty
+      if [[ -z "$slug" ]]; then
+        slug="${coord##*:}"
+      fi
       suffix=$(openssl rand -hex 3)
       new_name="${slug}-${suffix}.json"
 
@@ -74,6 +80,8 @@ while IFS= read -r coord; do
       "$JQ_BIN" --indent 2 --arg new_slug "${slug}-${suffix}" \
         '.slug = $new_slug' "$advisor_json" > "$COORD_OUTPUT_DIR/${new_name}"
     done
+
+    shopt -u dotglob
 
     # Record coordinate → folder in .coordinates.tsv (skip if coord already present)
     if ! grep -qP "^${coord}\t" mappings/.coordinates.tsv 2>/dev/null; then
