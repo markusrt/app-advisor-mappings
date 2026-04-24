@@ -43,3 +43,5 @@ org.zalando:logbook-json	org.zalando_logbook-json
 org.zalando:logbook-spring	org.zalando_logbook-spring
 org.zalando:logbook-spring-boot-autoconfigure	org.zalando_logbook-spring-boot-autoconfigure
 org.zalando:logbook-spring-boot-starter	org.zalando_logbook-spring-boot-starter
+io.swagger.core.v3:swagger-core	io.swagger.core.v3_swagger-core
+io.swagger.core.v3:swagger-models	io.swagger.core.v3_swagger-models

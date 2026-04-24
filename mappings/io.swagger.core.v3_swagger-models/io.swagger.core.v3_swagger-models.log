@@ -1,0 +1,10 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for io.swagger.core.v3:swagger-models [00m 00s]	🏃 [ 1 / 1 ] for io.swagger.core.v3:swagger-models [00m 01s] ok
+
+		👍 Found 3 minor versions.
+
+		🏃 [ 1 / 3 ] Generating dependency tree for version 2.0.10 [00m 00s]		🏃 [ 1 / 3 ] Generating dependency tree for version 2.0.10 [00m 01s] ok
+		🏃 [ 2 / 3 ] Generating dependency tree for version 2.1.13 [00m 00s]		🏃 [ 2 / 3 ] Generating dependency tree for version 2.1.13 [00m 01s] ok
+		🏃 [ 3 / 3 ] Generating dependency tree for version 2.2.48 [00m 00s]		🏃 [ 3 / 3 ] Generating dependency tree for version 2.2.48 [00m 01s] ok
+
+🚀Created 1 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings
