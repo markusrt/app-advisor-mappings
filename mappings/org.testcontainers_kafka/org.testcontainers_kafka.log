@@ -1,0 +1,23 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for org.testcontainers:kafka [00m 00s]	🏃 [ 1 / 1 ] for org.testcontainers:kafka [00m 01s] ok
+
+		👍 Found 16 minor versions.
+
+		🏃 [ 1 / 16 ] Generating dependency tree for version 1.10.7 [00m 00s]		🏃 [ 1 / 16 ] Generating dependency tree for version 1.10.7 [00m 01s]		🏃 [ 1 / 16 ] Generating dependency tree for version 1.10.7 [00m 02s] ok
+		🏃 [ 2 / 16 ] Generating dependency tree for version 1.11.4 [00m 00s]		🏃 [ 2 / 16 ] Generating dependency tree for version 1.11.4 [00m 01s] ok
+		🏃 [ 3 / 16 ] Generating dependency tree for version 1.12.5 [00m 00s]		🏃 [ 3 / 16 ] Generating dependency tree for version 1.12.5 [00m 01s] ok
+		🏃 [ 4 / 16 ] Generating dependency tree for version 1.13.0 [00m 00s]		🏃 [ 4 / 16 ] Generating dependency tree for version 1.13.0 [00m 01s] ok
+		🏃 [ 5 / 16 ] Generating dependency tree for version 1.14.3 [00m 00s]		🏃 [ 5 / 16 ] Generating dependency tree for version 1.14.3 [00m 01s] ok
+		🏃 [ 6 / 16 ] Generating dependency tree for version 1.15.3 [00m 00s]		🏃 [ 6 / 16 ] Generating dependency tree for version 1.15.3 [00m 01s] ok
+		🏃 [ 7 / 16 ] Generating dependency tree for version 1.16.3 [00m 00s]		🏃 [ 7 / 16 ] Generating dependency tree for version 1.16.3 [00m 01s] ok
+		🏃 [ 8 / 16 ] Generating dependency tree for version 1.17.6 [00m 00s]		🏃 [ 8 / 16 ] Generating dependency tree for version 1.17.6 [00m 01s] ok
+		🏃 [ 9 / 16 ] Generating dependency tree for version 1.18.3 [00m 00s]		🏃 [ 9 / 16 ] Generating dependency tree for version 1.18.3 [00m 01s] ok
+		🏃 [ 10 / 16 ] Generating dependency tree for version 1.19.8 [00m 00s]		🏃 [ 10 / 16 ] Generating dependency tree for version 1.19.8 [00m 01s] ok
+		🏃 [ 11 / 16 ] Generating dependency tree for version 1.20.6 [00m 00s]		🏃 [ 11 / 16 ] Generating dependency tree for version 1.20.6 [00m 01s] ok
+		🏃 [ 12 / 16 ] Generating dependency tree for version 1.21.4 [00m 00s]		🏃 [ 12 / 16 ] Generating dependency tree for version 1.21.4 [00m 01s] ok
+		🏃 [ 13 / 16 ] Generating dependency tree for version 1.6.0 [00m 00s]		🏃 [ 13 / 16 ] Generating dependency tree for version 1.6.0 [00m 01s] ok
+		🏃 [ 14 / 16 ] Generating dependency tree for version 1.7.3 [00m 00s]		🏃 [ 14 / 16 ] Generating dependency tree for version 1.7.3 [00m 01s]		🏃 [ 14 / 16 ] Generating dependency tree for version 1.7.3 [00m 02s] ok
+		🏃 [ 15 / 16 ] Generating dependency tree for version 1.8.3 [00m 00s]		🏃 [ 15 / 16 ] Generating dependency tree for version 1.8.3 [00m 01s] ok
+		🏃 [ 16 / 16 ] Generating dependency tree for version 1.9.1 [00m 00s]		🏃 [ 16 / 16 ] Generating dependency tree for version 1.9.1 [00m 01s] ok
+
+🚀Created 2 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings

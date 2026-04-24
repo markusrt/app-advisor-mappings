@@ -32,3 +32,14 @@ org.apache.maven:maven-artifact	org.apache.maven_maven-artifact
 org.testcontainers:junit-jupiter	org.testcontainers_junit-jupiter
 org.testcontainers:mongodb	org.testcontainers_mongodb
 org.testcontainers:testcontainers	org.testcontainers_testcontainers
+com.auth0:java-jwt	com.auth0_java-jwt
+com.structurizr:structurizr-core	com.structurizr_structurizr-core
+com.structurizr:structurizr-export	com.structurizr_structurizr-export
+io.jsonwebtoken:jjwt	io.jsonwebtoken_jjwt
+io.jsonwebtoken:jjwt-jackson	io.jsonwebtoken_jjwt-jackson
+org.testcontainers:kafka	org.testcontainers_kafka
+org.zalando:logbook-core	org.zalando_logbook-core
+org.zalando:logbook-json	org.zalando_logbook-json
+org.zalando:logbook-spring	org.zalando_logbook-spring
+org.zalando:logbook-spring-boot-autoconfigure	org.zalando_logbook-spring-boot-autoconfigure
+org.zalando:logbook-spring-boot-starter	org.zalando_logbook-spring-boot-starter

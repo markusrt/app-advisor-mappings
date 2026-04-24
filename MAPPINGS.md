@@ -5,10 +5,15 @@ It lists all advisor mapping files along with links to the corresponding Maven C
 
 | Group ID | Artifact ID | Maven Central | Mapping File |
 |----------|-------------|---------------|--------------|
+| `com.auth0` | `java-jwt` | [Maven Central](https://central.sonatype.com/artifact/com.auth0/java-jwt) | [com.auth0_java-jwt](mappings/com.auth0_java-jwt) |
 | `com.github.docker-java` | `docker-java-api` | [Maven Central](https://central.sonatype.com/artifact/com.github.docker-java/docker-java-api) | [com.github.docker-java_docker-java-api](mappings/com.github.docker-java_docker-java-api) |
 | `com.googlecode.json-simple` | `json-simple` | [Maven Central](https://central.sonatype.com/artifact/com.googlecode.json-simple/json-simple) | [com.googlecode.json-simple_json-simple](mappings/com.googlecode.json-simple_json-simple) |
+| `com.structurizr` | `structurizr-core` | [Maven Central](https://central.sonatype.com/artifact/com.structurizr/structurizr-core) | [com.structurizr_structurizr-core](mappings/com.structurizr_structurizr-core) |
+| `com.structurizr` | `structurizr-export` | [Maven Central](https://central.sonatype.com/artifact/com.structurizr/structurizr-export) | [com.structurizr_structurizr-export](mappings/com.structurizr_structurizr-export) |
 | `commons-beanutils` | `commons-beanutils` | [Maven Central](https://central.sonatype.com/artifact/commons-beanutils/commons-beanutils) | [commons-beanutils_commons-beanutils](mappings/commons-beanutils_commons-beanutils) |
 | `commons-validator` | `commons-validator` | [Maven Central](https://central.sonatype.com/artifact/commons-validator/commons-validator) | [commons-validator_commons-validator](mappings/commons-validator_commons-validator) |
+| `io.jsonwebtoken` | `jjwt` | [Maven Central](https://central.sonatype.com/artifact/io.jsonwebtoken/jjwt) | [io.jsonwebtoken_jjwt](mappings/io.jsonwebtoken_jjwt) |
+| `io.jsonwebtoken` | `jjwt-jackson` | [Maven Central](https://central.sonatype.com/artifact/io.jsonwebtoken/jjwt-jackson) | [io.jsonwebtoken_jjwt-jackson](mappings/io.jsonwebtoken_jjwt-jackson) |
 | `io.mongock` | `mongock-runner-core` | [Maven Central](https://central.sonatype.com/artifact/io.mongock/mongock-runner-core) | [io.mongock_mongock-runner-core](mappings/io.mongock_mongock-runner-core) |
 | `io.mongock` | `mongock-springboot-junit5` | [Maven Central](https://central.sonatype.com/artifact/io.mongock/mongock-springboot-junit5) | [io.mongock_mongock-springboot-junit5](mappings/io.mongock_mongock-springboot-junit5) |
 | `io.mongock` | `mongock-springboot-test` | [Maven Central](https://central.sonatype.com/artifact/io.mongock/mongock-springboot-test) | [io.mongock_mongock-springboot-test](mappings/io.mongock_mongock-springboot-test) |
@@ -37,5 +42,11 @@ It lists all advisor mapping files along with links to the corresponding Maven C
 | `org.springframework.boot` | `spring-boot-http-client` | [Maven Central](https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-http-client) | [org.springframework.boot_spring-boot-http-client](mappings/org.springframework.boot_spring-boot-http-client) |
 | `org.springframework.boot` | `spring-boot-netty` | [Maven Central](https://central.sonatype.com/artifact/org.springframework.boot/spring-boot-netty) | [org.springframework.boot_spring-boot-netty](mappings/org.springframework.boot_spring-boot-netty) |
 | `org.testcontainers` | `junit-jupiter` | [Maven Central](https://central.sonatype.com/artifact/org.testcontainers/junit-jupiter) | [org.testcontainers_junit-jupiter](mappings/org.testcontainers_junit-jupiter) |
+| `org.testcontainers` | `kafka` | [Maven Central](https://central.sonatype.com/artifact/org.testcontainers/kafka) | [org.testcontainers_kafka](mappings/org.testcontainers_kafka) |
 | `org.testcontainers` | `mongodb` | [Maven Central](https://central.sonatype.com/artifact/org.testcontainers/mongodb) | [org.testcontainers_mongodb](mappings/org.testcontainers_mongodb) |
 | `org.testcontainers` | `testcontainers` | [Maven Central](https://central.sonatype.com/artifact/org.testcontainers/testcontainers) | [org.testcontainers_testcontainers](mappings/org.testcontainers_testcontainers) |
+| `org.zalando` | `logbook-core` | [Maven Central](https://central.sonatype.com/artifact/org.zalando/logbook-core) | [org.zalando_logbook-core](mappings/org.zalando_logbook-core) |
+| `org.zalando` | `logbook-json` | [Maven Central](https://central.sonatype.com/artifact/org.zalando/logbook-json) | [org.zalando_logbook-json](mappings/org.zalando_logbook-json) |
+| `org.zalando` | `logbook-spring` | [Maven Central](https://central.sonatype.com/artifact/org.zalando/logbook-spring) | [org.zalando_logbook-spring](mappings/org.zalando_logbook-spring) |
+| `org.zalando` | `logbook-spring-boot-autoconfigure` | [Maven Central](https://central.sonatype.com/artifact/org.zalando/logbook-spring-boot-autoconfigure) | [org.zalando_logbook-spring-boot-autoconfigure](mappings/org.zalando_logbook-spring-boot-autoconfigure) |
+| `org.zalando` | `logbook-spring-boot-starter` | [Maven Central](https://central.sonatype.com/artifact/org.zalando/logbook-spring-boot-starter) | [org.zalando_logbook-spring-boot-starter](mappings/org.zalando_logbook-spring-boot-starter) |

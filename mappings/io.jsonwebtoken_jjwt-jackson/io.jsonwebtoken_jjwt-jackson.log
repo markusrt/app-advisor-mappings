@@ -1,0 +1,11 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for io.jsonwebtoken:jjwt-jackson [00m 00s]	🏃 [ 1 / 1 ] for io.jsonwebtoken:jjwt-jackson [00m 01s] ok
+
+		👍 Found 4 minor versions.
+
+		🏃 [ 1 / 4 ] Generating dependency tree for version 0.10.8 [00m 00s]		🏃 [ 1 / 4 ] Generating dependency tree for version 0.10.8 [00m 01s] ok
+		🏃 [ 2 / 4 ] Generating dependency tree for version 0.11.5 [00m 00s]		🏃 [ 2 / 4 ] Generating dependency tree for version 0.11.5 [00m 01s] ok
+		🏃 [ 3 / 4 ] Generating dependency tree for version 0.12.7 [00m 00s]		🏃 [ 3 / 4 ] Generating dependency tree for version 0.12.7 [00m 01s] ok
+		🏃 [ 4 / 4 ] Generating dependency tree for version 0.13.0 [00m 00s]		🏃 [ 4 / 4 ] Generating dependency tree for version 0.13.0 [00m 01s] ok
+
+🚀Created 1 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings

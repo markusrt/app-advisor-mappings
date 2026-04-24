@@ -1,0 +1,42 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for org.zalando:logbook-spring [00m 00s]	🏃 [ 1 / 1 ] for org.zalando:logbook-spring [00m 01s] ok
+
+		👍 Found 35 minor versions.
+
+		🏃 [ 1 / 35 ] Generating dependency tree for version 0.1.0 [00m 00s]		🏃 [ 1 / 35 ] Generating dependency tree for version 0.1.0 [00m 01s]		🏃 [ 1 / 35 ] Generating dependency tree for version 0.1.0 [00m 02s] ok
+		🏃 [ 2 / 35 ] Generating dependency tree for version 0.2.0 [00m 00s]		🏃 [ 2 / 35 ] Generating dependency tree for version 0.2.0 [00m 01s] ok
+		🏃 [ 3 / 35 ] Generating dependency tree for version 0.3.0 [00m 00s]		🏃 [ 3 / 35 ] Generating dependency tree for version 0.3.0 [00m 01s] ok
+		🏃 [ 4 / 35 ] Generating dependency tree for version 0.4.0 [00m 00s]		🏃 [ 4 / 35 ] Generating dependency tree for version 0.4.0 [00m 01s] ok
+		🏃 [ 5 / 35 ] Generating dependency tree for version 0.5.0 [00m 00s]		🏃 [ 5 / 35 ] Generating dependency tree for version 0.5.0 [00m 01s] ok
+		🏃 [ 6 / 35 ] Generating dependency tree for version 0.6.0 [00m 00s]		🏃 [ 6 / 35 ] Generating dependency tree for version 0.6.0 [00m 01s] ok
+		🏃 [ 7 / 35 ] Generating dependency tree for version 0.7.0 [00m 00s]		🏃 [ 7 / 35 ] Generating dependency tree for version 0.7.0 [00m 01s] ok
+		🏃 [ 8 / 35 ] Generating dependency tree for version 0.8.0 [00m 00s]		🏃 [ 8 / 35 ] Generating dependency tree for version 0.8.0 [00m 01s] ok
+		🏃 [ 9 / 35 ] Generating dependency tree for version 2.10.0 [00m 00s]		🏃 [ 9 / 35 ] Generating dependency tree for version 2.10.0 [00m 01s] ok
+		🏃 [ 10 / 35 ] Generating dependency tree for version 2.11.0 [00m 00s]		🏃 [ 10 / 35 ] Generating dependency tree for version 2.11.0 [00m 01s] ok
+		🏃 [ 11 / 35 ] Generating dependency tree for version 2.12.0 [00m 00s]		🏃 [ 11 / 35 ] Generating dependency tree for version 2.12.0 [00m 01s] ok
+		🏃 [ 12 / 35 ] Generating dependency tree for version 2.13.0 [00m 00s]		🏃 [ 12 / 35 ] Generating dependency tree for version 2.13.0 [00m 01s] ok
+		🏃 [ 13 / 35 ] Generating dependency tree for version 2.14.0 [00m 00s]		🏃 [ 13 / 35 ] Generating dependency tree for version 2.14.0 [00m 01s] ok
+		🏃 [ 14 / 35 ] Generating dependency tree for version 2.15.0 [00m 00s]		🏃 [ 14 / 35 ] Generating dependency tree for version 2.15.0 [00m 01s] ok
+		🏃 [ 15 / 35 ] Generating dependency tree for version 2.16.0 [00m 00s]		🏃 [ 15 / 35 ] Generating dependency tree for version 2.16.0 [00m 01s] ok
+		🏃 [ 16 / 35 ] Generating dependency tree for version 2.4.2 [00m 00s]		🏃 [ 16 / 35 ] Generating dependency tree for version 2.4.2 [00m 01s] ok
+		🏃 [ 17 / 35 ] Generating dependency tree for version 2.5.0 [00m 00s]		🏃 [ 17 / 35 ] Generating dependency tree for version 2.5.0 [00m 01s] ok
+		🏃 [ 18 / 35 ] Generating dependency tree for version 2.6.2 [00m 00s]		🏃 [ 18 / 35 ] Generating dependency tree for version 2.6.2 [00m 01s] ok
+		🏃 [ 19 / 35 ] Generating dependency tree for version 2.7.0 [00m 00s]		🏃 [ 19 / 35 ] Generating dependency tree for version 2.7.0 [00m 01s] ok
+		🏃 [ 20 / 35 ] Generating dependency tree for version 2.8.0 [00m 00s]		🏃 [ 20 / 35 ] Generating dependency tree for version 2.8.0 [00m 01s] ok
+		🏃 [ 21 / 35 ] Generating dependency tree for version 2.9.0 [00m 00s]		🏃 [ 21 / 35 ] Generating dependency tree for version 2.9.0 [00m 01s] ok
+		🏃 [ 22 / 35 ] Generating dependency tree for version 3.0.0 [00m 00s]		🏃 [ 22 / 35 ] Generating dependency tree for version 3.0.0 [00m 01s] ok
+		🏃 [ 23 / 35 ] Generating dependency tree for version 3.1.0 [00m 00s]		🏃 [ 23 / 35 ] Generating dependency tree for version 3.1.0 [00m 01s] ok
+		🏃 [ 24 / 35 ] Generating dependency tree for version 3.10.0 [00m 00s]		🏃 [ 24 / 35 ] Generating dependency tree for version 3.10.0 [00m 01s] ok
+		🏃 [ 25 / 35 ] Generating dependency tree for version 3.11.0 [00m 00s]		🏃 [ 25 / 35 ] Generating dependency tree for version 3.11.0 [00m 01s] ok
+		🏃 [ 26 / 35 ] Generating dependency tree for version 3.12.3 [00m 00s]		🏃 [ 26 / 35 ] Generating dependency tree for version 3.12.3 [00m 01s] ok
+		🏃 [ 27 / 35 ] Generating dependency tree for version 3.2.0 [00m 00s]		🏃 [ 27 / 35 ] Generating dependency tree for version 3.2.0 [00m 01s] ok
+		🏃 [ 28 / 35 ] Generating dependency tree for version 3.3.0 [00m 00s]		🏃 [ 28 / 35 ] Generating dependency tree for version 3.3.0 [00m 01s] ok
+		🏃 [ 29 / 35 ] Generating dependency tree for version 3.4.0 [00m 00s]		🏃 [ 29 / 35 ] Generating dependency tree for version 3.4.0 [00m 01s] ok
+		🏃 [ 30 / 35 ] Generating dependency tree for version 3.5.0 [00m 00s]		🏃 [ 30 / 35 ] Generating dependency tree for version 3.5.0 [00m 01s] ok
+		🏃 [ 31 / 35 ] Generating dependency tree for version 3.6.0 [00m 00s]		🏃 [ 31 / 35 ] Generating dependency tree for version 3.6.0 [00m 01s] ok
+		🏃 [ 32 / 35 ] Generating dependency tree for version 3.7.2 [00m 00s]		🏃 [ 32 / 35 ] Generating dependency tree for version 3.7.2 [00m 01s] ok
+		🏃 [ 33 / 35 ] Generating dependency tree for version 3.8.0 [00m 00s]		🏃 [ 33 / 35 ] Generating dependency tree for version 3.8.0 [00m 01s] ok
+		🏃 [ 34 / 35 ] Generating dependency tree for version 3.9.0 [00m 00s]		🏃 [ 34 / 35 ] Generating dependency tree for version 3.9.0 [00m 01s] ok
+		🏃 [ 35 / 35 ] Generating dependency tree for version 4.0.4 [00m 00s]		🏃 [ 35 / 35 ] Generating dependency tree for version 4.0.4 [00m 01s] ok
+
+🚀Created 1 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings
