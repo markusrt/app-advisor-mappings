@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ------------------------------------------------------------------------------
-# 05-update-mappings-md.sh
+# 04-update-mappings-md.sh
 #
 # Regenerates MAPPINGS.md from the coordinates TSV file.
 #

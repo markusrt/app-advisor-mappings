@@ -1,0 +1,19 @@
+{
+  "slug": "mongodb-sync-v4-driver-078ffe",
+  "coordinates": [
+    "io.mongock:mongodb-sync-v4-driver"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "5.5.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "spring-boot": "4.0.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "mongock-e78353",
+  "coordinates": [
+    "io.mongock:mongock-api",
+    "io.mongock:mongock-driver-api",
+    "io.mongock:mongock-runner-core",
+    "io.mongock:mongock-springboot-v3",
+    "io.mongock:mongock-utils"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "5.5.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "spring-boot": "4.0.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

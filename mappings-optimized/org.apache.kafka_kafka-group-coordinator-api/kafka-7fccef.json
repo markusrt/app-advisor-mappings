@@ -1,0 +1,18 @@
+{
+  "slug": "kafka-7fccef",
+  "coordinates": [
+    "org.apache.kafka:kafka-clients",
+    "org.apache.kafka:kafka-group-coordinator-api"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "4.2.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

@@ -33,9 +33,3 @@ body:
         			- spring-boot
     validations:
       required: true
-  - type: checkboxes
-    id: options
-    attributes:
-      label: Options
-      options:
-        - label: Reduce version numbers (keep only latest minor per major version)

@@ -1,0 +1,18 @@
+{
+  "slug": "kafka-317dae",
+  "coordinates": [
+    "org.apache.kafka:kafka-clients",
+    "org.apache.kafka:kafka-tools-api"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "4.2.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

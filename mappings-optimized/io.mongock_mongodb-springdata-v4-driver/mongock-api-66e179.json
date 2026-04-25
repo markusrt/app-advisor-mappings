@@ -1,0 +1,19 @@
+{
+  "slug": "mongock-api-66e179",
+  "coordinates": [
+    "io.mongock:mongock-api"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "5.5.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "spring-boot": "4.0.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

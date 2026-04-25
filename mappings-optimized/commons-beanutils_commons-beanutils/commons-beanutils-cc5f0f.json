@@ -1,0 +1,43 @@
+{
+  "slug": "commons-beanutils-cc5f0f",
+  "coordinates": [
+    "commons-beanutils:commons-beanutils"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.6.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.7.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-collections": "2.0.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.7.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.11.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "1.11.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-collections": "3.2.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

@@ -16,7 +16,6 @@
 # Outputs written to $GITHUB_OUTPUT:
 #   found              - 'true' if coordinates were found, 'false' otherwise
 #   coordinates_file   - Path to file containing the extracted coordinates
-#   trim_versions      - 'true' if the "Reduce version numbers" checkbox is checked
 # ------------------------------------------------------------------------------
 set -euo pipefail
 
@@ -69,12 +68,6 @@ echo "Found $COUNT unique coordinates:"
 cat "$COORDS_FILE"
 echo "found=true" >> "$GITHUB_OUTPUT"
 echo "coordinates_file=$COORDS_FILE" >> "$GITHUB_OUTPUT"
-
-if echo "${ISSUE_BODY:-}" | grep -qiP '\-\s+\[x\]\s+Reduce version numbers'; then
-  echo "trim_versions=true" >> "$GITHUB_OUTPUT"
-else
-  echo "trim_versions=false" >> "$GITHUB_OUTPUT"
-fi
 
 echo ""
 echo "Outputs written to: $GITHUB_OUTPUT"

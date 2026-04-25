@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ------------------------------------------------------------------------------
-# 06-commit-mappings.sh
+# 05-commit-mappings.sh
 #
 # Commits and pushes generated mapping files and the updated MAPPINGS.md.
 #

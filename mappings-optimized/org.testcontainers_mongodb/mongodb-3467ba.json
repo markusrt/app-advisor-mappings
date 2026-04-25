@@ -1,0 +1,110 @@
+{
+  "slug": "mongodb-3467ba",
+  "coordinates": [
+    "org.testcontainers:mongodb"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.14.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.15.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "testcontainers": "1.14.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.15.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.16.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "testcontainers": "1.15.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.16.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.17.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "testcontainers": "1.16.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.17.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.18.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "testcontainers": "1.17.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.18.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.19.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "testcontainers": "1.18.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.19.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.20.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "testcontainers": "1.19.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.20.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.21.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "testcontainers": "1.20.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.21.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "testcontainers": "1.21.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "jjwt-0ccb7e",
+  "coordinates": [
+    "io.jsonwebtoken:jjwt-api",
+    "io.jsonwebtoken:jjwt-jackson"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "0.10.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "0.13.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.9.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "0.13.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.12.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

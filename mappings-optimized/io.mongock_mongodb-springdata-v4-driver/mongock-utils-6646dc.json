@@ -1,0 +1,19 @@
+{
+  "slug": "mongock-utils-6646dc",
+  "coordinates": [
+    "io.mongock:mongock-utils"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "5.5.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "spring-boot": "4.0.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}
