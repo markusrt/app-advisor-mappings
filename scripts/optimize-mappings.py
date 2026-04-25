@@ -83,9 +83,7 @@ def optimize_rewrite(rewrite: dict) -> dict:
         if index < len(kept) - 1:
             next_version = kept[index + 1]
             existing_next = rewrite[version].get("nextRewrite") or {}
-            project = existing_next.get("project") if isinstance(
-                existing_next, dict
-            ) else None
+            project = existing_next.get("project")
             entry["nextRewrite"] = {"version": next_version, "project": project}
         # For the final kept version we leave the original ``nextRewrite``
         # value alone (it should already be ``null`` in well-formed inputs).
