@@ -1,0 +1,48 @@
+{
+  "slug": "htmlunit-xpath-163dba",
+  "coordinates": [
+    "net.sourceforge.htmlunit:htmlunit-xpath"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "2.67.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.69.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.12.x",
+          "htmlunit-cssparser": "1.12.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.69.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.70.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.12.x",
+          "htmlunit-cssparser": "1.13.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.70.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.12.x",
+          "htmlunit-cssparser": "1.14.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

@@ -66,19 +66,15 @@ jobs:
           path: ${{ steps.generate.outputs.raw_output_dir }}
           if-no-files-found: warn
 
-      - name: Trim versions to latest per major
-        if: steps.generate.outputs.mapping_count != '0' && steps.parse.outputs.trim_versions == 'true'
-        run: bash scripts/04-trim-versions.sh
-
       - name: Update MAPPINGS.md
         if: steps.generate.outputs.mapping_count != '0'
-        run: bash scripts/05-update-mappings-md.sh
+        run: bash scripts/04-update-mappings-md.sh
 
       - name: Commit and push mapping files
         if: steps.generate.outputs.mapping_count != '0'
         env:
           ISSUE_NUMBER: ${{ github.event.issue.number }}
-        run: bash scripts/06-commit-mappings.sh
+        run: bash scripts/05-commit-mappings.sh
 
       - name: Comment results on issue
         if: always() && steps.parse.outputs.found == 'true'

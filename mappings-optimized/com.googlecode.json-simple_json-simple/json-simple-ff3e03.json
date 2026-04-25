@@ -1,0 +1,19 @@
+{
+  "slug": "json-simple-ff3e03",
+  "coordinates": [
+    "com.googlecode.json-simple:json-simple"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.1.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "junit": "4.10.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

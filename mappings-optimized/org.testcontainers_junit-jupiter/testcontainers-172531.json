@@ -1,0 +1,60 @@
+{
+  "slug": "testcontainers-172531",
+  "coordinates": [
+    "org.testcontainers:testcontainers"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.13.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.14.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "aws-sdk-java": "17.0.x",
+          "junit": "4.12.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.14.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.15.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "aws-sdk-java": "19.0.x",
+          "junit": "4.12.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.15.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.21.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "junit": "4.12.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.21.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "junit": "4.13.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

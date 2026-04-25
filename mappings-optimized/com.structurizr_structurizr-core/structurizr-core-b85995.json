@@ -1,0 +1,110 @@
+{
+  "slug": "structurizr-core-b85995",
+  "coordinates": [
+    "com.structurizr:structurizr-core"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.11.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.17.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson-annotations": "2.9.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.17.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.26.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson-annotations": "2.13.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.26.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.27.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson-annotations": "2.14.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.27.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "3.0.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson-annotations": "2.15.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "3.0.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.1.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson-annotations": "2.16.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.1.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "6.1.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson-annotations": "2.18.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "6.1.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "6.2.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson-annotations": "2.20.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "6.2.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "jackson-annotations": "2.21.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

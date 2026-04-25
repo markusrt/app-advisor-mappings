@@ -1,0 +1,20 @@
+{
+  "slug": "mongock-1d3926",
+  "coordinates": [
+    "io.mongock:mongock-api",
+    "io.mongock:mongock-driver-api",
+    "io.mongock:mongock-runner-core",
+    "io.mongock:mongock-utils"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "5.5.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

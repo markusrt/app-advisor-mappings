@@ -1,0 +1,19 @@
+{
+  "slug": "mongock-driver-core-dc16e9",
+  "coordinates": [
+    "io.mongock:mongock-driver-core"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "5.5.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "spring-boot": "4.0.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}
