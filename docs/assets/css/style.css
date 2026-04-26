@@ -133,6 +133,7 @@ h3 { font-size: 1.05rem; margin: 0; }
   transition: border-color 0.15s ease, transform 0.15s ease;
 }
 .tile:hover { border-color: var(--color-accent); }
+.tile[hidden] { display: none; }
 
 .tile-header { min-width: 0; }
 .tile-title {
