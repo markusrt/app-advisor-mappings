@@ -1,0 +1,130 @@
+---
+layout: default
+---
+{% assign coord = nil %}
+{% for c in site.data.coordinates %}
+  {% if c.id == page.coordinate_id %}{% assign coord = c %}{% endif %}
+{% endfor %}
+
+{% if coord == nil %}
+<p><a href="{{ '/' | relative_url }}">← Back to overview</a></p>
+<p>Coordinate <code>{{ page.coordinate_id }}</code> not found.</p>
+{% else %}
+<p><a href="{{ '/' | relative_url }}">← Back to overview</a></p>
+
+<h1 class="coord-title">
+  <span class="coord-group">{{ coord.groupId }}</span><span class="coord-sep">:</span><span class="coord-artifact">{{ coord.artifactId }}</span>
+</h1>
+
+<section class="summary">
+  <ul class="summary-grid">
+    <li>
+      <span class="summary-label">Maven Central</span>
+      <a href="{{ coord.mavenUrl }}" rel="noopener">View artifact ↗</a>
+    </li>
+    <li>
+      <span class="summary-label">Mappings</span>
+      <a href="{{ coord.mappingsGithubUrl }}" rel="noopener">{{ coord.mappingsCount }} version{% if coord.mappingsCount != 1 %}s{% endif %}</a>
+      <span class="muted">across {{ coord.mappingFileCount }} file{% if coord.mappingFileCount != 1 %}s{% endif %}</span>
+    </li>
+    <li>
+      <span class="summary-label">Optimized mappings</span>
+      {% if coord.hasOptimized %}
+      <a href="{{ coord.optimizedGithubUrl }}" rel="noopener">{{ coord.optimizedCount }} version{% if coord.optimizedCount != 1 %}s{% endif %}</a>
+      <span class="muted">across {{ coord.optimizedFileCount }} file{% if coord.optimizedFileCount != 1 %}s{% endif %}</span>
+      {% else %}
+      <span class="muted">none</span>
+      {% endif %}
+    </li>
+  </ul>
+</section>
+
+{% assign sections = "mappings,optimized" | split: "," %}
+{% for section in sections %}
+  {% if section == "mappings" %}
+    {% assign files = coord.mappings %}
+    {% assign section_title = "Mappings" %}
+    {% assign empty_msg = "No mapping files found." %}
+  {% else %}
+    {% assign files = coord.optimized %}
+    {% assign section_title = "Optimized mappings" %}
+    {% assign empty_msg = "No optimized mapping files generated yet." %}
+  {% endif %}
+
+  <section class="mapping-section">
+    <h2>{{ section_title }}</h2>
+    {% if files == nil or files.size == 0 %}
+      <p class="muted">{{ empty_msg }}</p>
+    {% else %}
+      {% for file in files %}
+        <article class="mapping-file">
+          <header class="mapping-file-header">
+            <h3>
+              <a href="{{ file.githubUrl }}" rel="noopener"><code>{{ file.fileName }}</code></a>
+            </h3>
+            <p class="mapping-file-meta">
+              Slug: <code>{{ file.slug }}</code>
+              · {{ file.versionCount }} version{% if file.versionCount != 1 %}s{% endif %}
+              {% if file.repositoryUrl and file.repositoryUrl != "" %}
+              · <a href="{{ file.repositoryUrl }}" rel="noopener">Project</a>
+              {% endif %}
+            </p>
+            {% if file.coordinates and file.coordinates.size > 0 %}
+            <p class="mapping-file-coordinates">
+              {% for c in file.coordinates %}<code>{{ c }}</code>{% unless forloop.last %} {% endunless %}{% endfor %}
+            </p>
+            {% endif %}
+          </header>
+
+          {% if file.versions and file.versions.size > 0 %}
+          <div class="table-wrapper">
+            <table class="versions-table">
+              <thead>
+                <tr>
+                  <th>Version</th>
+                  <th>Next rewrite</th>
+                  <th>Supported generations</th>
+                  <th>Excluded artifacts</th>
+                  <th>Recipes</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for v in file.versions %}
+                <tr>
+                  <td><code>{{ v.version }}</code></td>
+                  <td>{% if v.nextVersion %}<code>{{ v.nextVersion }}</code>{% else %}<span class="muted">—</span>{% endif %}</td>
+                  <td>
+                    {% assign gen_pairs = v.supportedGenerations | sort %}
+                    {% if gen_pairs == nil or gen_pairs.size == 0 %}
+                      <span class="muted">—</span>
+                    {% else %}
+                      <ul class="gen-list">
+                        {% for pair in gen_pairs %}
+                        <li><strong>{{ pair[0] }}</strong>: <code>{{ pair[1] }}</code></li>
+                        {% endfor %}
+                      </ul>
+                    {% endif %}
+                  </td>
+                  <td>
+                    {% if v.excludedArtifacts.size == 0 %}
+                      <span class="muted">—</span>
+                    {% else %}
+                      <ul class="excluded-list">
+                        {% for art in v.excludedArtifacts %}<li><code>{{ art }}</code></li>{% endfor %}
+                      </ul>
+                    {% endif %}
+                  </td>
+                  <td>{{ v.recipeCount }}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+          {% endif %}
+        </article>
+      {% endfor %}
+    {% endif %}
+  </section>
+{% endfor %}
+
+{% endif %}

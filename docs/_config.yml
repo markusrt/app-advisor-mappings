@@ -1,0 +1,17 @@
+title: App Advisor Mappings
+description: Overview of Tanzu Application Advisor mapping files maintained in this repository.
+
+repository: markusrt/app-advisor-mappings
+
+# This site uses bespoke layouts under docs/_layouts and does not depend on a
+# Jekyll theme.
+plugins: []
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# Pretty links for detail pages (e.g. /coordinates/io.jsonwebtoken_jjwt/).
+permalink: pretty

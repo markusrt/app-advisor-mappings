@@ -27,6 +27,13 @@ Mapping files are stored in the [`mappings/`](mappings/) directory as JSON files
 These can be used to [configure custom upgrade mappings](https://techdocs.broadcom.com/us/en/vmware-tanzu/spring/application-advisor/1-5/app-advisor/custom-upgrades.html)
 for Application Advisor.
 
+A browsable overview of all coordinates – including per-coordinate detail pages
+with the supported upstream generations of each mapping – is published as a
+[GitHub Pages site](https://markusrt.github.io/app-advisor-mappings/) and
+rebuilt automatically on every push to `main` (see
+[`.github/workflows/pages.yml`](.github/workflows/pages.yml) and the
+[`docs/`](docs/) source).
+
 ## Repository Configuration
 
 The following must be configured for the workflow to work:

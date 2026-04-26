@@ -1,0 +1,60 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Allow only one concurrent deployment, skipping runs queued between the run
+# in-progress and latest queued. Do not cancel in-progress runs so we let
+# production deployments complete.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate site data and detail pages
+        env:
+          REPO_SLUG: ${{ github.repository }}
+          REPO_BRANCH: ${{ github.event.repository.default_branch }}
+        run: python3 scripts/generate-site-data.py
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./docs
+          destination: ./_site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
