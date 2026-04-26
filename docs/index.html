@@ -1,0 +1,67 @@
+---
+layout: default
+title: Overview
+---
+
+<h1>Advisor Mappings</h1>
+<p class="lead">
+  Browse the {{ site.data.coordinates | size }} Maven coordinates for which this
+  repository maintains
+  <a href="https://techdocs.broadcom.com/us/en/vmware-tanzu/spring/application-advisor/1-5/app-advisor/custom-upgrades.html">Tanzu Application Advisor</a>
+  upgrade mappings.
+</p>
+
+<div class="filter-bar">
+  <label for="coordinate-filter" class="visually-hidden">Filter coordinates</label>
+  <input
+    type="search"
+    id="coordinate-filter"
+    placeholder="Quick filter (e.g. kafka, springframework, jjwt)…"
+    autocomplete="off"
+    spellcheck="false">
+  <span class="filter-count" id="filter-count">{{ site.data.coordinates | size }} coordinates</span>
+</div>
+
+<ul id="coordinates-grid" class="tile-grid">
+  {% for coord in site.data.coordinates %}
+  <li
+    class="tile"
+    data-search="{{ coord.id | downcase }} {{ coord.groupId | downcase }} {{ coord.artifactId | downcase }}">
+    <header class="tile-header">
+      <a class="tile-title" href="{{ '/coordinates/' | append: coord.id | append: '/' | relative_url }}">
+        <span class="tile-group">{{ coord.groupId }}</span><span class="tile-sep">:</span><span class="tile-artifact">{{ coord.artifactId }}</span>
+      </a>
+    </header>
+    <dl class="tile-stats">
+      <div>
+        <dt>Mappings</dt>
+        <dd>
+          <a href="{{ coord.mappingsGithubUrl }}" rel="noopener" title="Open mappings folder on GitHub">
+            <strong>{{ coord.mappingsCount }}</strong>
+          </a>
+        </dd>
+      </div>
+      <div>
+        <dt>Optimized</dt>
+        <dd>
+          {% if coord.hasOptimized %}
+          <a href="{{ coord.optimizedGithubUrl }}" rel="noopener" title="Open optimized mappings folder on GitHub">
+            <strong>{{ coord.optimizedCount }}</strong>
+          </a>
+          {% else %}
+          <span class="muted">—</span>
+          {% endif %}
+        </dd>
+      </div>
+    </dl>
+    <footer class="tile-footer">
+      <a href="{{ coord.mavenUrl }}" rel="noopener">Maven Central ↗</a>
+      <a href="{{ '/coordinates/' | append: coord.id | append: '/' | relative_url }}">Details →</a>
+    </footer>
+  </li>
+  {% endfor %}
+</ul>
+
+<p id="no-results" class="muted no-results" hidden>No coordinates match your filter.</p>
+
+<script src="{{ '/assets/js/filter.js' | relative_url }}" defer></script>
