@@ -1,0 +1,17 @@
+{
+  "slug": "commons-lang3-ea8a2b",
+  "coordinates": [
+    "org.apache.commons:commons-lang3"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "3.20.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}
