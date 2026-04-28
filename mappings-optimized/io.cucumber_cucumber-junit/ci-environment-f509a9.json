@@ -1,0 +1,17 @@
+{
+  "slug": "ci-environment-f509a9",
+  "coordinates": [
+    "io.cucumber:ci-environment"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "12.0.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

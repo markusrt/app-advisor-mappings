@@ -1,0 +1,45 @@
+{
+  "slug": "query-8a865a",
+  "coordinates": [
+    "io.cucumber:query"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "12.2.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "13.6.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "messages": "24.1.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "13.6.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "14.7.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "messages": "28.1.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "14.7.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "messages": "30.1.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

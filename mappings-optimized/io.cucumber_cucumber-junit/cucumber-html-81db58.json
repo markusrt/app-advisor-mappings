@@ -1,0 +1,17 @@
+{
+  "slug": "cucumber-html-81db58",
+  "coordinates": [
+    "io.cucumber:cucumber-html"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "0.2.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

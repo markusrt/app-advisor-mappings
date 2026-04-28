@@ -1,0 +1,17 @@
+{
+  "slug": "messages-48663a",
+  "coordinates": [
+    "io.cucumber:messages"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "30.1.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

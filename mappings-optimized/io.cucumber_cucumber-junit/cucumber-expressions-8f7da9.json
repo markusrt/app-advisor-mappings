@@ -1,0 +1,17 @@
+{
+  "slug": "cucumber-expressions-8f7da9",
+  "coordinates": [
+    "io.cucumber:cucumber-expressions"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "18.1.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

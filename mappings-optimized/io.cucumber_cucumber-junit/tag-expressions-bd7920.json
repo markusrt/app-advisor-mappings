@@ -1,0 +1,17 @@
+{
+  "slug": "tag-expressions-bd7920",
+  "coordinates": [
+    "io.cucumber:tag-expressions"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "8.1.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

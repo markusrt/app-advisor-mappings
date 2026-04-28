@@ -1,0 +1,17 @@
+{
+  "slug": "datatable-dependencies-343b0b",
+  "coordinates": [
+    "io.cucumber:datatable-dependencies"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.1.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}
