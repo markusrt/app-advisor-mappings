@@ -46,3 +46,4 @@ org.zalando:logbook-spring-boot-starter	org.zalando_logbook-spring-boot-starter
 io.swagger.core.v3:swagger-core	io.swagger.core.v3_swagger-core
 io.swagger.core.v3:swagger-models	io.swagger.core.v3_swagger-models
 io.cucumber:cucumber-junit	io.cucumber_cucumber-junit
+org.apache.commons:commons-text	org.apache.commons_commons-text
