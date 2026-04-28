@@ -12,6 +12,7 @@ It lists all advisor mapping files along with links to the corresponding Maven C
 | `com.structurizr` | `structurizr-export` | [Maven Central](https://central.sonatype.com/artifact/com.structurizr/structurizr-export) | [com.structurizr_structurizr-export](mappings/com.structurizr_structurizr-export) |
 | `commons-beanutils` | `commons-beanutils` | [Maven Central](https://central.sonatype.com/artifact/commons-beanutils/commons-beanutils) | [commons-beanutils_commons-beanutils](mappings/commons-beanutils_commons-beanutils) |
 | `commons-validator` | `commons-validator` | [Maven Central](https://central.sonatype.com/artifact/commons-validator/commons-validator) | [commons-validator_commons-validator](mappings/commons-validator_commons-validator) |
+| `io.cucumber` | `cucumber-junit` | [Maven Central](https://central.sonatype.com/artifact/io.cucumber/cucumber-junit) | [io.cucumber_cucumber-junit](mappings/io.cucumber_cucumber-junit) |
 | `io.jsonwebtoken` | `jjwt` | [Maven Central](https://central.sonatype.com/artifact/io.jsonwebtoken/jjwt) | [io.jsonwebtoken_jjwt](mappings/io.jsonwebtoken_jjwt) |
 | `io.jsonwebtoken` | `jjwt-jackson` | [Maven Central](https://central.sonatype.com/artifact/io.jsonwebtoken/jjwt-jackson) | [io.jsonwebtoken_jjwt-jackson](mappings/io.jsonwebtoken_jjwt-jackson) |
 | `io.mongock` | `mongock-runner-core` | [Maven Central](https://central.sonatype.com/artifact/io.mongock/mongock-runner-core) | [io.mongock_mongock-runner-core](mappings/io.mongock_mongock-runner-core) |

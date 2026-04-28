@@ -45,3 +45,4 @@ org.zalando:logbook-spring-boot-autoconfigure	org.zalando_logbook-spring-boot-au
 org.zalando:logbook-spring-boot-starter	org.zalando_logbook-spring-boot-starter
 io.swagger.core.v3:swagger-core	io.swagger.core.v3_swagger-core
 io.swagger.core.v3:swagger-models	io.swagger.core.v3_swagger-models
+io.cucumber:cucumber-junit	io.cucumber_cucumber-junit
