@@ -1,0 +1,58 @@
+{
+  "slug": "okhttp-jvm-85dd15",
+  "coordinates": [
+    "com.squareup.okhttp3:okhttp-jvm"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "5.0.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "5.1.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "junit": "4.13.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "5.1.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "5.2.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "junit": "4.13.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "5.2.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "5.3.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "junit": "4.13.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "5.3.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "junit": "4.13.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

@@ -8,6 +8,7 @@ It lists all advisor mapping files along with links to the corresponding Maven C
 | `com.auth0` | `java-jwt` | [Maven Central](https://central.sonatype.com/artifact/com.auth0/java-jwt) | [com.auth0_java-jwt](mappings/com.auth0_java-jwt) |
 | `com.github.docker-java` | `docker-java-api` | [Maven Central](https://central.sonatype.com/artifact/com.github.docker-java/docker-java-api) | [com.github.docker-java_docker-java-api](mappings/com.github.docker-java_docker-java-api) |
 | `com.googlecode.json-simple` | `json-simple` | [Maven Central](https://central.sonatype.com/artifact/com.googlecode.json-simple/json-simple) | [com.googlecode.json-simple_json-simple](mappings/com.googlecode.json-simple_json-simple) |
+| `com.squareup.okhttp3` | `mockwebserver` | [Maven Central](https://central.sonatype.com/artifact/com.squareup.okhttp3/mockwebserver) | [com.squareup.okhttp3_mockwebserver](mappings/com.squareup.okhttp3_mockwebserver) |
 | `com.structurizr` | `structurizr-core` | [Maven Central](https://central.sonatype.com/artifact/com.structurizr/structurizr-core) | [com.structurizr_structurizr-core](mappings/com.structurizr_structurizr-core) |
 | `com.structurizr` | `structurizr-export` | [Maven Central](https://central.sonatype.com/artifact/com.structurizr/structurizr-export) | [com.structurizr_structurizr-export](mappings/com.structurizr_structurizr-export) |
 | `commons-beanutils` | `commons-beanutils` | [Maven Central](https://central.sonatype.com/artifact/commons-beanutils/commons-beanutils) | [commons-beanutils_commons-beanutils](mappings/commons-beanutils_commons-beanutils) |
@@ -49,6 +50,7 @@ It lists all advisor mapping files along with links to the corresponding Maven C
 | `org.testcontainers` | `kafka` | [Maven Central](https://central.sonatype.com/artifact/org.testcontainers/kafka) | [org.testcontainers_kafka](mappings/org.testcontainers_kafka) |
 | `org.testcontainers` | `mongodb` | [Maven Central](https://central.sonatype.com/artifact/org.testcontainers/mongodb) | [org.testcontainers_mongodb](mappings/org.testcontainers_mongodb) |
 | `org.testcontainers` | `testcontainers` | [Maven Central](https://central.sonatype.com/artifact/org.testcontainers/testcontainers) | [org.testcontainers_testcontainers](mappings/org.testcontainers_testcontainers) |
+| `org.webjars` | `webjars-locator-core` | [Maven Central](https://central.sonatype.com/artifact/org.webjars/webjars-locator-core) | [org.webjars_webjars-locator-core](mappings/org.webjars_webjars-locator-core) |
 | `org.zalando` | `logbook-core` | [Maven Central](https://central.sonatype.com/artifact/org.zalando/logbook-core) | [org.zalando_logbook-core](mappings/org.zalando_logbook-core) |
 | `org.zalando` | `logbook-json` | [Maven Central](https://central.sonatype.com/artifact/org.zalando/logbook-json) | [org.zalando_logbook-json](mappings/org.zalando_logbook-json) |
 | `org.zalando` | `logbook-spring` | [Maven Central](https://central.sonatype.com/artifact/org.zalando/logbook-spring) | [org.zalando_logbook-spring](mappings/org.zalando_logbook-spring) |

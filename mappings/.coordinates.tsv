@@ -47,3 +47,5 @@ io.swagger.core.v3:swagger-core	io.swagger.core.v3_swagger-core
 io.swagger.core.v3:swagger-models	io.swagger.core.v3_swagger-models
 io.cucumber:cucumber-junit	io.cucumber_cucumber-junit
 org.apache.commons:commons-text	org.apache.commons_commons-text
+com.squareup.okhttp3:mockwebserver	com.squareup.okhttp3_mockwebserver
+org.webjars:webjars-locator-core	org.webjars_webjars-locator-core
