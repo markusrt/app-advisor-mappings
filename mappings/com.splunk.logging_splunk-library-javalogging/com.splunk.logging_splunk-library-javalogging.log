@@ -1,0 +1,7 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for com.splunk.logging:splunk-library-javalogging [00m 00s]	🏃 [ 1 / 1 ] for com.splunk.logging:splunk-library-javalogging [00m 01s] ok
+
+		💔 No versions found. Please, check if your coordinate is correct and it is available in your Maven repositories.
+
+
+💔 No mappings created. Please, check if your project or coordinate is correct and it is available in your Maven repositories.
