@@ -1,0 +1,46 @@
+{
+  "slug": "webjars-locator-core-075691",
+  "coordinates": [
+    "com.squareup.okhttp3:mockwebserver",
+    "com.squareup.okhttp3:mockwebserver3"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "3.2.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.3.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "junit": "4.11.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.3.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "5.3.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "junit": "4.12.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "5.3.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "junit": "4.13.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}
