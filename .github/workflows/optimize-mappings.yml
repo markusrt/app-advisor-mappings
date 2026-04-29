@@ -2,6 +2,8 @@ name: Optimize Advisor Mappings
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
 
 concurrency:
   group: optimize-mappings
