@@ -1,0 +1,30 @@
+{
+  "slug": "jackson-databind-nullable-0e2eeb",
+  "coordinates": [
+    "org.openapitools:jackson-databind-nullable"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "0.1.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "0.2.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.9.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "0.2.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

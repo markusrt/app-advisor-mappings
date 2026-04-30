@@ -50,3 +50,8 @@ org.apache.commons:commons-text	org.apache.commons_commons-text
 com.squareup.okhttp3:mockwebserver	com.squareup.okhttp3_mockwebserver
 org.webjars:webjars-locator-core	org.webjars_webjars-locator-core
 com.splunk.logging:splunk-library-javalogging	com.splunk.logging_splunk-library-javalogging
+com.google.guava:guava-testlib	com.google.guava_guava-testlib
+net.javacrumbs.shedlock:shedlock-provider-mongo-reactivestreams	net.javacrumbs.shedlock_shedlock-provider-mongo-reactivestreams
+net.javacrumbs.shedlock:shedlock-spring	net.javacrumbs.shedlock_shedlock-spring
+org.apache.commons:commons-compress	org.apache.commons_commons-compress
+org.openapitools:jackson-databind-nullable	org.openapitools_jackson-databind-nullable

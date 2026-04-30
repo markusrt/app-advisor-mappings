@@ -1,0 +1,39 @@
+{
+  "slug": "commons-lang3-9fc6ab",
+  "coordinates": [
+    "org.apache.commons:commons-lang3"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "3.14.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "3.16.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "3.16.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "3.18.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "3.18.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

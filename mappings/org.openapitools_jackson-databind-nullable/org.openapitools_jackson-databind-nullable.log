@@ -1,0 +1,9 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for org.openapitools:jackson-databind-nullable [00m 00s]	🏃 [ 1 / 1 ] for org.openapitools:jackson-databind-nullable [00m 01s] ok
+
+		👍 Found 2 minor versions.
+
+		🏃 [ 1 / 2 ] Generating dependency tree for version 0.1.0 [00m 00s]		🏃 [ 1 / 2 ] Generating dependency tree for version 0.1.0 [00m 01s] ok
+		🏃 [ 2 / 2 ] Generating dependency tree for version 0.2.10 [00m 00s]		🏃 [ 2 / 2 ] Generating dependency tree for version 0.2.10 [00m 01s] ok
+
+🚀Created 1 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings
