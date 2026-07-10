@@ -1,0 +1,24 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for io.ktor:ktor-http [00m 00s]	🏃 [ 1 / 1 ] for io.ktor:ktor-http [00m 01s] ok
+
+		👍 Found 17 minor versions.
+
+		🏃 [ 1 / 17 ] Generating dependency tree for version 1.0.1 [00m 00s]		🏃 [ 1 / 17 ] Generating dependency tree for version 1.0.1 [00m 01s]		🏃 [ 1 / 17 ] Generating dependency tree for version 1.0.1 [00m 02s] ok
+		🏃 [ 2 / 17 ] Generating dependency tree for version 1.1.4 [00m 00s]		🏃 [ 2 / 17 ] Generating dependency tree for version 1.1.4 [00m 01s]		🏃 [ 2 / 17 ] Generating dependency tree for version 1.1.4 [00m 02s] ok
+		🏃 [ 3 / 17 ] Generating dependency tree for version 1.2.6 [00m 00s]		🏃 [ 3 / 17 ] Generating dependency tree for version 1.2.6 [00m 01s] ok
+		🏃 [ 4 / 17 ] Generating dependency tree for version 1.3.2-1.4.0-rc [00m 00s]		🏃 [ 4 / 17 ] Generating dependency tree for version 1.3.2-1.4.0-rc [00m 01s] ok
+		🏃 [ 5 / 17 ] Generating dependency tree for version 1.4.3 [00m 00s]		🏃 [ 5 / 17 ] Generating dependency tree for version 1.4.3 [00m 01s] ok
+		🏃 [ 6 / 17 ] Generating dependency tree for version 1.5.4 [00m 00s]		🏃 [ 6 / 17 ] Generating dependency tree for version 1.5.4 [00m 01s] ok
+		🏃 [ 7 / 17 ] Generating dependency tree for version 1.6.8 [00m 00s]		🏃 [ 7 / 17 ] Generating dependency tree for version 1.6.8 [00m 01s] ok
+		🏃 [ 8 / 17 ] Generating dependency tree for version 2.0.3 [00m 00s]		🏃 [ 8 / 17 ] Generating dependency tree for version 2.0.3 [00m 01s] ok
+		🏃 [ 9 / 17 ] Generating dependency tree for version 2.1.3 [00m 00s]		🏃 [ 9 / 17 ] Generating dependency tree for version 2.1.3 [00m 01s] ok
+		🏃 [ 10 / 17 ] Generating dependency tree for version 2.2.4 [00m 00s]		🏃 [ 10 / 17 ] Generating dependency tree for version 2.2.4 [00m 01s] ok
+		🏃 [ 11 / 17 ] Generating dependency tree for version 2.3.13 [00m 00s]		🏃 [ 11 / 17 ] Generating dependency tree for version 2.3.13 [00m 01s] ok
+		🏃 [ 12 / 17 ] Generating dependency tree for version 3.0.3 [00m 00s]		🏃 [ 12 / 17 ] Generating dependency tree for version 3.0.3 [00m 01s] ok
+		🏃 [ 13 / 17 ] Generating dependency tree for version 3.1.3 [00m 00s]		🏃 [ 13 / 17 ] Generating dependency tree for version 3.1.3 [00m 01s] ok
+		🏃 [ 14 / 17 ] Generating dependency tree for version 3.2.4 [00m 00s]		🏃 [ 14 / 17 ] Generating dependency tree for version 3.2.4 [00m 01s] ok
+		🏃 [ 15 / 17 ] Generating dependency tree for version 3.3.3 [00m 00s]		🏃 [ 15 / 17 ] Generating dependency tree for version 3.3.3 [00m 01s] ok
+		🏃 [ 16 / 17 ] Generating dependency tree for version 3.4.3 [00m 00s]		🏃 [ 16 / 17 ] Generating dependency tree for version 3.4.3 [00m 01s] ok
+		🏃 [ 17 / 17 ] Generating dependency tree for version 3.5.1 [00m 00s]		🏃 [ 17 / 17 ] Generating dependency tree for version 3.5.1 [00m 01s] ok
+
+🚀Created 1 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings

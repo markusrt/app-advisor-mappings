@@ -1,0 +1,17 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for com.gruelbox:transactionoutbox-jackson [00m 00s]	🏃 [ 1 / 1 ] for com.gruelbox:transactionoutbox-jackson [00m 01s] ok
+
+		👍 Found 10 minor versions.
+
+		🏃 [ 1 / 10 ] Generating dependency tree for version 4.3.281 [00m 00s]		🏃 [ 1 / 10 ] Generating dependency tree for version 4.3.281 [00m 01s]		🏃 [ 1 / 10 ] Generating dependency tree for version 4.3.281 [00m 02s] ok
+		🏃 [ 2 / 10 ] Generating dependency tree for version 5.1.300 [00m 00s]		🏃 [ 2 / 10 ] Generating dependency tree for version 5.1.300 [00m 01s]		🏃 [ 2 / 10 ] Generating dependency tree for version 5.1.300 [00m 02s] ok
+		🏃 [ 3 / 10 ] Generating dependency tree for version 5.2.360 [00m 00s]		🏃 [ 3 / 10 ] Generating dependency tree for version 5.2.360 [00m 01s]		🏃 [ 3 / 10 ] Generating dependency tree for version 5.2.360 [00m 02s] ok
+		🏃 [ 4 / 10 ] Generating dependency tree for version 5.3.370 [00m 00s]		🏃 [ 4 / 10 ] Generating dependency tree for version 5.3.370 [00m 01s]		🏃 [ 4 / 10 ] Generating dependency tree for version 5.3.370 [00m 02s] ok
+		🏃 [ 5 / 10 ] Generating dependency tree for version 5.4.421 [00m 00s]		🏃 [ 5 / 10 ] Generating dependency tree for version 5.4.421 [00m 01s]		🏃 [ 5 / 10 ] Generating dependency tree for version 5.4.421 [00m 02s] ok
+		🏃 [ 6 / 10 ] Generating dependency tree for version 5.5.447 [00m 00s]		🏃 [ 6 / 10 ] Generating dependency tree for version 5.5.447 [00m 01s]		🏃 [ 6 / 10 ] Generating dependency tree for version 5.5.447 [00m 02s] ok
+		🏃 [ 7 / 10 ] Generating dependency tree for version 6.0.609 [00m 00s]		🏃 [ 7 / 10 ] Generating dependency tree for version 6.0.609 [00m 01s]		🏃 [ 7 / 10 ] Generating dependency tree for version 6.0.609 [00m 02s] ok
+		🏃 [ 8 / 10 ] Generating dependency tree for version 6.1.653 [00m 00s]		🏃 [ 8 / 10 ] Generating dependency tree for version 6.1.653 [00m 01s] ok
+		🏃 [ 9 / 10 ] Generating dependency tree for version 6.2.683 [00m 00s]		🏃 [ 9 / 10 ] Generating dependency tree for version 6.2.683 [00m 01s]		🏃 [ 9 / 10 ] Generating dependency tree for version 6.2.683 [00m 02s] ok
+		🏃 [ 10 / 10 ] Generating dependency tree for version 7.0.707 [00m 00s]		🏃 [ 10 / 10 ] Generating dependency tree for version 7.0.707 [00m 01s] ok
+
+🚀Created 1 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings

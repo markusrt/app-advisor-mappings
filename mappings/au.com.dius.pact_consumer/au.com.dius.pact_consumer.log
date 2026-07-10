@@ -1,0 +1,14 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for au.com.dius.pact:consumer [00m 00s]	🏃 [ 1 / 1 ] for au.com.dius.pact:consumer [00m 01s] ok
+
+		👍 Found 7 minor versions.
+
+		🏃 [ 1 / 7 ] Generating dependency tree for version 4.1.43 [00m 00s]		🏃 [ 1 / 7 ] Generating dependency tree for version 4.1.43 [00m 01s]		🏃 [ 1 / 7 ] Generating dependency tree for version 4.1.43 [00m 02s]		🏃 [ 1 / 7 ] Generating dependency tree for version 4.1.43 [00m 03s] ok
+		🏃 [ 2 / 7 ] Generating dependency tree for version 4.2.21 [00m 00s]		🏃 [ 2 / 7 ] Generating dependency tree for version 4.2.21 [00m 01s] ok
+		🏃 [ 3 / 7 ] Generating dependency tree for version 4.3.19 [00m 00s]		🏃 [ 3 / 7 ] Generating dependency tree for version 4.3.19 [00m 01s]		🏃 [ 3 / 7 ] Generating dependency tree for version 4.3.19 [00m 02s] ok
+		🏃 [ 4 / 7 ] Generating dependency tree for version 4.4.9 [00m 00s]		🏃 [ 4 / 7 ] Generating dependency tree for version 4.4.9 [00m 01s]		🏃 [ 4 / 7 ] Generating dependency tree for version 4.4.9 [00m 02s] ok
+		🏃 [ 5 / 7 ] Generating dependency tree for version 4.5.14 [00m 00s]		🏃 [ 5 / 7 ] Generating dependency tree for version 4.5.14 [00m 01s]		🏃 [ 5 / 7 ] Generating dependency tree for version 4.5.14 [00m 02s] ok
+		🏃 [ 6 / 7 ] Generating dependency tree for version 4.6.21 [00m 00s]		🏃 [ 6 / 7 ] Generating dependency tree for version 4.6.21 [00m 01s]		🏃 [ 6 / 7 ] Generating dependency tree for version 4.6.21 [00m 02s] ok
+		🏃 [ 7 / 7 ] Generating dependency tree for version 4.7.3 [00m 00s]		🏃 [ 7 / 7 ] Generating dependency tree for version 4.7.3 [00m 01s]		🏃 [ 7 / 7 ] Generating dependency tree for version 4.7.3 [00m 02s] ok
+
+🚀Created 5 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings

@@ -1,0 +1,469 @@
+{
+  "slug": "opentelemetry-jdbc-653ff2",
+  "coordinates": [
+    "io.opentelemetry.instrumentation:opentelemetry-jdbc"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.32.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.33.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.32.x",
+          "opentelemetry-reactor-3.1": "1.32.x",
+          "opentelemetry-spring-web-3.1": "1.32.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.33.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.0.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.33.x",
+          "opentelemetry-reactor-3.1": "1.33.x",
+          "opentelemetry-spring-web-3.1": "1.33.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.0.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.1.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.0.x",
+          "opentelemetry-reactor-3.1": "2.0.x",
+          "opentelemetry-spring-web-3.1": "2.0.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.1.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.2.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.1.x",
+          "opentelemetry-reactor-3.1": "2.1.x",
+          "opentelemetry-spring-web-3.1": "2.1.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.2.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.3.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.2.x",
+          "opentelemetry-reactor-3.1": "2.2.x",
+          "opentelemetry-spring-web-3.1": "2.2.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.3.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.4.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.3.x",
+          "opentelemetry-reactor-3.1": "2.3.x",
+          "opentelemetry-spring-web-3.1": "2.3.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.4.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.5.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.4.x",
+          "opentelemetry-reactor-3.1": "2.4.x",
+          "opentelemetry-spring-web-3.1": "2.4.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.5.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.6.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.5.x",
+          "opentelemetry-reactor-3.1": "2.5.x",
+          "opentelemetry-spring-web-3.1": "2.5.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.6.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.7.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.6.x",
+          "opentelemetry-reactor-3.1": "2.6.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.7.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.8.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.7.x",
+          "opentelemetry-reactor-3.1": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.8.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.9.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.8.x",
+          "opentelemetry-reactor-3.1": "2.8.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.9.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.10.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.9.x",
+          "opentelemetry-reactor-3.1": "2.9.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.10.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.11.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.10.x",
+          "opentelemetry-reactor-3.1": "2.10.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.11.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.12.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.11.x",
+          "opentelemetry-reactor-3.1": "2.11.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.12.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.13.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.12.x",
+          "opentelemetry-reactor-3.1": "2.12.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.13.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.14.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.13.x",
+          "opentelemetry-reactor-3.1": "2.13.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.14.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.15.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.14.x",
+          "opentelemetry-reactor-3.1": "2.14.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.15.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.16.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.15.x",
+          "opentelemetry-reactor-3.1": "2.15.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.16.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.17.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.16.x",
+          "opentelemetry-reactor-3.1": "2.16.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.17.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.18.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.17.x",
+          "opentelemetry-reactor-3.1": "2.17.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.18.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.19.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.18.x",
+          "opentelemetry-reactor-3.1": "2.18.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.19.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.20.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.19.x",
+          "opentelemetry-reactor-3.1": "2.19.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.20.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.21.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.20.x",
+          "opentelemetry-reactor-3.1": "2.20.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.21.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.22.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.21.x",
+          "opentelemetry-reactor-3.1": "2.21.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.22.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.23.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.22.x",
+          "opentelemetry-reactor-3.1": "2.22.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.23.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.24.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.23.x",
+          "opentelemetry-reactor-3.1": "2.23.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.24.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.25.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.24.x",
+          "opentelemetry-reactor-3.1": "2.24.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.25.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.26.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.25.x",
+          "opentelemetry-reactor-3.1": "2.25.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.26.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.27.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.26.x",
+          "opentelemetry-reactor-3.1": "2.26.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.27.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.28.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.27.x",
+          "opentelemetry-reactor-3.1": "2.27.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.28.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.29.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.28.x",
+          "opentelemetry-reactor-3.1": "2.28.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.29.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.29.x",
+          "opentelemetry-reactor-3.1": "2.29.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

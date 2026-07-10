@@ -1,0 +1,1040 @@
+{
+  "slug": "opentelemetry-spring-boot-starter-a38c3a",
+  "coordinates": [
+    "io.opentelemetry.instrumentation:opentelemetry-spring-boot-starter"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.17.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.18.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.17.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.18.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.19.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.18.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.19.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.20.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.19.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.20.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.21.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.20.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.21.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.22.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.21.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.22.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.23.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.22.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.23.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.24.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.23.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.24.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.25.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.24.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.25.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.26.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.25.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.26.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.27.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.26.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.27.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.28.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.27.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.28.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.29.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.28.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.29.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.30.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.29.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.30.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.31.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.30.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.31.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.32.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.31.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.32.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.33.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.32.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.33.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.0.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "1.33.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.0.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.1.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-spring-boot": "2.0.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.1.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.2.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-resources": "2.1.x",
+          "opentelemetry-spring-boot": "2.1.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.2.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.3.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-resources": "2.2.x",
+          "opentelemetry-spring-boot": "2.2.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.3.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.4.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-resources": "2.3.x",
+          "opentelemetry-spring-boot": "2.3.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.4.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.5.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-resources": "2.4.x",
+          "opentelemetry-spring-boot": "2.4.x",
+          "opentelemetry-spring-boot-3": "2.4.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.5.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.6.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-resources": "2.5.x",
+          "opentelemetry-spring-boot": "2.5.x",
+          "opentelemetry-spring-boot-3": "2.5.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.6.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.7.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-annotations-support": "2.6.x",
+          "opentelemetry-instrumentation-api-incubator": "2.6.x",
+          "opentelemetry-jdbc": "2.6.x",
+          "opentelemetry-kafka-clients-2.6": "2.6.x",
+          "opentelemetry-log4j-appender-2.17": "2.6.x",
+          "opentelemetry-logback-appender-1.0": "2.6.x",
+          "opentelemetry-micrometer-1.5": "2.6.x",
+          "opentelemetry-mongo-3.1": "2.6.x",
+          "opentelemetry-resources": "2.6.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.6.x",
+          "opentelemetry-spring-kafka-2.7": "2.6.x",
+          "opentelemetry-spring-web-3.1": "2.6.x",
+          "opentelemetry-spring-webflux-5.3": "2.6.x",
+          "opentelemetry-spring-webmvc-5.3": "2.6.x",
+          "opentelemetry-spring-webmvc-6.0": "2.6.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.7.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.8.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-annotations-support": "2.7.x",
+          "opentelemetry-instrumentation-api-incubator": "2.7.x",
+          "opentelemetry-jdbc": "2.7.x",
+          "opentelemetry-kafka-clients-2.6": "2.7.x",
+          "opentelemetry-log4j-appender-2.17": "2.7.x",
+          "opentelemetry-logback-appender-1.0": "2.7.x",
+          "opentelemetry-micrometer-1.5": "2.7.x",
+          "opentelemetry-mongo-3.1": "2.7.x",
+          "opentelemetry-resources": "2.7.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.7.x",
+          "opentelemetry-spring-kafka-2.7": "2.7.x",
+          "opentelemetry-spring-web-3.1": "2.7.x",
+          "opentelemetry-spring-webflux-5.3": "2.7.x",
+          "opentelemetry-spring-webmvc-5.3": "2.7.x",
+          "opentelemetry-spring-webmvc-6.0": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.8.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.9.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-annotations-support": "2.8.x",
+          "opentelemetry-instrumentation-api-incubator": "2.8.x",
+          "opentelemetry-jdbc": "2.8.x",
+          "opentelemetry-kafka-clients-2.6": "2.8.x",
+          "opentelemetry-log4j-appender-2.17": "2.8.x",
+          "opentelemetry-logback-appender-1.0": "2.8.x",
+          "opentelemetry-micrometer-1.5": "2.8.x",
+          "opentelemetry-mongo-3.1": "2.8.x",
+          "opentelemetry-resources": "2.8.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.8.x",
+          "opentelemetry-spring-kafka-2.7": "2.8.x",
+          "opentelemetry-spring-web-3.1": "2.8.x",
+          "opentelemetry-spring-webflux-5.3": "2.8.x",
+          "opentelemetry-spring-webmvc-5.3": "2.8.x",
+          "opentelemetry-spring-webmvc-6.0": "2.8.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.9.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.10.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-annotations-support": "2.9.x",
+          "opentelemetry-instrumentation-api-incubator": "2.9.x",
+          "opentelemetry-jdbc": "2.9.x",
+          "opentelemetry-kafka-clients-2.6": "2.9.x",
+          "opentelemetry-log4j-appender-2.17": "2.9.x",
+          "opentelemetry-logback-appender-1.0": "2.9.x",
+          "opentelemetry-micrometer-1.5": "2.9.x",
+          "opentelemetry-mongo-3.1": "2.9.x",
+          "opentelemetry-resources": "2.9.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.9.x",
+          "opentelemetry-spring-kafka-2.7": "2.9.x",
+          "opentelemetry-spring-web-3.1": "2.9.x",
+          "opentelemetry-spring-webflux-5.3": "2.9.x",
+          "opentelemetry-spring-webmvc-5.3": "2.9.x",
+          "opentelemetry-spring-webmvc-6.0": "2.9.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.10.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.11.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-annotations-support": "2.10.x",
+          "opentelemetry-instrumentation-api-incubator": "2.10.x",
+          "opentelemetry-jdbc": "2.10.x",
+          "opentelemetry-kafka-clients-2.6": "2.10.x",
+          "opentelemetry-log4j-appender-2.17": "2.10.x",
+          "opentelemetry-logback-appender-1.0": "2.10.x",
+          "opentelemetry-logback-mdc-1.0": "2.10.x",
+          "opentelemetry-micrometer-1.5": "2.10.x",
+          "opentelemetry-mongo-3.1": "2.10.x",
+          "opentelemetry-resources": "2.10.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.10.x",
+          "opentelemetry-spring-kafka-2.7": "2.10.x",
+          "opentelemetry-spring-web-3.1": "2.10.x",
+          "opentelemetry-spring-webflux-5.3": "2.10.x",
+          "opentelemetry-spring-webmvc-5.3": "2.10.x",
+          "opentelemetry-spring-webmvc-6.0": "2.10.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.11.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.12.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-annotations-support": "2.11.x",
+          "opentelemetry-instrumentation-api-incubator": "2.11.x",
+          "opentelemetry-jdbc": "2.11.x",
+          "opentelemetry-kafka-clients-2.6": "2.11.x",
+          "opentelemetry-log4j-appender-2.17": "2.11.x",
+          "opentelemetry-logback-appender-1.0": "2.11.x",
+          "opentelemetry-logback-mdc-1.0": "2.11.x",
+          "opentelemetry-micrometer-1.5": "2.11.x",
+          "opentelemetry-mongo-3.1": "2.11.x",
+          "opentelemetry-resources": "2.11.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.11.x",
+          "opentelemetry-spring-kafka-2.7": "2.11.x",
+          "opentelemetry-spring-web-3.1": "2.11.x",
+          "opentelemetry-spring-webflux-5.3": "2.11.x",
+          "opentelemetry-spring-webmvc-5.3": "2.11.x",
+          "opentelemetry-spring-webmvc-6.0": "2.11.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.12.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.13.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-annotations-support": "2.12.x",
+          "opentelemetry-instrumentation-api-incubator": "2.12.x",
+          "opentelemetry-jdbc": "2.12.x",
+          "opentelemetry-kafka-clients-2.6": "2.12.x",
+          "opentelemetry-log4j-appender-2.17": "2.12.x",
+          "opentelemetry-logback-appender-1.0": "2.12.x",
+          "opentelemetry-logback-mdc-1.0": "2.12.x",
+          "opentelemetry-micrometer-1.5": "2.12.x",
+          "opentelemetry-mongo-3.1": "2.12.x",
+          "opentelemetry-resources": "2.12.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.12.x",
+          "opentelemetry-spring-kafka-2.7": "2.12.x",
+          "opentelemetry-spring-web-3.1": "2.12.x",
+          "opentelemetry-spring-webflux-5.3": "2.12.x",
+          "opentelemetry-spring-webmvc-5.3": "2.12.x",
+          "opentelemetry-spring-webmvc-6.0": "2.12.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.13.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.14.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-annotations-support": "2.13.x",
+          "opentelemetry-instrumentation-api-incubator": "2.13.x",
+          "opentelemetry-jdbc": "2.13.x",
+          "opentelemetry-kafka-clients-2.6": "2.13.x",
+          "opentelemetry-log4j-appender-2.17": "2.13.x",
+          "opentelemetry-logback-appender-1.0": "2.13.x",
+          "opentelemetry-logback-mdc-1.0": "2.13.x",
+          "opentelemetry-micrometer-1.5": "2.13.x",
+          "opentelemetry-mongo-3.1": "2.13.x",
+          "opentelemetry-resources": "2.13.x",
+          "opentelemetry-runtime-telemetry-java17": "2.13.x",
+          "opentelemetry-runtime-telemetry-java8": "2.13.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.13.x",
+          "opentelemetry-spring-kafka-2.7": "2.13.x",
+          "opentelemetry-spring-web-3.1": "2.13.x",
+          "opentelemetry-spring-webflux-5.3": "2.13.x",
+          "opentelemetry-spring-webmvc-5.3": "2.13.x",
+          "opentelemetry-spring-webmvc-6.0": "2.13.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.14.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.15.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-annotations-support": "2.14.x",
+          "opentelemetry-instrumentation-api-incubator": "2.14.x",
+          "opentelemetry-jdbc": "2.14.x",
+          "opentelemetry-kafka-clients-2.6": "2.14.x",
+          "opentelemetry-log4j-appender-2.17": "2.14.x",
+          "opentelemetry-logback-appender-1.0": "2.14.x",
+          "opentelemetry-logback-mdc-1.0": "2.14.x",
+          "opentelemetry-micrometer-1.5": "2.14.x",
+          "opentelemetry-mongo-3.1": "2.14.x",
+          "opentelemetry-resources": "2.14.x",
+          "opentelemetry-runtime-telemetry-java17": "2.14.x",
+          "opentelemetry-runtime-telemetry-java8": "2.14.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.14.x",
+          "opentelemetry-spring-kafka-2.7": "2.14.x",
+          "opentelemetry-spring-web-3.1": "2.14.x",
+          "opentelemetry-spring-webflux-5.3": "2.14.x",
+          "opentelemetry-spring-webmvc-5.3": "2.14.x",
+          "opentelemetry-spring-webmvc-6.0": "2.14.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.15.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.16.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-annotations-support": "2.15.x",
+          "opentelemetry-instrumentation-api-incubator": "2.15.x",
+          "opentelemetry-jdbc": "2.15.x",
+          "opentelemetry-kafka-clients-2.6": "2.15.x",
+          "opentelemetry-log4j-appender-2.17": "2.15.x",
+          "opentelemetry-logback-appender-1.0": "2.15.x",
+          "opentelemetry-logback-mdc-1.0": "2.15.x",
+          "opentelemetry-micrometer-1.5": "2.15.x",
+          "opentelemetry-mongo-3.1": "2.15.x",
+          "opentelemetry-resources": "2.15.x",
+          "opentelemetry-runtime-telemetry-java17": "2.15.x",
+          "opentelemetry-runtime-telemetry-java8": "2.15.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.15.x",
+          "opentelemetry-spring-kafka-2.7": "2.15.x",
+          "opentelemetry-spring-web-3.1": "2.15.x",
+          "opentelemetry-spring-webflux-5.3": "2.15.x",
+          "opentelemetry-spring-webmvc-5.3": "2.15.x",
+          "opentelemetry-spring-webmvc-6.0": "2.15.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.16.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.17.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-annotations-support": "2.16.x",
+          "opentelemetry-instrumentation-api-incubator": "2.16.x",
+          "opentelemetry-jdbc": "2.16.x",
+          "opentelemetry-kafka-clients-2.6": "2.16.x",
+          "opentelemetry-log4j-appender-2.17": "2.16.x",
+          "opentelemetry-logback-appender-1.0": "2.16.x",
+          "opentelemetry-logback-mdc-1.0": "2.16.x",
+          "opentelemetry-micrometer-1.5": "2.16.x",
+          "opentelemetry-mongo-3.1": "2.16.x",
+          "opentelemetry-resources": "2.16.x",
+          "opentelemetry-runtime-telemetry-java17": "2.16.x",
+          "opentelemetry-runtime-telemetry-java8": "2.16.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.16.x",
+          "opentelemetry-spring-kafka-2.7": "2.16.x",
+          "opentelemetry-spring-web-3.1": "2.16.x",
+          "opentelemetry-spring-webflux-5.3": "2.16.x",
+          "opentelemetry-spring-webmvc-5.3": "2.16.x",
+          "opentelemetry-spring-webmvc-6.0": "2.16.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.17.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.18.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-annotations-support": "2.17.x",
+          "opentelemetry-instrumentation-api-incubator": "2.17.x",
+          "opentelemetry-jdbc": "2.17.x",
+          "opentelemetry-kafka-clients-2.6": "2.17.x",
+          "opentelemetry-log4j-appender-2.17": "2.17.x",
+          "opentelemetry-logback-appender-1.0": "2.17.x",
+          "opentelemetry-logback-mdc-1.0": "2.17.x",
+          "opentelemetry-micrometer-1.5": "2.17.x",
+          "opentelemetry-mongo-3.1": "2.17.x",
+          "opentelemetry-resources": "2.17.x",
+          "opentelemetry-runtime-telemetry-java17": "2.17.x",
+          "opentelemetry-runtime-telemetry-java8": "2.17.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.17.x",
+          "opentelemetry-spring-kafka-2.7": "2.17.x",
+          "opentelemetry-spring-web-3.1": "2.17.x",
+          "opentelemetry-spring-webflux-5.3": "2.17.x",
+          "opentelemetry-spring-webmvc-5.3": "2.17.x",
+          "opentelemetry-spring-webmvc-6.0": "2.17.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.18.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.19.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-annotations-support": "2.18.x",
+          "opentelemetry-instrumentation-api-incubator": "2.18.x",
+          "opentelemetry-jdbc": "2.18.x",
+          "opentelemetry-kafka-clients-2.6": "2.18.x",
+          "opentelemetry-log4j-appender-2.17": "2.18.x",
+          "opentelemetry-logback-appender-1.0": "2.18.x",
+          "opentelemetry-logback-mdc-1.0": "2.18.x",
+          "opentelemetry-micrometer-1.5": "2.18.x",
+          "opentelemetry-mongo-3.1": "2.18.x",
+          "opentelemetry-resources": "2.18.x",
+          "opentelemetry-runtime-telemetry-java17": "2.18.x",
+          "opentelemetry-runtime-telemetry-java8": "2.18.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.18.x",
+          "opentelemetry-spring-kafka-2.7": "2.18.x",
+          "opentelemetry-spring-web-3.1": "2.18.x",
+          "opentelemetry-spring-webflux-5.3": "2.18.x",
+          "opentelemetry-spring-webmvc-5.3": "2.18.x",
+          "opentelemetry-spring-webmvc-6.0": "2.18.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.19.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.20.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-annotations-support": "2.19.x",
+          "opentelemetry-instrumentation-api-incubator": "2.19.x",
+          "opentelemetry-jdbc": "2.19.x",
+          "opentelemetry-kafka-clients-2.6": "2.19.x",
+          "opentelemetry-log4j-appender-2.17": "2.19.x",
+          "opentelemetry-logback-appender-1.0": "2.19.x",
+          "opentelemetry-logback-mdc-1.0": "2.19.x",
+          "opentelemetry-micrometer-1.5": "2.19.x",
+          "opentelemetry-mongo-3.1": "2.19.x",
+          "opentelemetry-resources": "2.19.x",
+          "opentelemetry-runtime-telemetry-java17": "2.19.x",
+          "opentelemetry-runtime-telemetry-java8": "2.19.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.19.x",
+          "opentelemetry-spring-kafka-2.7": "2.19.x",
+          "opentelemetry-spring-web-3.1": "2.19.x",
+          "opentelemetry-spring-webflux-5.3": "2.19.x",
+          "opentelemetry-spring-webmvc-5.3": "2.19.x",
+          "opentelemetry-spring-webmvc-6.0": "2.19.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.20.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.21.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-annotations-support": "2.20.x",
+          "opentelemetry-instrumentation-api-incubator": "2.20.x",
+          "opentelemetry-jdbc": "2.20.x",
+          "opentelemetry-kafka-clients-2.6": "2.20.x",
+          "opentelemetry-log4j-appender-2.17": "2.20.x",
+          "opentelemetry-logback-appender-1.0": "2.20.x",
+          "opentelemetry-logback-mdc-1.0": "2.20.x",
+          "opentelemetry-micrometer-1.5": "2.20.x",
+          "opentelemetry-mongo-3.1": "2.20.x",
+          "opentelemetry-resources": "2.20.x",
+          "opentelemetry-runtime-telemetry-java17": "2.20.x",
+          "opentelemetry-runtime-telemetry-java8": "2.20.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.20.x",
+          "opentelemetry-spring-kafka-2.7": "2.20.x",
+          "opentelemetry-spring-web-3.1": "2.20.x",
+          "opentelemetry-spring-webflux-5.3": "2.20.x",
+          "opentelemetry-spring-webmvc-5.3": "2.20.x",
+          "opentelemetry-spring-webmvc-6.0": "2.20.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.21.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.22.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-annotations-support": "2.21.x",
+          "opentelemetry-instrumentation-api-incubator": "2.21.x",
+          "opentelemetry-jdbc": "2.21.x",
+          "opentelemetry-kafka-clients-2.6": "2.21.x",
+          "opentelemetry-log4j-appender-2.17": "2.21.x",
+          "opentelemetry-logback-appender-1.0": "2.21.x",
+          "opentelemetry-logback-mdc-1.0": "2.21.x",
+          "opentelemetry-micrometer-1.5": "2.21.x",
+          "opentelemetry-mongo-3.1": "2.21.x",
+          "opentelemetry-resources": "2.21.x",
+          "opentelemetry-runtime-telemetry-java17": "2.21.x",
+          "opentelemetry-runtime-telemetry-java8": "2.21.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.21.x",
+          "opentelemetry-spring-kafka-2.7": "2.21.x",
+          "opentelemetry-spring-web-3.1": "2.21.x",
+          "opentelemetry-spring-webflux-5.3": "2.21.x",
+          "opentelemetry-spring-webmvc-5.3": "2.21.x",
+          "opentelemetry-spring-webmvc-6.0": "2.21.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.22.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.23.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-declarative-config-bridge": "2.22.x",
+          "opentelemetry-instrumentation-annotations-support": "2.22.x",
+          "opentelemetry-instrumentation-api-incubator": "2.22.x",
+          "opentelemetry-jdbc": "2.22.x",
+          "opentelemetry-kafka-clients-2.6": "2.22.x",
+          "opentelemetry-log4j-appender-2.17": "2.22.x",
+          "opentelemetry-logback-appender-1.0": "2.22.x",
+          "opentelemetry-logback-mdc-1.0": "2.22.x",
+          "opentelemetry-micrometer-1.5": "2.22.x",
+          "opentelemetry-mongo-3.1": "2.22.x",
+          "opentelemetry-resources": "2.22.x",
+          "opentelemetry-runtime-telemetry-java17": "2.22.x",
+          "opentelemetry-runtime-telemetry-java8": "2.22.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.22.x",
+          "opentelemetry-spring-kafka-2.7": "2.22.x",
+          "opentelemetry-spring-web-3.1": "2.22.x",
+          "opentelemetry-spring-webflux-5.3": "2.22.x",
+          "opentelemetry-spring-webmvc-5.3": "2.22.x",
+          "opentelemetry-spring-webmvc-6.0": "2.22.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.23.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.24.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-declarative-config-bridge": "2.23.x",
+          "opentelemetry-instrumentation-annotations-support": "2.23.x",
+          "opentelemetry-instrumentation-api-incubator": "2.23.x",
+          "opentelemetry-jdbc": "2.23.x",
+          "opentelemetry-kafka-clients-2.6": "2.23.x",
+          "opentelemetry-log4j-appender-2.17": "2.23.x",
+          "opentelemetry-logback-appender-1.0": "2.23.x",
+          "opentelemetry-logback-mdc-1.0": "2.23.x",
+          "opentelemetry-micrometer-1.5": "2.23.x",
+          "opentelemetry-mongo-3.1": "2.23.x",
+          "opentelemetry-resources": "2.23.x",
+          "opentelemetry-runtime-telemetry-java17": "2.23.x",
+          "opentelemetry-runtime-telemetry-java8": "2.23.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.23.x",
+          "opentelemetry-spring-kafka-2.7": "2.23.x",
+          "opentelemetry-spring-web-3.1": "2.23.x",
+          "opentelemetry-spring-webflux-5.3": "2.23.x",
+          "opentelemetry-spring-webmvc-5.3": "2.23.x",
+          "opentelemetry-spring-webmvc-6.0": "2.23.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.24.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.25.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-declarative-config-bridge": "2.24.x",
+          "opentelemetry-instrumentation-annotations-support": "2.24.x",
+          "opentelemetry-instrumentation-api-incubator": "2.24.x",
+          "opentelemetry-jdbc": "2.24.x",
+          "opentelemetry-kafka-clients-2.6": "2.24.x",
+          "opentelemetry-log4j-appender-2.17": "2.24.x",
+          "opentelemetry-logback-appender-1.0": "2.24.x",
+          "opentelemetry-logback-mdc-1.0": "2.24.x",
+          "opentelemetry-micrometer-1.5": "2.24.x",
+          "opentelemetry-mongo-3.1": "2.24.x",
+          "opentelemetry-resources": "2.24.x",
+          "opentelemetry-runtime-telemetry-java17": "2.24.x",
+          "opentelemetry-runtime-telemetry-java8": "2.24.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.24.x",
+          "opentelemetry-spring-kafka-2.7": "2.24.x",
+          "opentelemetry-spring-web-3.1": "2.24.x",
+          "opentelemetry-spring-webflux-5.3": "2.24.x",
+          "opentelemetry-spring-webmvc-5.3": "2.24.x",
+          "opentelemetry-spring-webmvc-6.0": "2.24.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.25.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.26.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-declarative-config-bridge": "2.25.x",
+          "opentelemetry-instrumentation-annotations-support": "2.25.x",
+          "opentelemetry-instrumentation-api-incubator": "2.25.x",
+          "opentelemetry-jdbc": "2.25.x",
+          "opentelemetry-kafka-clients-2.6": "2.25.x",
+          "opentelemetry-log4j-appender-2.17": "2.25.x",
+          "opentelemetry-logback-appender-1.0": "2.25.x",
+          "opentelemetry-logback-mdc-1.0": "2.25.x",
+          "opentelemetry-micrometer-1.5": "2.25.x",
+          "opentelemetry-mongo-3.1": "2.25.x",
+          "opentelemetry-resources": "2.25.x",
+          "opentelemetry-runtime-telemetry-java17": "2.25.x",
+          "opentelemetry-runtime-telemetry-java8": "2.25.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.25.x",
+          "opentelemetry-spring-kafka-2.7": "2.25.x",
+          "opentelemetry-spring-web-3.1": "2.25.x",
+          "opentelemetry-spring-webflux-5.3": "2.25.x",
+          "opentelemetry-spring-webmvc-5.3": "2.25.x",
+          "opentelemetry-spring-webmvc-6.0": "2.25.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.26.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.27.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-declarative-config-bridge": "2.26.x",
+          "opentelemetry-instrumentation-annotations-support": "2.26.x",
+          "opentelemetry-instrumentation-api-incubator": "2.26.x",
+          "opentelemetry-jdbc": "2.26.x",
+          "opentelemetry-kafka-clients-2.6": "2.26.x",
+          "opentelemetry-log4j-appender-2.17": "2.26.x",
+          "opentelemetry-logback-appender-1.0": "2.26.x",
+          "opentelemetry-logback-mdc-1.0": "2.26.x",
+          "opentelemetry-micrometer-1.5": "2.26.x",
+          "opentelemetry-mongo-3.1": "2.26.x",
+          "opentelemetry-resources": "2.26.x",
+          "opentelemetry-runtime-telemetry": "2.26.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.26.x",
+          "opentelemetry-spring-kafka-2.7": "2.26.x",
+          "opentelemetry-spring-web-3.1": "2.26.x",
+          "opentelemetry-spring-webflux-5.3": "2.26.x",
+          "opentelemetry-spring-webmvc-5.3": "2.26.x",
+          "opentelemetry-spring-webmvc-6.0": "2.26.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.27.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.28.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-declarative-config-bridge": "2.27.x",
+          "opentelemetry-instrumentation-annotations-support": "2.27.x",
+          "opentelemetry-instrumentation-api-incubator": "2.27.x",
+          "opentelemetry-jdbc": "2.27.x",
+          "opentelemetry-kafka-clients-2.6": "2.27.x",
+          "opentelemetry-log4j-appender-2.17": "2.27.x",
+          "opentelemetry-logback-appender-1.0": "2.27.x",
+          "opentelemetry-logback-mdc-1.0": "2.27.x",
+          "opentelemetry-micrometer-1.5": "2.27.x",
+          "opentelemetry-mongo-3.1": "2.27.x",
+          "opentelemetry-resources": "2.27.x",
+          "opentelemetry-runtime-telemetry": "2.27.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.27.x",
+          "opentelemetry-spring-kafka-2.7": "2.27.x",
+          "opentelemetry-spring-web-3.1": "2.27.x",
+          "opentelemetry-spring-webflux-5.3": "2.27.x",
+          "opentelemetry-spring-webmvc-5.3": "2.27.x",
+          "opentelemetry-spring-webmvc-6.0": "2.27.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.28.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.29.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-declarative-config-bridge": "2.28.x",
+          "opentelemetry-instrumentation-annotations-support": "2.28.x",
+          "opentelemetry-instrumentation-api-incubator": "2.28.x",
+          "opentelemetry-jdbc": "2.28.x",
+          "opentelemetry-kafka-clients-2.6": "2.28.x",
+          "opentelemetry-log4j-appender-2.17": "2.28.x",
+          "opentelemetry-logback-appender-1.0": "2.28.x",
+          "opentelemetry-logback-mdc-1.0": "2.28.x",
+          "opentelemetry-micrometer-1.5": "2.28.x",
+          "opentelemetry-mongo-3.1": "2.28.x",
+          "opentelemetry-resources": "2.28.x",
+          "opentelemetry-runtime-telemetry": "2.28.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.28.x",
+          "opentelemetry-spring-kafka-2.7": "2.28.x",
+          "opentelemetry-spring-web-3.1": "2.28.x",
+          "opentelemetry-spring-webflux-5.3": "2.28.x",
+          "opentelemetry-spring-webmvc-5.3": "2.28.x",
+          "opentelemetry-spring-webmvc-6.0": "2.28.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.29.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-declarative-config-bridge": "2.29.x",
+          "opentelemetry-instrumentation-annotations-support": "2.29.x",
+          "opentelemetry-instrumentation-api-incubator": "2.29.x",
+          "opentelemetry-jdbc": "2.29.x",
+          "opentelemetry-kafka-clients-2.6": "2.29.x",
+          "opentelemetry-log4j-appender-2.17": "2.29.x",
+          "opentelemetry-logback-appender-1.0": "2.29.x",
+          "opentelemetry-logback-mdc-1.0": "2.29.x",
+          "opentelemetry-micrometer-1.5": "2.29.x",
+          "opentelemetry-mongo-3.1": "2.29.x",
+          "opentelemetry-resources": "2.29.x",
+          "opentelemetry-runtime-telemetry": "2.29.x",
+          "opentelemetry-sdk-autoconfigure-support": "2.29.x",
+          "opentelemetry-spring-kafka-2.7": "2.29.x",
+          "opentelemetry-spring-web-3.1": "2.29.x",
+          "opentelemetry-spring-webflux-5.3": "2.29.x",
+          "opentelemetry-spring-webmvc-5.3": "2.29.x",
+          "opentelemetry-spring-webmvc-6.0": "2.29.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

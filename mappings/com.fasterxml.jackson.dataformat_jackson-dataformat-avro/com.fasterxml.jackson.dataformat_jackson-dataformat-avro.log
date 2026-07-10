@@ -1,0 +1,29 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for com.fasterxml.jackson.dataformat:jackson-dataformat-avro [00m 00s]	🏃 [ 1 / 1 ] for com.fasterxml.jackson.dataformat:jackson-dataformat-avro [00m 01s] ok
+
+		👍 Found 22 minor versions.
+
+		🏃 [ 1 / 22 ] Generating dependency tree for version 2.1.5 [00m 00s]		🏃 [ 1 / 22 ] Generating dependency tree for version 2.1.5 [00m 01s]		🏃 [ 1 / 22 ] Generating dependency tree for version 2.1.5 [00m 02s] ok
+		🏃 [ 2 / 22 ] Generating dependency tree for version 2.10.5 [00m 00s]		🏃 [ 2 / 22 ] Generating dependency tree for version 2.10.5 [00m 01s]		🏃 [ 2 / 22 ] Generating dependency tree for version 2.10.5 [00m 02s] ok
+		🏃 [ 3 / 22 ] Generating dependency tree for version 2.11.4 [00m 00s]		🏃 [ 3 / 22 ] Generating dependency tree for version 2.11.4 [00m 01s] ok
+		🏃 [ 4 / 22 ] Generating dependency tree for version 2.12.7 [00m 00s]		🏃 [ 4 / 22 ] Generating dependency tree for version 2.12.7 [00m 01s] ok
+		🏃 [ 5 / 22 ] Generating dependency tree for version 2.13.5 [00m 00s]		🏃 [ 5 / 22 ] Generating dependency tree for version 2.13.5 [00m 01s] ok
+		🏃 [ 6 / 22 ] Generating dependency tree for version 2.14.3 [00m 00s]		🏃 [ 6 / 22 ] Generating dependency tree for version 2.14.3 [00m 01s] ok
+		🏃 [ 7 / 22 ] Generating dependency tree for version 2.15.4 [00m 00s]		🏃 [ 7 / 22 ] Generating dependency tree for version 2.15.4 [00m 01s] ok
+		🏃 [ 8 / 22 ] Generating dependency tree for version 2.16.2 [00m 00s]		🏃 [ 8 / 22 ] Generating dependency tree for version 2.16.2 [00m 01s] ok
+		🏃 [ 9 / 22 ] Generating dependency tree for version 2.17.3 [00m 00s]		🏃 [ 9 / 22 ] Generating dependency tree for version 2.17.3 [00m 01s] ok
+		🏃 [ 10 / 22 ] Generating dependency tree for version 2.18.9 [00m 00s]		🏃 [ 10 / 22 ] Generating dependency tree for version 2.18.9 [00m 01s] ok
+		🏃 [ 11 / 22 ] Generating dependency tree for version 2.19.4 [00m 00s]		🏃 [ 11 / 22 ] Generating dependency tree for version 2.19.4 [00m 01s] ok
+		🏃 [ 12 / 22 ] Generating dependency tree for version 2.2.3 [00m 00s]		🏃 [ 12 / 22 ] Generating dependency tree for version 2.2.3 [00m 01s] ok
+		🏃 [ 13 / 22 ] Generating dependency tree for version 2.20.2 [00m 00s]		🏃 [ 13 / 22 ] Generating dependency tree for version 2.20.2 [00m 01s] ok
+		🏃 [ 14 / 22 ] Generating dependency tree for version 2.21.5 [00m 00s]		🏃 [ 14 / 22 ] Generating dependency tree for version 2.21.5 [00m 01s] ok
+		🏃 [ 15 / 22 ] Generating dependency tree for version 2.22.1 [00m 00s]		🏃 [ 15 / 22 ] Generating dependency tree for version 2.22.1 [00m 01s] ok
+		🏃 [ 16 / 22 ] Generating dependency tree for version 2.3.5 [00m 00s]		🏃 [ 16 / 22 ] Generating dependency tree for version 2.3.5 [00m 01s] ok
+		🏃 [ 17 / 22 ] Generating dependency tree for version 2.4.6 [00m 00s]		🏃 [ 17 / 22 ] Generating dependency tree for version 2.4.6 [00m 01s]		🏃 [ 17 / 22 ] Generating dependency tree for version 2.4.6 [00m 02s] ok
+		🏃 [ 18 / 22 ] Generating dependency tree for version 2.5.5 [00m 00s]		🏃 [ 18 / 22 ] Generating dependency tree for version 2.5.5 [00m 01s] ok
+		🏃 [ 19 / 22 ] Generating dependency tree for version 2.6.7 [00m 00s]		🏃 [ 19 / 22 ] Generating dependency tree for version 2.6.7 [00m 01s] ok
+		🏃 [ 20 / 22 ] Generating dependency tree for version 2.7.9 [00m 00s]		🏃 [ 20 / 22 ] Generating dependency tree for version 2.7.9 [00m 01s] ok
+		🏃 [ 21 / 22 ] Generating dependency tree for version 2.8.11 [00m 00s]		🏃 [ 21 / 22 ] Generating dependency tree for version 2.8.11 [00m 01s] ok
+		🏃 [ 22 / 22 ] Generating dependency tree for version 2.9.10 [00m 00s]		🏃 [ 22 / 22 ] Generating dependency tree for version 2.9.10 [00m 01s] ok
+
+🚀Created 1 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings

@@ -1,0 +1,19 @@
+{
+  "slug": "velocity-engine-core-c56fdc",
+  "coordinates": [
+    "org.apache.velocity:velocity-engine-core"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "2.4.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.17.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

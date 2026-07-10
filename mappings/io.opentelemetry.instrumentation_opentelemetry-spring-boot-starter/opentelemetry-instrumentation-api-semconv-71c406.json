@@ -1,0 +1,278 @@
+{
+  "slug": "opentelemetry-instrumentation-api-semconv-71c406",
+  "coordinates": [
+    "io.opentelemetry.instrumentation:opentelemetry-instrumentation-api-semconv"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.17.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.18.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.17.x",
+          "opentelemetry-spring-web-3.1": "1.17.x",
+          "opentelemetry-spring-webflux-5.0": "1.17.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.18.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.19.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.18.x",
+          "opentelemetry-spring-web-3.1": "1.18.x",
+          "opentelemetry-spring-webflux-5.0": "1.18.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.19.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.20.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.19.x",
+          "opentelemetry-spring-web-3.1": "1.19.x",
+          "opentelemetry-spring-webflux-5.0": "1.19.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.20.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.21.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.20.x",
+          "opentelemetry-spring-web-3.1": "1.20.x",
+          "opentelemetry-spring-webflux-5.0": "1.20.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.21.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.22.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.21.x",
+          "opentelemetry-spring-web-3.1": "1.21.x",
+          "opentelemetry-spring-webflux-5.0": "1.21.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.22.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.23.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.22.x",
+          "opentelemetry-spring-web-3.1": "1.22.x",
+          "opentelemetry-spring-webflux-5.0": "1.22.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.23.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.24.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.23.x",
+          "opentelemetry-spring-web-3.1": "1.23.x",
+          "opentelemetry-spring-webflux-5.0": "1.23.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.24.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.25.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.24.x",
+          "opentelemetry-reactor-3.1": "1.24.x",
+          "opentelemetry-spring-web-3.1": "1.24.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.25.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.26.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.25.x",
+          "opentelemetry-reactor-3.1": "1.25.x",
+          "opentelemetry-spring-web-3.1": "1.25.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.26.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.27.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.26.x",
+          "opentelemetry-reactor-3.1": "1.26.x",
+          "opentelemetry-spring-web-3.1": "1.26.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.27.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.28.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.27.x",
+          "opentelemetry-reactor-3.1": "1.27.x",
+          "opentelemetry-spring-web-3.1": "1.27.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.28.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.29.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.28.x",
+          "opentelemetry-reactor-3.1": "1.28.x",
+          "opentelemetry-spring-web-3.1": "1.28.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.29.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.30.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.29.x",
+          "opentelemetry-reactor-3.1": "1.29.x",
+          "opentelemetry-spring-web-3.1": "1.29.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.30.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.31.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.30.x",
+          "opentelemetry-reactor-3.1": "1.30.x",
+          "opentelemetry-spring-web-3.1": "1.30.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.31.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.32.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.31.x",
+          "opentelemetry-reactor-3.1": "1.31.x",
+          "opentelemetry-spring-web-3.1": "1.31.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.32.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.33.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.32.x",
+          "opentelemetry-reactor-3.1": "1.32.x",
+          "opentelemetry-spring-web-3.1": "1.32.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.33.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.33.x",
+          "opentelemetry-reactor-3.1": "1.33.x",
+          "opentelemetry-spring-web-3.1": "1.33.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}
