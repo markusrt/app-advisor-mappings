@@ -1,0 +1,17 @@
+{
+  "slug": "opentelemetry-api-trace-38b42c",
+  "coordinates": [
+    "io.opentelemetry:opentelemetry-api-trace"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "0.13.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "jarchivelib-8a29d9",
+  "coordinates": [
+    "io.rest-assured:rest-assured",
+    "io.rest-assured:rest-assured-common"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "4.2.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "5.4.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.4.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "5.4.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "5.5.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.11.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "5.5.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "6.0.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.18.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "6.0.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.19.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

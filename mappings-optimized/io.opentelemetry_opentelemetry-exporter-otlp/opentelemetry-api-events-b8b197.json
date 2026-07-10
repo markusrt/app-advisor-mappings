@@ -1,0 +1,17 @@
+{
+  "slug": "opentelemetry-api-events-b8b197",
+  "coordinates": [
+    "io.opentelemetry:opentelemetry-api-events"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.36.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

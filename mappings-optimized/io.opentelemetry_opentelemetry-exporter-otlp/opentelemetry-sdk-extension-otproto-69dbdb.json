@@ -1,0 +1,58 @@
+{
+  "slug": "opentelemetry-sdk-extension-otproto-69dbdb",
+  "coordinates": [
+    "io.opentelemetry:opentelemetry-sdk-extension-otproto"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "0.11.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "0.13.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "spring-cloud-gateway": "1.30.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "0.13.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "0.15.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "spring-cloud-gateway": "1.33.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "0.15.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "0.17.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "spring-cloud-gateway": "1.34.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "0.17.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "spring-cloud-gateway": "1.35.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "slug": "consumer-247451",
+  "coordinates": [
+    "au.com.dius.pact:consumer"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "4.1.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.2.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "matchers": "4.1.x",
+          "model": "4.1.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.2.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.3.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "matchers": "4.2.x",
+          "model": "4.2.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.3.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.4.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.12.x",
+          "aws-sdk-java": "0.0.x",
+          "matchers": "4.3.x",
+          "model": "4.3.x",
+          "support": "4.3.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.4.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.5.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.12.x",
+          "aws-sdk-java": "0.3.x",
+          "matchers": "4.4.x",
+          "model": "4.4.x",
+          "support": "4.4.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.5.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.6.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.12.x",
+          "aws-sdk-java": "0.4.x",
+          "matchers": "4.5.x",
+          "model": "4.5.x",
+          "support": "4.5.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.6.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.7.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.19.x",
+          "aws-sdk-java": "0.5.x",
+          "matchers": "4.6.x",
+          "model": "4.6.x",
+          "support": "4.6.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.7.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.19.x",
+          "aws-sdk-java": "1.0.x",
+          "matchers": "4.7.x",
+          "model": "4.7.x",
+          "support": "4.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

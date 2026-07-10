@@ -1,0 +1,37 @@
+{
+  "slug": "opentelemetry-spring-boot-3-c13b03",
+  "coordinates": [
+    "io.opentelemetry.instrumentation:opentelemetry-spring-boot-3"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "2.4.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.5.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.4.x",
+          "opentelemetry-reactor-3.1": "2.4.x",
+          "opentelemetry-spring-web-3.1": "2.4.x",
+          "spring-boot": "2.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.5.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.5.x",
+          "opentelemetry-reactor-3.1": "2.5.x",
+          "opentelemetry-spring-web-3.1": "2.5.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

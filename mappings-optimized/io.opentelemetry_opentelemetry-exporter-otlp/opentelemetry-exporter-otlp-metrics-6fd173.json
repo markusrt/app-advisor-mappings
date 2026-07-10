@@ -1,0 +1,17 @@
+{
+  "slug": "opentelemetry-exporter-otlp-metrics-6fd173",
+  "coordinates": [
+    "io.opentelemetry:opentelemetry-exporter-otlp-metrics"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.14.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

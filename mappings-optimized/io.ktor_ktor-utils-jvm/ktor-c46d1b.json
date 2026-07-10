@@ -1,0 +1,18 @@
+{
+  "slug": "ktor-c46d1b",
+  "coordinates": [
+    "io.ktor:ktor-io-jvm",
+    "io.ktor:ktor-utils-jvm"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "3.5.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

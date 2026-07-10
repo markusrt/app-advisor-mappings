@@ -1,0 +1,139 @@
+{
+  "slug": "liquibase-core-16fb84",
+  "coordinates": [
+    "org.liquibase:liquibase-core"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "3.1.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "3.2.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "3.2.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.21.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "junit": "4.11.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.21.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.25.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "4.25.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.26.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-collections": "4.4.x",
+          "apache-commons-lang": "3.12.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.26.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.28.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-collections": "4.4.x",
+          "apache-commons-lang": "3.13.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.28.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.29.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-collections": "4.4.x",
+          "apache-commons-lang": "3.14.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.29.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.31.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-collections": "4.4.x",
+          "apache-commons-lang": "3.15.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.31.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.33.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-collections": "4.4.x",
+          "apache-commons-lang": "3.17.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.33.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "5.0.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-collections": "4.5.x",
+          "apache-commons-lang": "3.17.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "5.0.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-collections": "4.5.x",
+          "apache-commons-lang": "3.20.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

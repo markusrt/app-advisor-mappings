@@ -1,0 +1,20 @@
+{
+  "slug": "pencil-06f9c3",
+  "coordinates": [
+    "io.liquer.pencil:pencil-password-encoder",
+    "io.liquer.pencil:pencil-spring-boot-autoconfigure"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "2.0.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "spring-boot": "2.2.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

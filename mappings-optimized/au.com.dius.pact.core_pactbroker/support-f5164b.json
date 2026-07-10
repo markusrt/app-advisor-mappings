@@ -1,0 +1,58 @@
+{
+  "slug": "support-f5164b",
+  "coordinates": [
+    "au.com.dius.pact.core:support"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "4.1.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.2.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.12.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.2.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.5.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.4.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.5.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.7.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.12.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.7.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-lang": "3.19.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

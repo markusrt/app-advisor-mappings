@@ -1,0 +1,786 @@
+{
+  "slug": "opentelemetry-sdk-extension-incubator-e480dd",
+  "coordinates": [
+    "io.opentelemetry:opentelemetry-sdk-extension-incubator"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.18.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.19.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-sdk": "1.18.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.18.x",
+          "opentelemetry-semconv": "1.18.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.19.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.20.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-api": "1.19.x",
+          "opentelemetry-sdk": "1.19.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.19.x",
+          "opentelemetry-semconv": "1.19.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.20.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.21.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-api": "1.20.x",
+          "opentelemetry-sdk": "1.20.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.20.x",
+          "opentelemetry-semconv": "1.20.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.21.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.22.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-api": "1.21.x",
+          "opentelemetry-sdk": "1.21.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.21.x",
+          "opentelemetry-semconv": "1.21.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.22.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.23.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-api": "1.22.x",
+          "opentelemetry-sdk": "1.22.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.22.x",
+          "opentelemetry-semconv": "1.22.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.23.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.24.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-api": "1.23.x",
+          "opentelemetry-sdk": "1.23.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.23.x",
+          "opentelemetry-semconv": "1.23.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.24.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.25.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-api": "1.24.x",
+          "opentelemetry-sdk": "1.24.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.24.x",
+          "opentelemetry-semconv": "1.24.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.25.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.26.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-api": "1.25.x",
+          "opentelemetry-sdk": "1.25.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.25.x",
+          "opentelemetry-semconv": "1.25.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.26.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.27.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-api": "1.26.x",
+          "opentelemetry-sdk": "1.26.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.26.x",
+          "opentelemetry-semconv": "1.26.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.27.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.28.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-api": "1.27.x",
+          "opentelemetry-sdk": "1.27.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.27.x",
+          "opentelemetry-semconv": "1.27.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.28.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.29.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-api": "1.28.x",
+          "opentelemetry-sdk": "1.28.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.28.x",
+          "opentelemetry-semconv": "1.28.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.29.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.30.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.15.x",
+          "opentelemetry-api": "1.29.x",
+          "opentelemetry-sdk": "1.29.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.29.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.30.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.31.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.15.x",
+          "opentelemetry-api": "1.30.x",
+          "opentelemetry-sdk": "1.30.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.30.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.30.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.31.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.32.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.15.x",
+          "opentelemetry-api": "1.31.x",
+          "opentelemetry-sdk": "1.31.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.31.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.31.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.32.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.33.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.15.x",
+          "opentelemetry-api": "1.32.x",
+          "opentelemetry-sdk": "1.32.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.32.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.32.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.33.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.34.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.16.x",
+          "opentelemetry-api": "1.33.x",
+          "opentelemetry-sdk": "1.33.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.33.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.33.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.34.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.35.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.16.x",
+          "opentelemetry-api": "1.34.x",
+          "opentelemetry-sdk": "1.34.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.34.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.34.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.35.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.36.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.16.x",
+          "opentelemetry-api": "1.35.x",
+          "opentelemetry-sdk": "1.35.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.35.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.35.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.36.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.37.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.16.x",
+          "opentelemetry-api": "1.36.x",
+          "opentelemetry-sdk": "1.36.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.36.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.36.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.37.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.38.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.17.x",
+          "opentelemetry-api": "1.37.x",
+          "opentelemetry-sdk": "1.37.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.37.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.37.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.38.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.39.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.17.x",
+          "opentelemetry-api": "1.38.x",
+          "opentelemetry-sdk": "1.38.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.38.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.38.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.39.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.40.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.17.x",
+          "opentelemetry-api": "1.39.x",
+          "opentelemetry-sdk": "1.39.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.39.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.39.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.40.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.41.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.17.x",
+          "opentelemetry-api": "1.40.x",
+          "opentelemetry-sdk": "1.40.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.40.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.40.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.41.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.42.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.17.x",
+          "opentelemetry-api": "1.41.x",
+          "opentelemetry-sdk": "1.41.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.41.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.41.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.42.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.43.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.17.x",
+          "jackson-annotations": "2.17.x",
+          "opentelemetry-api": "1.42.x",
+          "opentelemetry-sdk": "1.42.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.42.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.42.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.43.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.44.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.18.x",
+          "jackson-annotations": "2.18.x",
+          "opentelemetry-api": "1.43.x",
+          "opentelemetry-sdk": "1.43.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.43.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.43.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.44.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.45.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.18.x",
+          "jackson-annotations": "2.18.x",
+          "opentelemetry-api": "1.44.x",
+          "opentelemetry-sdk": "1.44.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.44.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.44.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.45.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.46.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.18.x",
+          "jackson-annotations": "2.18.x",
+          "opentelemetry-api": "1.45.x",
+          "opentelemetry-sdk": "1.45.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.45.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.45.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.46.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.47.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.18.x",
+          "jackson-annotations": "2.18.x",
+          "opentelemetry-api": "1.46.x",
+          "opentelemetry-sdk": "1.46.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.46.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.46.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.47.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.48.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.18.x",
+          "jackson-annotations": "2.18.x",
+          "opentelemetry-sdk": "1.47.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.47.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.47.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.48.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.49.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.18.x",
+          "jackson-annotations": "2.18.x",
+          "opentelemetry-api": "1.48.x",
+          "opentelemetry-sdk": "1.48.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.48.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.48.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.49.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.50.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.18.x",
+          "jackson-annotations": "2.18.x",
+          "opentelemetry-api": "1.49.x",
+          "opentelemetry-sdk": "1.49.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.49.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.49.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.50.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.51.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.19.x",
+          "jackson-annotations": "2.19.x",
+          "opentelemetry-api": "1.50.x",
+          "opentelemetry-sdk": "1.50.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.50.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.50.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.51.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.52.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.19.x",
+          "jackson-annotations": "2.19.x",
+          "opentelemetry-api": "1.51.x",
+          "opentelemetry-sdk": "1.51.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.51.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.51.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.52.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.53.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.19.x",
+          "jackson-annotations": "2.19.x",
+          "opentelemetry-api": "1.52.x",
+          "opentelemetry-sdk": "1.52.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.52.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.52.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.53.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.54.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.19.x",
+          "jackson-annotations": "2.19.x",
+          "opentelemetry-api": "1.53.x",
+          "opentelemetry-sdk": "1.53.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.53.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.53.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.54.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.55.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.20.x",
+          "jackson-annotations": "2.20.x",
+          "opentelemetry-api": "1.54.x",
+          "opentelemetry-sdk": "1.54.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.54.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.54.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.55.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.56.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.20.x",
+          "jackson-annotations": "2.20.x",
+          "opentelemetry-api": "1.55.x",
+          "opentelemetry-sdk": "1.55.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.55.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.55.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.56.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.57.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.20.x",
+          "jackson-annotations": "2.20.x",
+          "opentelemetry-api": "1.56.x",
+          "opentelemetry-sdk": "1.56.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.56.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.56.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.57.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.58.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.20.x",
+          "jackson-annotations": "2.20.x",
+          "opentelemetry-api": "1.57.x",
+          "opentelemetry-sdk": "1.57.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.57.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.57.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.58.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.59.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.20.x",
+          "jackson-annotations": "2.20.x",
+          "opentelemetry-api": "1.58.x",
+          "opentelemetry-sdk": "1.58.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.58.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.58.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.59.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.60.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.21.x",
+          "jackson-annotations": "2.21.x",
+          "opentelemetry-api": "1.59.x",
+          "opentelemetry-sdk": "1.59.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.59.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.59.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.60.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.61.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.21.x",
+          "jackson-annotations": "2.21.x",
+          "opentelemetry-api": "1.60.x",
+          "opentelemetry-sdk": "1.60.x",
+          "opentelemetry-sdk-extension-autoconfigure": "1.60.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.60.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.61.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.62.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "jackson": "2.21.x",
+          "jackson-annotations": "2.21.x",
+          "opentelemetry-api": "1.61.x",
+          "opentelemetry-sdk": "1.61.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.61.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.62.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.63.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-sdk": "1.62.x",
+          "opentelemetry-sdk-extension-autoconfigure-spi": "1.62.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.63.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-sdk": "1.63.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

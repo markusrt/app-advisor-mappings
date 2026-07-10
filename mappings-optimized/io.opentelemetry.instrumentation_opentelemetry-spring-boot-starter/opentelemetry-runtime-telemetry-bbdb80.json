@@ -1,0 +1,62 @@
+{
+  "slug": "opentelemetry-runtime-telemetry-bbdb80",
+  "coordinates": [
+    "io.opentelemetry.instrumentation:opentelemetry-runtime-telemetry"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "2.26.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.27.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.26.x",
+          "opentelemetry-reactor-3.1": "2.26.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.27.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.28.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.27.x",
+          "opentelemetry-reactor-3.1": "2.27.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.28.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.29.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.28.x",
+          "opentelemetry-reactor-3.1": "2.28.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.29.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "2.29.x",
+          "opentelemetry-reactor-3.1": "2.29.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

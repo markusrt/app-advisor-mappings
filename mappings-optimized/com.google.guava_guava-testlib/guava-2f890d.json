@@ -1,0 +1,83 @@
+{
+  "slug": "guava-2f890d",
+  "coordinates": [
+    "com.google.guava:guava",
+    "com.google.guava:guava-testlib"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "12.0.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "13.0.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "junit": "4.8.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "13.0.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "16.0.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "16.0.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "24.1.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "junit": "4.8.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "24.1.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "27.0.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "junit": "4.11.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "27.0.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "33.6.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "junit": "4.12.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "33.6.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "junit": "4.13.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

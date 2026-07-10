@@ -1,0 +1,56 @@
+{
+  "slug": "commons-compress-5bd16a",
+  "coordinates": [
+    "org.apache.commons:commons-compress"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.25.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.26.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "1.26.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.27.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "commons-lang3": "3.14.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.27.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.28.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "commons-lang3": "3.16.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.28.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "commons-lang3": "3.18.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

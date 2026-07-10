@@ -1,0 +1,17 @@
+{
+  "slug": "ktor-io-jvm-3915ab",
+  "coordinates": [
+    "io.ktor:ktor-io-jvm"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "3.5.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

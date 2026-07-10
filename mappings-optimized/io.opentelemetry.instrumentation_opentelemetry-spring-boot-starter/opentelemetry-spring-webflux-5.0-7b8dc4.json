@@ -1,0 +1,104 @@
+{
+  "slug": "opentelemetry-spring-webflux-5.0-7b8dc4",
+  "coordinates": [
+    "io.opentelemetry.instrumentation:opentelemetry-spring-webflux-5.0"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.17.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.18.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.17.x",
+          "opentelemetry-instrumentation-api-semconv": "1.17.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.18.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.19.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.18.x",
+          "opentelemetry-instrumentation-api-semconv": "1.18.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.19.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.20.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.19.x",
+          "opentelemetry-instrumentation-api-semconv": "1.19.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.20.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.21.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.20.x",
+          "opentelemetry-instrumentation-api-semconv": "1.20.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.21.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.22.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.21.x",
+          "opentelemetry-instrumentation-api-semconv": "1.21.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.22.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.23.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.22.x",
+          "opentelemetry-instrumentation-api-semconv": "1.22.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.23.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "opentelemetry-instrumentation-api": "1.23.x",
+          "opentelemetry-instrumentation-api-semconv": "1.23.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "slug": "ktor-0a92f1",
+  "coordinates": [
+    "io.ktor:ktor-http",
+    "io.ktor:ktor-http-cio",
+    "io.ktor:ktor-http-jvm",
+    "io.ktor:ktor-network",
+    "io.ktor:ktor-server-core",
+    "io.ktor:ktor-server-host-common",
+    "io.ktor:ktor-server-netty",
+    "io.ktor:ktor-utils",
+    "io.ktor:ktor-utils-jvm"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.0.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.1.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "aws-sdk-java": "1.3.x",
+          "kotlin-coroutines": "1.0.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.1.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.2.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "aws-sdk-java": "1.3.x",
+          "kotlin-coroutines": "1.2.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.2.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.5.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "aws-sdk-java": "1.3.x",
+          "kotlin-coroutines": "1.3.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.5.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.6.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "aws-sdk-java": "1.3.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "1.6.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.2.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "aws-sdk-java": "1.4.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.2.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "2.3.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "kotlin-coroutines": "1.6.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "2.3.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "3.0.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "kotlin-coroutines": "1.7.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "3.0.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "3.4.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "kotlin-coroutines": "1.9.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "3.4.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "3.5.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "kotlin-coroutines": "1.10.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "3.5.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "kotlin-coroutines": "1.11.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

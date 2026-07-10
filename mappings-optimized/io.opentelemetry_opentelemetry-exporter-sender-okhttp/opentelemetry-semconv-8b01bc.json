@@ -1,0 +1,17 @@
+{
+  "slug": "opentelemetry-semconv-8b01bc",
+  "coordinates": [
+    "io.opentelemetry:opentelemetry-semconv"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.29.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

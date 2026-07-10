@@ -1,0 +1,109 @@
+{
+  "slug": "pactbroker-65fca9",
+  "coordinates": [
+    "au.com.dius.pact.core:pactbroker"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "4.1.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.2.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-collections": "4.4.x",
+          "apache-commons-lang": "3.12.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.2.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.3.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-collections": "4.1.x",
+          "apache-commons-lang": "3.4.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.3.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.4.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-collections": "4.4.x",
+          "apache-commons-lang": "3.12.x",
+          "aws-sdk-java": "0.0.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.4.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.5.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-collections": "4.4.x",
+          "apache-commons-lang": "3.12.x",
+          "aws-sdk-java": "0.3.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.5.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.6.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-collections": "4.4.x",
+          "apache-commons-lang": "3.12.x",
+          "aws-sdk-java": "0.4.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.6.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "4.7.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-collections": "4.5.x",
+          "apache-commons-lang": "3.19.x",
+          "aws-sdk-java": "0.5.x"
+        },
+        "excludedArtifacts": []
+      }
+    },
+    "4.7.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {
+          "apache-commons-collections": "4.5.x",
+          "apache-commons-lang": "3.19.x",
+          "aws-sdk-java": "1.0.x"
+        },
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

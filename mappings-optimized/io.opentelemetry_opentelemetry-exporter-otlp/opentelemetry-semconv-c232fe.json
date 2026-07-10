@@ -1,0 +1,17 @@
+{
+  "slug": "opentelemetry-semconv-c232fe",
+  "coordinates": [
+    "io.opentelemetry:opentelemetry-semconv"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.29.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}
