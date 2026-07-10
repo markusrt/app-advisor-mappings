@@ -1,0 +1,50 @@
+{
+  "slug": "opentelemetry-context-prop-15aa78",
+  "coordinates": [
+    "io.opentelemetry:opentelemetry-context-prop"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "0.6.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "0.7.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "0.7.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "0.8.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "0.8.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "0.9.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "0.9.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "opentelemetry-api-incubator-89a88e",
+  "coordinates": [
+    "io.opentelemetry:opentelemetry-api-incubator"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.37.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.38.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "1.38.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.39.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "1.39.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.40.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "1.40.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.41.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "1.41.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.42.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "1.42.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.43.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "1.43.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.44.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "1.44.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.45.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "1.45.x": {
+      "recipes": [],
+      "nextRewrite": {
+        "version": "1.46.x",
+        "project": null
+      },
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    },
+    "1.46.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

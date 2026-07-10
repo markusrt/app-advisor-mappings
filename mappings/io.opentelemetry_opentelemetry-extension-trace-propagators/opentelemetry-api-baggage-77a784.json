@@ -1,0 +1,17 @@
+{
+  "slug": "opentelemetry-api-baggage-77a784",
+  "coordinates": [
+    "io.opentelemetry:opentelemetry-api-baggage"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "0.13.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

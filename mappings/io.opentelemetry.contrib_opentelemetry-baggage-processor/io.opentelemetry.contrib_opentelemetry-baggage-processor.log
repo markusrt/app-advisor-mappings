@@ -1,0 +1,30 @@
+🏃 Detecting available versions: 
+	🏃 [ 1 / 1 ] for io.opentelemetry.contrib:opentelemetry-baggage-processor [00m 00s]	🏃 [ 1 / 1 ] for io.opentelemetry.contrib:opentelemetry-baggage-processor [00m 01s] ok
+
+		👍 Found 23 minor versions.
+
+		🏃 [ 1 / 23 ] Generating dependency tree for version 1.36.0-alpha [00m 00s]		🏃 [ 1 / 23 ] Generating dependency tree for version 1.36.0-alpha [00m 01s] ok
+		🏃 [ 2 / 23 ] Generating dependency tree for version 1.37.0-alpha [00m 00s]		🏃 [ 2 / 23 ] Generating dependency tree for version 1.37.0-alpha [00m 01s] ok
+		🏃 [ 3 / 23 ] Generating dependency tree for version 1.38.0-alpha [00m 00s]		🏃 [ 3 / 23 ] Generating dependency tree for version 1.38.0-alpha [00m 01s] ok
+		🏃 [ 4 / 23 ] Generating dependency tree for version 1.39.0-alpha [00m 00s]		🏃 [ 4 / 23 ] Generating dependency tree for version 1.39.0-alpha [00m 01s] ok
+		🏃 [ 5 / 23 ] Generating dependency tree for version 1.40.0-alpha [00m 00s]		🏃 [ 5 / 23 ] Generating dependency tree for version 1.40.0-alpha [00m 01s] ok
+		🏃 [ 6 / 23 ] Generating dependency tree for version 1.41.0-alpha [00m 00s]		🏃 [ 6 / 23 ] Generating dependency tree for version 1.41.0-alpha [00m 01s] ok
+		🏃 [ 7 / 23 ] Generating dependency tree for version 1.42.0-alpha [00m 00s]		🏃 [ 7 / 23 ] Generating dependency tree for version 1.42.0-alpha [00m 01s] ok
+		🏃 [ 8 / 23 ] Generating dependency tree for version 1.43.0-alpha [00m 00s]		🏃 [ 8 / 23 ] Generating dependency tree for version 1.43.0-alpha [00m 01s] ok
+		🏃 [ 9 / 23 ] Generating dependency tree for version 1.44.0-alpha [00m 00s]		🏃 [ 9 / 23 ] Generating dependency tree for version 1.44.0-alpha [00m 01s] ok
+		🏃 [ 10 / 23 ] Generating dependency tree for version 1.45.0-alpha [00m 00s]		🏃 [ 10 / 23 ] Generating dependency tree for version 1.45.0-alpha [00m 01s] ok
+		🏃 [ 11 / 23 ] Generating dependency tree for version 1.46.0-alpha [00m 00s]		🏃 [ 11 / 23 ] Generating dependency tree for version 1.46.0-alpha [00m 01s] ok
+		🏃 [ 12 / 23 ] Generating dependency tree for version 1.47.0-alpha [00m 00s]		🏃 [ 12 / 23 ] Generating dependency tree for version 1.47.0-alpha [00m 01s] ok
+		🏃 [ 13 / 23 ] Generating dependency tree for version 1.48.0-alpha [00m 00s]		🏃 [ 13 / 23 ] Generating dependency tree for version 1.48.0-alpha [00m 01s] ok
+		🏃 [ 14 / 23 ] Generating dependency tree for version 1.49.0-alpha [00m 00s]		🏃 [ 14 / 23 ] Generating dependency tree for version 1.49.0-alpha [00m 01s] ok
+		🏃 [ 15 / 23 ] Generating dependency tree for version 1.50.0-alpha [00m 00s]		🏃 [ 15 / 23 ] Generating dependency tree for version 1.50.0-alpha [00m 01s] ok
+		🏃 [ 16 / 23 ] Generating dependency tree for version 1.51.0-alpha [00m 00s]		🏃 [ 16 / 23 ] Generating dependency tree for version 1.51.0-alpha [00m 01s] ok
+		🏃 [ 17 / 23 ] Generating dependency tree for version 1.52.0-alpha [00m 00s]		🏃 [ 17 / 23 ] Generating dependency tree for version 1.52.0-alpha [00m 01s] ok
+		🏃 [ 18 / 23 ] Generating dependency tree for version 1.53.0-alpha [00m 00s]		🏃 [ 18 / 23 ] Generating dependency tree for version 1.53.0-alpha [00m 01s] ok
+		🏃 [ 19 / 23 ] Generating dependency tree for version 1.54.0-alpha [00m 00s]		🏃 [ 19 / 23 ] Generating dependency tree for version 1.54.0-alpha [00m 01s] ok
+		🏃 [ 20 / 23 ] Generating dependency tree for version 1.55.0-alpha [00m 00s]		🏃 [ 20 / 23 ] Generating dependency tree for version 1.55.0-alpha [00m 01s] ok
+		🏃 [ 21 / 23 ] Generating dependency tree for version 1.56.0-alpha [00m 00s]		🏃 [ 21 / 23 ] Generating dependency tree for version 1.56.0-alpha [00m 01s] ok
+		🏃 [ 22 / 23 ] Generating dependency tree for version 1.57.0-alpha [00m 00s]		🏃 [ 22 / 23 ] Generating dependency tree for version 1.57.0-alpha [00m 01s] ok
+		🏃 [ 23 / 23 ] Generating dependency tree for version 1.58.0-alpha [00m 00s]		🏃 [ 23 / 23 ] Generating dependency tree for version 1.58.0-alpha [00m 01s] ok
+
+🚀Created 1 mapping file(s) at: /home/runner/work/app-advisor-mappings/app-advisor-mappings/.advisor/mappings

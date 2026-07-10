@@ -1,0 +1,17 @@
+{
+  "slug": "opentelemetry-api-common-ed0b55",
+  "coordinates": [
+    "io.opentelemetry:opentelemetry-api-common"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "0.13.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

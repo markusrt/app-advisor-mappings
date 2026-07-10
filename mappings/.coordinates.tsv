@@ -103,3 +103,6 @@ org.apache.avro:avro	org.apache.avro_avro
 org.apache.velocity:velocity-engine-core	org.apache.velocity_velocity-engine-core
 org.liquibase:liquibase-core	org.liquibase_liquibase-core
 org.rauschig:jarchivelib	org.rauschig_jarchivelib
+io.opentelemetry.contrib:opentelemetry-baggage-processor	io.opentelemetry.contrib_opentelemetry-baggage-processor
+io.opentelemetry:opentelemetry-exporter-logging	io.opentelemetry_opentelemetry-exporter-logging
+io.opentelemetry:opentelemetry-extension-trace-propagators	io.opentelemetry_opentelemetry-extension-trace-propagators
