@@ -1,0 +1,17 @@
+{
+  "slug": "opentelemetry-sdk-tracing-f68188",
+  "coordinates": [
+    "io.opentelemetry:opentelemetry-sdk-tracing"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "0.11.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

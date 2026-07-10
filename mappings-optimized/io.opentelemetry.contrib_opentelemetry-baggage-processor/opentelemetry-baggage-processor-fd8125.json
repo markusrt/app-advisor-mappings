@@ -1,0 +1,17 @@
+{
+  "slug": "opentelemetry-baggage-processor-fd8125",
+  "coordinates": [
+    "io.opentelemetry.contrib:opentelemetry-baggage-processor"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.58.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}

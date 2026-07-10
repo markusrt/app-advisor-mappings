@@ -1,0 +1,17 @@
+{
+  "slug": "opentelemetry-api-incubator-89a88e",
+  "coordinates": [
+    "io.opentelemetry:opentelemetry-api-incubator"
+  ],
+  "repositoryUrl": "",
+  "rewrite": {
+    "1.46.x": {
+      "recipes": [],
+      "nextRewrite": null,
+      "requirements": {
+        "supportedGenerations": {},
+        "excludedArtifacts": []
+      }
+    }
+  }
+}
